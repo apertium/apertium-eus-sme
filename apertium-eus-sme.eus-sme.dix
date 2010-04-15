@@ -12,7 +12,9 @@
     <e><p><l>eta<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
 
     <!-- Nouns -->
-    <e><p><l>lure<s n="N"/></l><r>fillet<s n="N"/></r></p></e>
+    <e><p><l>lure<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
+    <e slr="1"><p><l>lure<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
+    <e><p><l>hitzegia<s n="N"/></l><r>sátnegirji<s n="N"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
