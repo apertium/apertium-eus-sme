@@ -1,0 +1,20 @@
+<dictionary> 
+  <alphabet/>
+  <sdefs>
+    <sdef n="N"   c="Noun"/>
+    <sdef n="V"   c="Verb"/>
+    <sdef n="TV"  c="Transitive"/>
+    <sdef n="CC"  c="Co-ordinator"/>
+  </sdefs>
+  <section id="main" type="standard">
+
+    <!-- Conjunctions -->
+    <e><p><l>eta<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
+
+    <!-- Nouns -->
+    <e><p><l>lure<s n="N"/></l><r>fillet<s n="N"/></r></p></e>
+
+    <!-- Verbs -->
+    <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
+  </section>
+</dictionary>
