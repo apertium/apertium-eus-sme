@@ -1,3 +1,4 @@
 * text=auto !eol
 /apertium-eus-sme.eus-sme.dix -text
+/sme-verb-valency.xml -text
 /testsentences.txt -text
