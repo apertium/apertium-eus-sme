@@ -19,8 +19,8 @@
     <e><p><l>orlegi<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
     
     <!-- Nouns -->
-    <e><p><l>lure<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
-    <e slr="1"><p><l>lure<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
+    <e><p><l>lore<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
+    <e slr="1"><p><l>lore<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
     <e><p><l>emakume<s n="N"/></l><r>nisson<s n="N"/></r></p></e>
     <e><p><l>gizon<s n="N"/></l><r>olmmái<s n="N"/></r></p></e>
     <e slr="1"><p><l>gizon<s n="N"/></l><r>dievdu<s n="N"/></r></p></e>
@@ -31,6 +31,7 @@
     <e><p><l>mutil<s n="N"/></l><r>bárdni<s n="N"/></r></p></e>
     <e><p><l>neska<s n="N"/></l><r>nieida<s n="N"/></r></p></e>
     <e><p><l>urte<s n="N"/></l><r>jáhki<s n="N"/></r></p></e>
+    <e><p><l>lo<s n="N"/></l><r>nagir<s n="N"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>atera<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
@@ -43,5 +44,6 @@
     <e><p><l>joan<s n="V"/></l><r>mannat<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
   </section>
 </dictionary>
