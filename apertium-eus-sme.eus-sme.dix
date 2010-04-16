@@ -17,6 +17,13 @@
     <e><p><l>hitzegia<s n="N"/></l><r>sátnegirji<s n="N"/></r></p></e>
 
     <!-- Verbs -->
+    <e><p><l>atera<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>ibili<s n="V"/></l><r>vázzit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>joan<s n="V"/></l><r>mannat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
   </section>
 </dictionary>
