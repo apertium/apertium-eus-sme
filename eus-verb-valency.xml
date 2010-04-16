@@ -1,0 +1,32 @@
+<valency>
+  <verb lm="abestu">
+    <valence>
+      <ex>Nik abesten dut</ex>
+      <glosses>
+        <gloss lang="en">I sing</gloss>
+        <gloss lang="es">Canto</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role>
+        <sem>animate</sem>
+      </subj>
+    </valence>
+    <valence>
+      <ex>Nik abesti bat abesten dut</ex>
+      <glosses>
+        <gloss lang="en">I sing a song</gloss>
+        <gloss lang="es">Canto una canción</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role>
+        <sem>animate</sem>
+      </subj>
+      <obj>
+        <case>abs</case>
+        <role>topic</role>
+      </obj>
+    </valence>
+  </verb>
+</valency>
