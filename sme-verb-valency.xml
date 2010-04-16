@@ -1,21 +1,21 @@
-<valency>
+<valency lang="sme">
   <verb lm="lávlut">
-    <valence>
+    <frame>
       <ex>Mun lávllan</ex>
       <glosses>
-        <gloss lang="en">I sing</gloss>
-        <gloss lang="es">Canto</gloss>
+        <gloss lang="eng">I sing</gloss>
+        <gloss lang="spa">Canto</gloss>
       </glosses>
       <subj>
         <case>nom</case>
         <role>agent</role>
       </subj>
-    </valence>
-    <valence>
+    </frame>
+    <frame>
       <ex>Mun lávllan lávlaga</ex>
       <glosses>
-        <gloss lang="en">I sing a song</gloss>
-        <gloss lang="es">Canto una canción</gloss>
+        <gloss lang="eng">I sing a song</gloss>
+        <gloss lang="spa">Canto una canción</gloss>
       </glosses>
       <subj>
         <case>nom</case>
@@ -25,6 +25,6 @@
         <case>acc</case>
         <role>theme</role>
       </obj>
-    </valence>
+    </frame>
   </verb>
 </valency>

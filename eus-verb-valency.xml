@@ -1,22 +1,24 @@
 <valency>
   <verb lm="abestu">
-    <valence>
+    <frame>
       <ex>Nik abesten dut</ex>
       <glosses>
-        <gloss lang="en">I sing</gloss>
-        <gloss lang="es">Canto</gloss>
+        <gloss lang="eng">I sing</gloss>
+        <gloss lang="sme">Mun lávllan lávlaga</gloss>
+        <gloss lang="spa">Canto</gloss>
       </glosses>
       <subj>
         <case>erg</case>
         <role>agent</role>
         <sem>animate</sem>
       </subj>
-    </valence>
-    <valence>
+    </frame>
+    <frame>
       <ex>Nik abesti bat abesten dut</ex>
       <glosses>
-        <gloss lang="en">I sing a song</gloss>
-        <gloss lang="es">Canto una canción</gloss>
+        <gloss lang="eng">I sing a song</gloss>
+        <gloss lang="sme">Mun lávllan lávlaga</gloss>
+        <gloss lang="spa">Canto una canción</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -27,6 +29,6 @@
         <case>abs</case>
         <role>topic</role>
       </obj>
-    </valence>
+    </frame>
   </verb>
 </valency>
