@@ -1,6 +1,7 @@
 <dictionary> 
   <alphabet/>
   <sdefs>
+    <sdef n="A"   c="Adjective"/>
     <sdef n="N"   c="Noun"/>
     <sdef n="V"   c="Verb"/>
     <sdef n="TV"  c="Transitive"/>
@@ -9,21 +10,32 @@
   <section id="main" type="standard">
 
     <!-- Conjunctions -->
+    
+    <e><p><l>baina<s n="CC"/></l><r>muhto<s n="CC"/></r></p></e>
     <e><p><l>eta<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
-
+    
+    <!-- Adjectives -->
+    <e><p><l>altu<s n="A"/></l><r>allat<s n="A"/></r></p></e>
+    <e><p><l>orlegi<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
+    
     <!-- Nouns -->
     <e><p><l>lure<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
     <e slr="1"><p><l>lure<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
-    <e><p><l>hitzegia<s n="N"/></l><r>sátnegirji<s n="N"/></r></p></e>
+    <e><p><l>emakume<s n="N"/></l><r>nisson<s n="N"/></r></p></e>
+    <e><p><l>gizon<s n="N"/></l><r>olmmái<s n="N"/></r></p></e>
+    <e slr="1"><p><l>gizon<s n="N"/></l><r>dievdu<s n="N"/></r></p></e>
+    <e><p><l>hitzegi<s n="N"/></l><r>sátnegirji<s n="N"/></r></p></e>
+    <e><p><l>ikasle<s n="N"/></l><r>oahppi<s n="N"/></r></p></e>
+    <e><p><l>irakasle<s n="N"/></l><r>oahpaheaddji<s n="N"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>atera<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="2"><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ibili<s n="V"/></l><r>vázzit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>joan<s n="V"/></l><r>mannat<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="1"><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
   </section>
 </dictionary>
