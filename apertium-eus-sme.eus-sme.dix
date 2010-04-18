@@ -4,6 +4,7 @@
     <sdef n="A"   c="Adjective"/>
     <sdef n="N"   c="Noun"/>
     <sdef n="V"   c="Verb"/>
+    <sdef n="IV"  c="Intransitive"/>
     <sdef n="TV"  c="Transitive"/>
     <sdef n="CC"  c="Co-ordinator"/>
   </sdefs>
@@ -15,23 +16,44 @@
     <e><p><l>eta<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
     
     <!-- Adjectives -->
+    <e><p><l>ahozko<s n="A"/></l><r>njálmmálaš<s n="A"/></r></p></e>
     <e><p><l>altu<s n="A"/></l><r>allat<s n="A"/></r></p></e>
     <e><p><l>orlegi<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
     
     <!-- Nouns -->
-    <e><p><l>lore<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
-    <e slr="1"><p><l>lore<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
+    <e><p><l>aita<s n="N"/></l><r>áhčči<s n="N"/></r></p></e>
+    <e><p><l>aitite<s n="N"/></l><r>áddjá<s n="N"/></r></p></e>
+    <e><p><l>ahizpa<s n="N"/></l><r>oabbá<s n="N"/></r></p></e><!--sister of a girl-->
+    <e><p><l>alab<s n="N"/></l><r>nieida<s n="N"/></r></p></e><!--daughter-->
+    <e><p><l>ama<s n="N"/></l><r>eadni<s n="N"/></r></p></e>
+    <e><p><l>amama<s n="N"/></l><r>áhkku<s n="N"/></r></p></e>
+    <e><p><l>anaia<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a boy-->
+    <e><p><l>arreba<s n="N"/></l><r>oabbá<s n="N"/></r></p></e><!--sister of a boy-->
+    <e><p><l>bizitoki<s n="N"/></l><r>orrunsádji<s n="N"/></r></p></e><!--place of residence, home; house-->
+    <e><p><l>elkarreragin<s n="N"/></l><r><s n="N"/></r></p></e><!--interaction-->
     <e><p><l>emakume<s n="N"/></l><r>nisson<s n="N"/></r></p></e>
     <e><p><l>gizon<s n="N"/></l><r>olmmái<s n="N"/></r></p></e>
     <e slr="1"><p><l>gizon<s n="N"/></l><r>dievdu<s n="N"/></r></p></e>
+    <e><p><l>guraso<s n="N"/></l><r>vánhen<s n="N"/></r></p></e>
+    <e><p><l>helburu<s n="N"/></l><r><s n="N"/></r></p></e><!--goal, objective, purpose-->
     <e><p><l>hitzegi<s n="N"/></l><r>sátnegirji<s n="N"/></r></p></e>
+    <e><p><l>hizkuntza<s n="N"/></l><r>giella<s n="N"/></r></p></e>
+    <e><p><l>ikasketa<s n="N"/></l><r><s n="N"/></r></p></e><!--studies, oahppu?-->
     <e><p><l>ikasle<s n="N"/></l><r>oahppi<s n="N"/></r></p></e>
     <e><p><l>irakasle<s n="N"/></l><r>oahpaheaddji<s n="N"/></r></p></e>
-    <e><p><l>izen<s n="N"/></l><r>namma<s n="N"/></r></p></e>
-    <e><p><l>mutil<s n="N"/></l><r>bárdni<s n="N"/></r></p></e>
-    <e><p><l>neska<s n="N"/></l><r>nieida<s n="N"/></r></p></e>
+    <e><p><l>izen<s n="N"/></l>namma<r><s n="N"/></r></p></e>
+    <e><p><l>jatorri<s n="N"/></l>gáldu<r><s n="N"/></r></p></e><!--descent, ancestry, origin, source-->
+    <e><p><l>lore<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
+    <e slr="1"><p><l>lore<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
+    <e><p><l>mutil<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--boy-->
+    <e slr="1"><p><l>mutil<s n="N"/></l><r>irgi<s n="N"/></r></p></e>
+    <e><p><l>neba<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a girl-->
+    <e><p><l>neska<s n="N"/></l><r>nieida<s n="N"/></r></p></e><!--girl-->
+    <e slr="1"><p><l>neska<s n="N"/></l><r>moarsi<s n="N"/></r></p></e>
+    <e><p><l>seme<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--son-->
     <e><p><l>urte<s n="N"/></l><r>jáhki<s n="N"/></r></p></e>
     <e><p><l>lo<s n="N"/></l><r>nagir<s n="N"/></r></p></e>
+    <e><p><l>zaletsun<s n="N"/></l><r><s n="N"/></r></p></e><!--hobby, liking, fondness, addiction-->
 
     <!-- Verbs -->
     <e><p><l>abestu<s n="V"/></l><r>lávlut<s n="V"/><s n="TV"/></r></p></e>
@@ -41,13 +63,20 @@
     <e slr="2"><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>egin<s n="V"/></l><r>bargat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>egin<s n="V"/></l><r>dahkat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>egon<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>etorri<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>hitz<b/>egin<s n="V"/></l><r>hallat<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>hitz<b/>egin<s n="V"/></l><r>hupmat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ibili<s n="V"/></l><r>vázzit<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>ikasi<s n="V"/></l><r>lohkat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>ikasi<s n="V"/></l><r>oahppat<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>ikasi<s n="V"/></l><r>lohkat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>izan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to be-->
     <e><p><l>joan<s n="V"/></l><r>mannat<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>jokatu<s n="V"/></l><r>speallat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>ukan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to have-->
   </section>
 </dictionary>
