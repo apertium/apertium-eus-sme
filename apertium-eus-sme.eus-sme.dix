@@ -58,24 +58,54 @@
     <!-- Verbs -->
     <e><p><l>abestu<s n="V"/></l><r>lávlut<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ahaztu<s n="V"/></l><r>vajálduhttit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>aldatu<s n="V"/></l><r>molsut<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>amaitu<s n="V"/></l><r>loahpahit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>amaitu<s n="V"/></l><r>geargat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>asmatu<s n="V"/></l><r>fuomašit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>asmatu<s n="V"/></l><r>árvidit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>atera<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>bisitatu<s n="V"/></l><r>fitnat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>egin<s n="V"/></l><r>bargat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>egin<s n="V"/></l><r>dahkat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>egon<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>entzun<s n="V"/></l><r>gullat<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>entzun<s n="V"/></l><r>guldalit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>eraman<s n="V"/></l>buktit<r><s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>eraman<s n="V"/></l><r><s n="V"/><s n="TV"/></r></p></e><!--wear clothes-->
+    <e slr="2"><p><l>eraman<s n="V"/></l><r><s n="V"/><s n="TV"/></r></p></e>
+    <e slr="3"><p><l>eraman<s n="V"/></l><r><s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>erantzun<s n="V"/></l><r>vástidit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>erre<s n="V"/></l><r>borgguhit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>erre<s n="V"/></l><r>boaldit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>eskaini<s n="V"/></l><r><s n="V"/><s n="IV"/></r></p></e><!--offer, dedicate-->
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>eskatu<s n="V"/></l><r>bivdit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="2"><p><l>eskatu<s n="V"/></l><r>diŋgot<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="3"><p><l>eskatu<s n="V"/></l><r>gáibidit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>etorri<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>geratu<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="1"><p><l>geratu<s n="V"/></l><r>šaddat<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="2"><p><l>geratu<s n="V"/></l><r>dáhppáhuvvat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>gosaldu<s n="V"/></l><l>iđitbiepmu<b/>borrat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>hautatu<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hitz<b/>egin<s n="V"/></l><r>hallat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hitz<b/>egin<s n="V"/></l><r>hupmat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>hil<s n="V"/></l><r>jápmit<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="1"><p><l>hil<s n="V"/></l><r>goddit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ibili<s n="V"/></l><r>vázzit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>ikasi<s n="V"/></l><r>oahppat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>ikasi<s n="V"/></l><r>lohkat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>ikusi<s n="V"/></l><r>oaidnit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>iritsi<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>izan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to be-->
     <e><p><l>joan<s n="V"/></l><r>mannat<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>jokatu<s n="V"/></l><r>speallat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>lortu<s n="V"/></l><r>oažžut<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>konturatu<s n="V"/></l><r>fuomašit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>ukan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to have-->
   </section>
