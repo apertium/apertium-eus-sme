@@ -36,7 +36,7 @@
     <frame id="1">
       <ex>Mikel etxetik kalera atera da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has gone into the street from his house.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel ha salido de casa a la calle.</gloss>
       </glosses>
@@ -56,7 +56,7 @@
     <frame id="2">
       <ex>amak pastela labetik mahaira atera du.</ex>
       <glosses>
-        <gloss lang="eng">the mother has taken the cake out of the oven to the table</gloss>
+        <gloss lang="eng">The mother has taken the cake out of the oven to the table.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">la madre ha sacado el pastel del horno a la mesa.</gloss>
       </glosses>
@@ -76,9 +76,9 @@
     <frame id="3">
       <ex>Zauritik odola ateratzen zitzaion.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Blood came out of her wound.</gloss>
         <gloss lang="sme">Sus bođii varra hávis.</gloss>
-        <gloss lang="spa">le salía sangre de la herida..</gloss>
+        <gloss lang="spa">Le salía sangre de la herida.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -96,9 +96,9 @@
     <frame id="4">
       <ex>Animaliari tripak atera dizkio.</ex>
       <glosses>
-        <gloss lang="eng">she took the insides out of the animal</gloss>
+        <gloss lang="eng">She took the innards out of the animal.</gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">le ha sacado las tripas al animal</gloss>
+        <gloss lang="spa">Le ha sacado las tripas al animal.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -124,7 +124,7 @@
     <frame id="1">
       <ex>Mikel eskolatik etxera joan da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has gone home from school.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel ha ido de la escuela a casa.</gloss>
       </glosses>
