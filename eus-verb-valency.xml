@@ -31,4 +31,116 @@
       </obj>
     </frame>
   </verb>
+  
+  <verb lm="atera"><!--2-->
+    <frame id="1">
+      <ex>Mikel etxetik kalera atera da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha salido de casa a la calle.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+      </subj>
+      <advl1>
+        <case>abl</case>
+        <role>source/path</role><!--abiapuntuko kokapena / bidea-->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>destination</role><!--helburuko kokapena-->
+      </advl2>
+    </frame>
+    <frame id="2">
+      <ex>amak pastela labetik mahaira atera du.</ex>
+      <glosses>
+        <gloss lang="eng">the mother has taken the cake out of the oven to the table</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">la madre ha sacado el pastel del horno a la mesa.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>cause</role><!--kausa-->
+      </subj>
+      <advl1>
+        <case>abl</case>
+        <role>path</role><!--abiapuntuko kokapena / bidea-->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>destination</role><!--helburuko kokapena-->
+      </advl2>
+    </frame>
+    <frame id="3">
+      <ex>Zauritik odola ateratzen zitzaion.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme">Sus bođii varra hávis.</gloss>
+        <gloss lang="spa">le salía sangre de la herida..</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+      </subj>
+      <advl1>
+        <case>dat</case>
+        <role>source/path</role><!--abiapuntuko kokapena / bidea-->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>destination</role><!--helburuko kokapena-->
+      </advl2>
+    </frame>
+    <frame id="4">
+      <ex>Animaliari tripak atera dizkio.</ex>
+      <glosses>
+        <gloss lang="eng">she took the insides out of the animal</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">le ha sacado las tripas al animal</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>cause</role><!--kausa-->
+      </subj>
+      <obj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+      </obj>
+      <advl1>
+        <case>dat</case>
+        <role>source</role><!--abiapuntuko kokapena-->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>destination</role><!--helburuko kokapena-->
+      </advl2>
+    </frame>
+  </verb>
+  
+  
+  <verb lm="joan"><!--1-->
+    <frame id="1">
+      <ex>Mikel eskolatik etxera joan da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha ido de la escuela a casa.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>theme</role><!--gai ukitua--><!--would Sammallahti say: mover?-->
+        <sem></sem><!--animate?-->
+      </subj>
+      <advl1>
+        <case>abl</case>
+        <role>source/path</role><!--abiapuntuko kokapena / bidea--><!--no path in Sámi-->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>destination</role><!--helburuko kokapena-->
+      </advl2>
+    </frame>
+  </verb>
 </valency>
