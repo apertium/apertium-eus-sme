@@ -23,8 +23,108 @@
       </subj>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <role>topic</role>
       </obj>
+    </frame>
+  </verb>
+    <verb lm="mannat">
+    <frame id="2">
+      <ex>Mo manná?</ex>
+      <glosses>
+        <gloss lang="eng">How goes?</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <advl>
+        <case>adv</case>
+        <role>manner</role>
+      </advl>
+    </frame>
+    <frame id="1">
+      <ex>Mun manan skuvllas gávpogii.</ex>
+      <glosses>
+        <gloss lang="eng">I go from school to town.</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+      </subj>
+      <advl1>
+        <case>loc</case>
+        <role>source</role>
+      </advl1>
+      <advl2>
+        <case>ill</case>
+        <role>goal</role>
+      </advl2>
+    </frame>
+        <frame id="1">
+      <ex>Mun manan skuvllas gávpogii.</ex>
+      <glosses>
+        <gloss lang="eng">I go from school to town.</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+      </subj>
+      <advl1>
+        <case>loc</case>
+        <role>source</role>
+      </advl1>
+      <advl2>
+        <case>ill</case>
+        <role>goal</role>
+      </advl2>
+    </frame>
+  </verb>
+  <verb lm="váldit">
+    <frame>
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case></case>
+        <role></role>
+      </subj>
+      <advl1>
+        <case></case>
+        <role></role>
+      </advl1>
+    </frame>
+  </verb>
+  <verb lm="vuolgit">
+    <frame>
+      <ex>Mun vuolggán gávpogii.</ex>
+      <glosses>
+        <gloss lang="eng">I go to town.</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role><!--would Sammallahti say: mover?-->
+      </subj>
+      <advl1>
+        <case>ill</case>
+        <role>goal</role>
+      </advl1>
+    </frame>
+    <frame>
+      <ex>Dál mun vuolggánge suohkada gazzat.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role><!--would Sammallahti say: mover?-->
+      </subj>
+      <advl1>
+        <case>inf</case>
+        <role>purpose</role>
+      </advl1>
     </frame>
   </verb>
 </valency>
