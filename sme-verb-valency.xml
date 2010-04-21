@@ -1,6 +1,6 @@
 <valency lang="sme">
   <verb lm="lávlut">
-    <frame>
+    <frame id="1">
       <ex>Mun lávllan</ex>
       <glosses>
         <gloss lang="eng">I sing</gloss>
@@ -11,7 +11,7 @@
         <role>agent</role>
       </subj>
     </frame>
-    <frame>
+    <frame id="2">
       <ex>Mun lávllan lávlaga</ex>
       <glosses>
         <gloss lang="eng">I sing a song</gloss>
