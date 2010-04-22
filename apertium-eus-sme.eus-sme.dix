@@ -18,7 +18,12 @@
     <!-- Adjectives -->
     <e><p><l>ahozko<s n="A"/></l><r>njálmmálaš<s n="A"/></r></p></e>
     <e><p><l>altu<s n="A"/></l><r>allat<s n="A"/></r></p></e>
+    <e><p><l>gazte<s n="A"/></l><r>nuorra<s n="A"/></r></p></e>
     <e><p><l>orlegi<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
+    <e><p><l>polit<s n="A"/></l><r>čáppat<s n="A"/></r></p></e>
+    <e><p><l>txiki<s n="A"/></l><r>unni<s n="A"/></r></p></e>
+    <e><p><l>zahar<s n="A"/></l><r>boaris<s n="A"/></r></p></e>
+    <e><p><l>zatar<s n="A"/></l><r>ropmi<s n="A"/></r></p></e>
     
     <!-- Nouns -->
     <e><p><l>aita<s n="N"/></l><r>áhčči<s n="N"/></r></p></e>
@@ -29,6 +34,7 @@
     <e><p><l>amama<s n="N"/></l><r>áhkku<s n="N"/></r></p></e>
     <e><p><l>anaia<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a boy-->
     <e><p><l>arreba<s n="N"/></l><r>oabbá<s n="N"/></r></p></e><!--sister of a boy-->
+    <e><p><l>begi<s n="N"/></l><r>čálbmi<s n="N"/></r></p></e>
     <e><p><l>bizitoki<s n="N"/></l><r>orrunsádji<s n="N"/></r></p></e><!--place of residence, home; house-->
     <e><p><l>elkarreragin<s n="N"/></l><r><s n="N"/></r></p></e><!--interaction-->
     <e><p><l>emakume<s n="N"/></l><r>nisson<s n="N"/></r></p></e>
@@ -40,6 +46,7 @@
     <e><p><l>hizkuntza<s n="N"/></l><r>giella<s n="N"/></r></p></e>
     <e><p><l>ikasketa<s n="N"/></l><r><s n="N"/></r></p></e><!--studies, oahppu?-->
     <e><p><l>ikasle<s n="N"/></l><r>oahppi<s n="N"/></r></p></e>
+    <e><p><l>ile<s n="N"/></l><r>vuokta<s n="N"/></r></p></e>
     <e><p><l>irakasle<s n="N"/></l><r>oahpaheaddji<s n="N"/></r></p></e>
     <e><p><l>izen<s n="N"/></l>namma<r><s n="N"/></r></p></e>
     <e><p><l>jatorri<s n="N"/></l>gáldu<r><s n="N"/></r></p></e><!--descent, ancestry, origin, source-->
