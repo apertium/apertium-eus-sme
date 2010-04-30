@@ -341,27 +341,53 @@
   
     <verb lm="amaitu"><!--13-->
     <frame id="1">
-      <ex></ex>
+      <ex>Antzerkia amaitu da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Se ha terminado el teatro.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!--biz-->
+      </subj>
+    </frame>
+    <frame id="2">
+      <ex>Mikelek pastela amaitu du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha terminado el pastel.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -biz-->
+      </advl1>
+    </frame>
+    <frame id="3">
+      <ex>Mikelek arazoarekin amaitu du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha terminado con el problema.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>soz</case>
+        <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
     </frame>
   </verb>
   
@@ -419,27 +445,59 @@
   
     <verb lm="asmatu"><!--14-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek emaitza asmatu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha acertado el resultado.</gloss>
+      </glosses>
+      <ex>Mikelek kantua asmatu du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha inventado la canción.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>erg</case>
+        <role></role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme/product</role><!--gaia-->
+        <sem></sem><!-- -konkr -->
+      </advl1>
+    </frame>
+    <frame id="2">
+      <ex>Jokalariak asmatu du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">El jugador ha acertado.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+    </frame>
+    <frame id="3">
+      <ex>Mikelek Jon etorriko dela asmatu du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha acertado que Jon vendrá.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>ela_konp</case>
+        <role></role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
     </frame>
   </verb>
   
@@ -532,25 +590,66 @@
   
   <verb lm="aurkitu"><!--30-->
     <frame id="1">
-      <ex></ex>
+      <ex>Gobernua baldintza ezberdinetan aurkitzen da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">El Gobierno se encuentra en condiciones distintas.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role></role><!--gaia-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>ine</case>
+        <role>location</role><!--kokapena-->
+        <sem></sem><!-- -->
+      </advl1>
+    </frame>
+    <frame id="2">
+      <ex>Mikelek giltzak poltsikoan aurkitu ditu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha encontrado las llaves en el bolsillo</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>ine</case>
+        <role>location</role><!--kokapena-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+        <frame id="3">
+      <ex>Atzo Mikel eta Miren kalean aurkitu ziren.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Ayer Mikel y Miren se encontraron en la calle.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>abs</case>
+        <role>predicate</role><!--egoera-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
@@ -714,51 +813,168 @@
   
   <verb lm="bisitatu"><!--18-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek amona / Paris bisitatu du oporretan.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha visitado a su abuela / París durante las vacaciones.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>abs</case>
+        <role>destination</role><!--helburuko kokapena-->
+        <sem>human</sem><!--+giz/+lek-->
       </subj>
-      <advl1>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--gai ukitua-->
+        <sem>human</sem><!-- -->
+      </subj>
     </frame>
   </verb>
   
   <verb lm="deitu"><!--31-->
     <frame id="1">
-      <ex></ex>
+      <ex>Haiek jendea manifestazioara deitu dute.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Ellos han llamado/convocado a la gente a la manifestación.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>beneficiary</role><!--helburua-->
+        <sem>human</sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>location</role><!--jarduera-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="2">
+      <ex>Haiek manifestazioa deitu dute.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Ellos han llamado/convocado la manifestación.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>beneficiary</role><!--jarduera-->
+        <sem></sem><!-- -->
+      </advl1>
+    </frame>
+    <frame id="3">
+      <ex>Haiek manifestaziora deitu dute.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Ellos han llamado a la manifestación.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>ala</case>
+        <role>location</role><!--jarduera-->
+        <sem></sem><!-- -->
+      </advl1>
+    </frame>
+    <frame id="4">
+      <ex>Nik etxera deitu dut.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Yo he llamado a casa.</gloss>
+      </glosses>
+      <ex>Nik lagunari telefonoz deitu diot.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Yo he llamado a mi amigo por teléfono.</gloss>
+      </glosses>
+      <ex>Nik hoteletik etxera deitu dut.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Yo he llamado del hotel a casa.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--abiapuntua-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>dat</case>
+        <role>beneficiary</role><!--helburua-->
+        <sem>human</sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>location</role><!--kokapena-->
+        <sem></sem><!-- -->
+      </advl2>
+      <advl3>
+        <case>abl</case>
+        <role>location</role><!--kokapena-->
+        <sem></sem><!-- -->
+      </advl3>
+    </frame>
+    <frame id="5">
+      <ex>Haiek tonto deitu du Mikel.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Ellos han llamado tonto a Mikel.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--abiapuntua-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--helburua-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>predicate</role><!--ezaugarria-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="6">
+      <ex>Haiek Mikeli tonto deitu diote.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Ellos han llamado tonto a Mikel.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--abiapuntua-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>dat</case>
+        <role>theme</role><!--helburua-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>abs</case>
+        <role>predicate</role><!--ezaugarria-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
@@ -919,51 +1135,74 @@
   
   <verb lm="erabili"><!--19-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek xaboia erabili du garbitzeko.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha usado el jabón para limpiar.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
     </frame>
   </verb>
   
   <verb lm="eraman"><!--22-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek giltzak eraman ditu etxetik lanera.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha llevado las llaves de casa al trabajo.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>ala</case>
+        <role>destination</role><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </advl2>
+      <advl3>
+        <case>abl</case>
+        <role>source</role><!--abiapuntuko kokapena-->
+        <sem></sem><!-- -->
+      </advl3>
+    </frame>
+    <frame id="2">
+      <ex>Kamisetak Nike-n logoa darama.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">La camiseta lleva el logo de Nike.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--edukitzailea-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--edukia-->
+        <sem></sem><!-- -biz-->
+      </advl1>
+      <advl2>
+        <case>ine</case>
+        <role>location</role><!--kokapena-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
@@ -971,53 +1210,82 @@
   
   <verb lm="erantzun"><!--24-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek ondo iruditzen zaiola erantzun du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha respondido que le parece bien.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>ela_konp</case>
+        <role>topic</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
+    </frame>
+    <frame id="2">
+      <ex>Herriak indarrez erantzungo du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">El pueblo responderá con contundencia.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
-      </advl2>
+      </subj>
     </frame>
   </verb>
   
   <verb lm="erre"><!--15-->
     <frame id="1">
-      <ex></ex>
+      <ex>Etxea erre da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">La casa se ha quemado.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme/patient</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </subj>
+    </frame>
+    <frame id="2">
+      <ex>Umeek egurra erre dute.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Los niños han quemado madera.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role></role><!--gai ukitua-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
+    </frame>
+    <frame id="3">
+      <ex>Mikelek erretzen du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel fuma.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
+      </subj>
     </frame>
   </verb>
   
@@ -1049,25 +1317,31 @@
   
   <verb lm="eskaini"><!--17-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek bere laguntz eskaini dio amonari.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel le ha ofrecido su ayuda a su abuela.</gloss>
+      </glosses>
+      <ex>Mikelek 3 ordu eskaini dizkio artikuluari.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha ofrecido / dedicado 3 horas al artículo.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--abiapuntua-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>dat</case>
+        <role>recipient</role><!--helburua-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
@@ -1114,27 +1388,17 @@
   
   <verb lm="gosaldu"><!--20-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek gaur ez du gosaldu.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel hoy no ha desayunado.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
       </subj>
-      <advl1>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
     </frame>
   </verb>
   
@@ -1192,20 +1456,20 @@
   
   <verb lm="hautatu"><!--21-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek irakurri nahi duen liburua hautatu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha escogido el libro que quiere leer.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
@@ -1252,27 +1516,40 @@
   
   <verb lm="gertatut"><!--16-->
     <frame id="1">
-      <ex></ex>
+      <ex>Etxean gertatu da ezbeharra.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">La desgracia ha ocurrido en casa.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme/topic</role><!--gaia-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>ine</case>
+        <role>location</role><!--kokapena-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
+    </frame>
+    <frame id="2">
+      <ex>Hitzaldia arrakastatsu gertatu da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">La charla ha resultado / ha sido exitosa.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>theme/topic</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl2>
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>attribute</role><!--egoera-->
+        <sem></sem><!-- -->
+      </advl1>
     </frame>
   </verb>
   
@@ -1304,27 +1581,71 @@
   
   <verb lm="ikasi"><!--32-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek ikasgaia ikasi du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha estudiado la lección.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>topic</role><!--jarduera-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
+    </frame>
+    <frame id="2">
+      <ex>Mikelek asko ikasi du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha estudiado mucho.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+    </frame>    
+    <frame id="3">
+      <ex>Mikelek hori ez dela horrela egiten ikasi du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha aprendido que eso no se hace así.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>ela_konp</case>
+        <role>topic</role><!--jarduera-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
+    </frame>    
+    <frame id="4">
+      <ex>Mikelek futbolean ikasi du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha aprendido a jugar al futbol.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>ine</case>
+        <role>topic</role><!--jarduera-->
+        <sem></sem><!-- -->
+      </advl1>
     </frame>
   </verb>
   
@@ -1382,27 +1703,45 @@
   
   <verb lm="iritsi"><!--25-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikel eskolatik etxera iritsi da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha llegado de la escuela a casa.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abl</case>
+        <role>source</role><!--abiapuntuko kokapena / bidea-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>ala</case>
+        <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
       </advl2>
+    </frame>
+    <frame id="2">
+      <ex>Gasteizko mendizaleek tontorra iritsi dute.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Los montañeros de Gasteiz han llegado a la cima.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--helburua-->
+        <sem></sem><!-- -->
+      </advl1>
     </frame>
   </verb>
   
@@ -1721,26 +2060,49 @@
   
   <verb lm="mintzatu"><!--28-->
     <frame id="1">
-      <ex></ex>
+      <ex>Ni zurekin mintzatu naiz atzoko partidari buruz.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Yo he hablado contigo sobre el partido de ayer.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
+        <case>abs</case>
+        <role></role><!--abiapuntua-->
+        <sem>human</sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>ins</case>
+        <role>topic</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>soz</case>
+        <role>recipient</role><!--helburua-->
+        <sem>human</sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="2">
+      <ex>Ni zuri mintzatu natzaizu atzoko partidari buruz.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Yo te he hablado a ti sobre el partido de ayer.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>source</role><!--abiapuntua-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>ins</case>
+        <role>topic</role><!--gaia-->
         <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>dat</case>
+        <role>recipient</role><!--helburua-->
+        <sem>human</sem><!-- -->
       </advl2>
     </frame>
   </verb>
@@ -1773,51 +2135,133 @@
   
   <verb lm="onartu"><!--23-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek zure iritzia onartu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha aceptado tu opinión.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
+    </frame>
+    <frame id="2">
+      <ex>Mikelek hori egin beharra dagoela onartu du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha aceptado que hay que hacer eso.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role></role><!--esperimentatzailea-->
         <sem></sem><!-- -->
-      </advl2>
+      </subj>
+      <advl1>
+        <case>ela_konp</case>
+        <role>theme</role><!--gaia-->
+        <sem></sem><!-- -->
+      </advl1>
     </frame>
   </verb>
   
   <verb lm="sartu"><!--29-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikel kaletik tabernara sartu da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha entrado de la calle al bar.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abl</case>
+        <role>source</role><!--abiapuntuko kokapena/bidea-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>ala</case>
+        <role>location</role><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="2">
+      <ex>Mikel tabernan sartu da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha entrado en el bar/al bar.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>ine</case>
+        <role>location</role><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </advl1>
+    </frame>
+    <frame id="3">
+      <ex>Mikelek paperak poltsatik kaxoira sartu ditu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha metido los papeles desde la bolsa al cajón.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>abl</case>
+        <role>source</role><!--abiapuntuko kokapena/bidea-->
+        <sem></sem><!-- -->
+      </advl2>
+      <advl3>
+        <case>ala</case>
+        <role>location</role><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </advl3>
+    </frame>
+    <frame id="4">
+      <ex>Mikelek paperak poltsatik kaxoira sartu ditu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha metido los papeles en el cajón/al cajón.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>ine</case>
+        <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
