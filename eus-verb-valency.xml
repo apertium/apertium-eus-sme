@@ -913,7 +913,7 @@
       </glosses>
       <subj>
         <case>erg</case>
-        <role>theme</role><!--esperimentatzailea-->
+        <role>theme</role><!--esperimentatzailea--><!--agent in other contexts-->
         <sem>human</sem><!-- -->
       </subj>
       <obj>
@@ -2295,25 +2295,100 @@
   
   <verb lm="jarri"><!--34-->
     <frame id="1">
-      <ex></ex>
+      <ex>Zerbait nonbaiten jarri.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Poner algo en algún sitio.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>ine</case>
+        <role>destination</role><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="2">
+      <ex>Zerbait modu jakin batean jarri.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Poner algo de una manera determinada.</gloss>
+      </glosses>
+      <ex>Urduri jarri naiz.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Me he puesto nervioso.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>patient</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>abs</case>
+        <role>destination</role><!--helburuko egoera-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="3">
+      <ex>Buruko mina jarri zait.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Se ma ha puesto dolor de cabeza.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role></role><!-- -->
+        <sem></sem><!-- -konkr-->
+      </subj>
+      <advl1>
+        <case>dat</case>
+        <role></role><!--iturria-->
+        <sem>human</sem><!-- -->
       </advl1>
       <advl2>
         <case></case>
         <role></role><!-- -->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="4">
+      <ex>Badaki zein izen jarriko dion semeari.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Ya sabe qué nombre le pondrá a su hijo.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--abiapuntua-->
+        <sem>human</sem><!-- -->
+      </subj>
+      <advl1>
+        <case>abs</case>
+        <role>theme</role><!--ezaugarria-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>dat</case>
+        <role>recipient</role><!--helburua-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
