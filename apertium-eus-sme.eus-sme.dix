@@ -68,9 +68,10 @@
     <e><p><l>ahaztu<s n="V"/></l><r>vajálduhttit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>aldatu<s n="V"/></l><r>molsut<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>aldatu<s n="V"/></l><r>rievdat<s n="V"/><s n="IV"/></r></p></e>
+    <e slr="2"><p><l>aldatu<s n="V"/></l><r>nuppástuhttit<s n="V"/><s n="TV"/></r></p></e><!--?-->
     <e><p><l>amaitu<s n="V"/></l><r>loahpahit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>amaitu<s n="V"/></l><r>geargat<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>argitu<s n="V"/></l><r><s n="V"/><s n="IV"/></r></p></e><!--light,clear,dawn-->
+    <e><p><l>argitu<s n="V"/></l><r>ihtit<s n="V"/><s n="IV"/></r></p></e><!--light,clear,dawn-->
     <e><p><l>aritu<s n="V"/></l><r><s n="V"/><s n="TV"/></r></p></e><!--auxiliary-->
     <e><p><l>asmatu<s n="V"/></l><r>fuomášit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>asmatu<s n="V"/></l><r>árvidit<s n="V"/><s n="TV"/></r></p></e>
@@ -116,7 +117,7 @@
     <e slr="2"><p><l>geratu<s n="V"/></l><r>dáhppáhuvvat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>gosaldu<s n="V"/></l><r>iđitbiepmu<b/>borrat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>grabatu<s n="V"/></l>báddet<r><s n="V"/><s n="TV"/></r></p></e><!--tape-->
-    <e><p><l>hasi<s n="V"/></l><r>algit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>hasi<s n="V"/></l><r>álgit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hautatu<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hautatu<s n="V"/></l><r>jienastit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>hitz<b/>egin<s n="V"/></l><r>hallat<s n="V"/><s n="TV"/></r></p></e>
