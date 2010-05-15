@@ -81,6 +81,7 @@
     <e><p><l>aurkitu<s n="V"/></l><r>gávdnat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>baieztatu<s n="V"/></l><r>duođaštit<s n="V"/><s n="TV"/></r></p></e><!--confirm-->
     <e><p><l>banandu<s n="V"/></l><r>juohkit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>banandu<s n="V"/></l><r>sirret<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>barkatu<s n="V"/></l><r>ándagassi<b/>addit<s n="V"/><s n="TV"/></r></p></e><!--forgive-->
     <e><p><l>bazkaldu<s n="V"/></l><r>lunša<b/>borrat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>besarkatu<s n="V"/></l>salastit<r><s n="V"/><s n="TV"/></r></p></e><!-- -->
@@ -120,7 +121,7 @@
     <e><p><l>hasi<s n="V"/></l><r>álgit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hautatu<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hautatu<s n="V"/></l><r>jienastit<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>hitz<b/>egin<s n="V"/></l><r>hallat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>hitz<b/>egin<s n="V"/></l><r>hállat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hitz<b/>egin<s n="V"/></l><r>hupmat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hil<s n="V"/></l><r>jápmit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>hil<s n="V"/></l><r>goddit<s n="V"/><s n="TV"/></r></p></e>
@@ -144,6 +145,7 @@
     <e slr="1"><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>jokatu<s n="V"/></l><r>speallat<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>jokatu<s n="V"/></l><r>neaktit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>konturatu<s n="V"/></l><r>fuomášit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>landatu<s n="V"/></l><r>gilvit<s n="V"/><s n="TV"/></r></p></e><!--plant-->
     <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
