@@ -308,7 +308,7 @@
         <gloss lang="spa">Le salía sangre de la herida.</gloss>
       </glosses>
       <subj>
-        <case>nom</case>
+        <case>loc</case>
         <role>theme</role>
       </subj>
       <advl1>
@@ -775,6 +775,7 @@
       <advl1>
         <case>loc</case>
         <role>theme</role>
+        <sem></sem>
       </advl1>
     </frame>
     <frame id="2a">
