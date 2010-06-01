@@ -4,7 +4,7 @@
       <ex>Nik abesten dut.</ex>
       <glosses>
         <gloss lang="eng">I sing.</gloss>
-        <gloss lang="sme">Mun l·vllan.</gloss>
+        <gloss lang="sme">Mun l√°vllan.</gloss>
         <gloss lang="spa">Canto.</gloss>
       </glosses>
       <subj>
@@ -17,8 +17,8 @@
       <ex>Nik abesti bat abesten dut.</ex>
       <glosses>
         <gloss lang="eng">I sing a song</gloss>
-        <gloss lang="sme">Mun l·vllan l·vlaga</gloss>
-        <gloss lang="spa">Canto una canciÛn</gloss>
+        <gloss lang="sme">Mun l√°vllan l√°vlaga</gloss>
+        <gloss lang="spa">Canto una canci√≥n</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -57,7 +57,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">En el juicio ha aparecido que no tiene ning˙n cargo en la empresa.</gloss>
+        <gloss lang="spa">En el juicio ha aparecido que no tiene ning√∫n cargo en la empresa.</gloss>
       </glosses>
       <subj>
         <case>ela_konp</case>
@@ -75,7 +75,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel apareciÛ por la cocina a la sala.</gloss>
+        <gloss lang="spa">Mikel apareci√≥ por la cocina a la sala.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -98,7 +98,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel apareciÛ nervioso.</gloss>
+        <gloss lang="spa">Mikel apareci√≥ nervioso.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -209,7 +209,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha olvidado que tenÌa que ir a trabajar.</gloss>
+        <gloss lang="spa">Mikel ha olvidado que ten√≠a que ir a trabajar.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -230,7 +230,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Cuando los electrones cambian de un cuerpo a otro, se produce la corriente elÈctrica.</gloss>
+        <gloss lang="spa">Cuando los electrones cambian de un cuerpo a otro, se produce la corriente el√©ctrica.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -253,7 +253,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Por quÈ cambian de casa?</gloss>
+        <gloss lang="spa">Por qu√© cambian de casa?</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -271,7 +271,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Nosotros queremos cambiar esos territorios del nivel de autonomÌa al nivel de provincia.</gloss>
+        <gloss lang="spa">Nosotros queremos cambiar esos territorios del nivel de autonom√≠a al nivel de provincia.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -316,12 +316,13 @@
         <role>theme</role><!--kokapena/egoera-->
         <sem></sem><!-- -->
       </advl1>
+    </frame>
     <frame id="5">
       <ex>Ardoa sagardoz aldatu zuen Mikelek.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel reemplazÛ el vino por sidra.</gloss>
+        <gloss lang="spa">Mikel reemplaz√≥ el vino por sidra.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -417,7 +418,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel no aclarÛ que no vendrÌa.</gloss>
+        <gloss lang="spa">Mikel no aclar√≥ que no vendr√≠a.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -477,7 +478,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel trabaja en la fotografÌa.</gloss>
+        <gloss lang="spa">Mikel trabaja en la fotograf√≠a.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -504,7 +505,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha inventado la canciÛn.</gloss>
+        <gloss lang="spa">Mikel ha inventado la canci√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -535,7 +536,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha acertado que Jon vendr·.</gloss>
+        <gloss lang="spa">Mikel ha acertado que Jon vendr√°.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -595,8 +596,8 @@
       <ex>Zauritik odola ateratzen zitzaion kanpora.</ex>
       <glosses>
         <gloss lang="eng">Blood came out of her wound.</gloss>
-        <gloss lang="sme">Sus bo?ii varra h·vis.</gloss>
-        <gloss lang="spa">Le salÌa sangre de la herida hacia fuera.</gloss>
+        <gloss lang="sme">Sus bo?ii varra h√°vis.</gloss>
+        <gloss lang="spa">Le sal√≠a sangre de la herida hacia fuera.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -684,7 +685,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel se encontrÛ en la calle con Miren.</gloss>
+        <gloss lang="spa">Mikel se encontr√≥ en la calle con Miren.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -702,7 +703,7 @@
 	<glosses>
 	  <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Yo hoy te encuentro m·s bonita que ayer.</gloss>
+        <gloss lang="spa">Yo hoy te encuentro m√°s bonita que ayer.</gloss>
       </glosses>
 	<subj>
         <case>erg</case>
@@ -717,7 +718,10 @@
 	<advl1>
 	  <case>abs</case>
 	  <role>predicate</role><!--egoera-->
+        </advl1>
+    </frame>
   </verb>
+  
   
   <verb lm="baieztatu"><!--37-->
     <frame id="1">
@@ -743,7 +747,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha confirmado que acudir· a la boda.</gloss>
+        <gloss lang="spa">Mikel ha confirmado que acudir√° a la boda.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -764,7 +768,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Los vascos se separar·n de EspaÒa.</gloss>
+        <gloss lang="spa">Los vascos se separar√°n de Espa√±a.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -782,7 +786,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Los mandatarios separar·n a los vascos de EspaÒa.</gloss>
+        <gloss lang="spa">Los mandatarios separar√°n a los vascos de Espa√±a.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -861,6 +865,7 @@
         <role>theme</role><!--helburua-->
         <sem>human</sem><!--giz-->
       </obj>
+    </frame>
   </verb>
   
   <verb lm="bazkaldu"><!--38-->
@@ -916,7 +921,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel abrazÛ a Miren.</gloss>
+        <gloss lang="spa">Mikel abraz√≥ a Miren.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -991,7 +996,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel cumple las Ûrdenes.</gloss>
+        <gloss lang="spa">Mikel cumple las √≥rdenes.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1009,7 +1014,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">La gente llenÛ el campo.</gloss>
+        <gloss lang="spa">La gente llen√≥ el campo.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1043,7 +1048,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">El agua se ha convertido en hielo por el frÌo.</gloss>
+        <gloss lang="spa">El agua se ha convertido en hielo por el fr√≠o.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -1087,7 +1092,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha visitado a su abuela / ParÌs durante las vacaciones.</gloss>
+        <gloss lang="spa">Mikel ha visitado a su abuela / Par√≠s durante las vacaciones.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1108,7 +1113,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ellos han llamado/convocado a la gente a la manifestaciÛn.</gloss>
+        <gloss lang="spa">Ellos han llamado/convocado a la gente a la manifestaci√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1131,7 +1136,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ellos han llamado/convocado la manifestaciÛn.</gloss>
+        <gloss lang="spa">Ellos han llamado/convocado la manifestaci√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1149,7 +1154,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ellos han llamado a la manifestaciÛn.</gloss>
+        <gloss lang="spa">Ellos han llamado a la manifestaci√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1173,7 +1178,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Yo he llamado a mi amigo por telÈfono.</gloss>
+        <gloss lang="spa">Yo he llamado a mi amigo por tel√©fono.</gloss>
       </glosses>
       <ex>Nik hoteletik etxera deitu dut.</ex>
       <glosses>
@@ -1274,7 +1279,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel bebiÛ mucho anoche.</gloss>
+        <gloss lang="spa">Mikel bebi√≥ mucho anoche.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1308,7 +1313,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel sÛlo caza en verano.</gloss>
+        <gloss lang="spa">Mikel s√≥lo caza en verano.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1347,7 +1352,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha pasado dÌas trabajando.</gloss>
+        <gloss lang="spa">Mikel ha pasado d√≠as trabajando.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1373,7 +1378,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha oido la canciÛn.</gloss>
+        <gloss lang="spa">Mikel ha oido la canci√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1404,7 +1409,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha oido que que maÒana llover·.</gloss>
+        <gloss lang="spa">Mikel ha oido que que ma√±ana llover√°.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1425,7 +1430,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha usado el jabÛn para limpiar.</gloss>
+        <gloss lang="spa">Mikel ha usado el jab√≥n para limpiar.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1518,7 +1523,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">El pueblo responder· con contundencia.</gloss>
+        <gloss lang="spa">El pueblo responder√° con contundencia.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1547,7 +1552,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Los niÒos han quemado madera.</gloss>
+        <gloss lang="spa">Los ni√±os han quemado madera.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1599,7 +1604,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel se ha dado cuenta de que eso no es asÌ.</gloss>
+        <gloss lang="spa">Mikel se ha dado cuenta de que eso no es as√≠.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1671,13 +1676,14 @@
         <case>dat</case>
         <role>recipient</role><!--helburua-->
         <sem></sem><!-- -->
+       </iobj>
 
       </glosses>
       <ex>Mikelek 3 ordu eskaini dizkio artikuluari.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha ofrecido / dedicado 3 horas al artÌculo.</gloss>
+        <gloss lang="spa">Mikel ha ofrecido / dedicado 3 horas al art√≠culo.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1799,7 +1805,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"> Mikel normalmente grabo de la televisiÛn.</gloss>
+        <gloss lang="spa"> Mikel normalmente grabo de la televisi√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2013,6 +2019,7 @@
 	  <case>abs</case>
 	  <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
+        </obj>
       <advl1>
         <case>abl</case>
         <role>source/path</role><!--abiapuntua/bidea-->
@@ -2040,6 +2047,7 @@
 	  <case>abs</case>
 	  <role>extent</role><!--neurria-->
         <sem></sem><!-- -->
+        </obj>
      </frame>
      <frame id="4">
       <ex>Gobernuak zergak %5 igo ditu.</ex>
@@ -2057,6 +2065,7 @@
 	  <case>abs</case>
 	  <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
+         </obj>
 	<advl1>
         <case>abs</case>
         <role>extent</role><!--neurria-->
@@ -2068,7 +2077,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel subiÛ la cuesta.</gloss>
+        <gloss lang="spa">Mikel subi√≥ la cuesta.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2079,6 +2088,8 @@
 	  <case>abs</case>
 	  <role>path</role><!--bidea-->
         <sem></sem><!-- -->
+        </obj>
+    </frame>
   </verb>
   
   <verb lm="ikasi"><!--32-->
@@ -2087,7 +2098,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha estudiado la lecciÛn.</gloss>
+        <gloss lang="spa">Mikel ha estudiado la lecci√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2118,7 +2129,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha aprendido que eso no se hace asÌ.</gloss>
+        <gloss lang="spa">Mikel ha aprendido que eso no se hace as√≠.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2232,7 +2243,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Los montaÒeros de Gasteiz han llegado a la cima.</gloss>
+        <gloss lang="spa">Los monta√±eros de Gasteiz han llegado a la cima.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2253,7 +2264,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Las l·grimas se derraman por los ojos.</gloss>
+        <gloss lang="spa">Las l√°grimas se derraman por los ojos.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -2446,9 +2457,9 @@
         <case>abs</case>
         <role>path</role><!--bidea-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
       </frame>
-
+  </verb>
   <verb lm="jan"><!--42-->
     <frame id="1">
       <ex>Mikelek sagarra jan du.</ex>
@@ -2489,7 +2500,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Alguien pone algo en alg˙n sitio.</gloss>
+        <gloss lang="spa">Alguien pone algo en alg√∫n sitio.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2553,7 +2564,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ya sabe quÈ nombre le pondr· a su hijo.</gloss>
+        <gloss lang="spa">Ya sabe qu√© nombre le pondr√° a su hijo.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2588,7 +2599,7 @@
       </subj>
       <advl1>
         <case>abl</case>
-        <role>source/path</role><!--/abiapuntuko kokapena/bidea--><!--no path in S·mi-->
+        <role>source/path</role><!--/abiapuntuko kokapena/bidea--><!--no path in S√°mi-->
       </advl1>
       <advl2>
         <case>ala</case>
@@ -2603,7 +2614,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Errandonea y Arretxe jugar·n en Donostia.</gloss>
+        <gloss lang="spa">Errandonea y Arretxe jugar√°n en Donostia.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
@@ -2616,7 +2627,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">La Real jugar· maÒana el partido.</gloss>
+        <gloss lang="spa">La Real jugar√° ma√±ana el partido.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2634,7 +2645,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">El Baskonia jugar· pasado maÒana.</gloss>
+        <gloss lang="spa">El Baskonia jugar√° pasado ma√±ana.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2647,7 +2658,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Nosotros jugaremos al f˙tbol.</gloss>
+        <gloss lang="spa">Nosotros jugaremos al f√∫tbol.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2914,7 +2925,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">La narraciÛn confunde al lector.</gloss>
+        <gloss lang="spa">La narraci√≥n confunde al lector.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2935,7 +2946,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha aceptado tu opiniÛn.</gloss>
+        <gloss lang="spa">Mikel ha aceptado tu opini√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -2964,7 +2975,7 @@
         <case>ela_konp</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
-      </obk>
+      </obj>
     </frame>
   </verb>
   
@@ -3015,7 +3026,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha metido los papeles desde la bolsa al cajÛn.</gloss>
+        <gloss lang="spa">Mikel ha metido los papeles desde la bolsa al caj√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -3043,7 +3054,7 @@
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha metido los papeles en el cajÛn.</gloss>
+        <gloss lang="spa">Mikel ha metido los papeles en el caj√≥n.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -3059,7 +3070,7 @@
         <case>ine</case>
         <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
-      </advl1http://www.publico.es/internacional/317058/israel/obliga/activistas/renunciar/derecho/apelaciona>
+      </advl1>
     </frame>
   </verb>
 </valency>
