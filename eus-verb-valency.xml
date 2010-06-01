@@ -50,6 +50,7 @@
         <case>ine</case>
         <role>location</role><!--kokapena-->
         <sem></sem><!-- -->
+	</advl1>
     </frame>
         <frame id="2">
       <ex>Enpresan kargurik ez duela agertu da epaiketan.</ex>
@@ -310,11 +311,11 @@
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>ins</case>
         <role>theme</role><!--kokapena/egoera-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     <frame id="5">
       <ex>Ardoa sagardoz aldatu zuen Mikelek.</ex>
       <glosses>
@@ -332,11 +333,11 @@
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>ins</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
   </verb>
   
@@ -605,10 +606,10 @@
         <case>dat</case>
         <role>source/path</role><!--abiapuntuko kokapena/bidea-->
       </iobj>
-      <advl2>
+      <advl1>
         <case>ala</case>
         <role>destination</role><!--helburuko kokapena-->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="4">
       <ex>Mikelek animaliari tripak atera dizkio kanpora.</ex>
@@ -629,10 +630,10 @@
         <case>dat</case>
         <role>source/path</role><!--abiapuntuko kokapena/bidea-->
       </iobj>
-      <advl2>
+      <advl1>
         <case>ala</case>
         <role>destination</role><!--helburuko kokapena-->
-      </advl2>
+      </advl1>
     </frame>
   </verb>
   
@@ -672,11 +673,11 @@
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>ine</case>
         <role>location</role><!--kokapena-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="3">
       <ex>Mikelek Miren kalean aurkitu zuen.</ex>
@@ -793,11 +794,11 @@
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>abl</case>
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
   </verb>
   
@@ -979,11 +980,11 @@
         <role>destination</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>ins</case>
         <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="4">
       <ex>Mikelek aginduak betetzen ditu.</ex>
@@ -1072,11 +1073,11 @@
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>abs</case>
         <role>product</role><!--helburuko egoera-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
   </verb>
   
@@ -1119,11 +1120,11 @@
         <role>beneficiary</role><!--helburua-->
         <sem>human</sem><!--giz-->
       </obj>
-      <advl2>
+      <advl1>
         <case>ala</case>
         <role>location</role><!--jarduera-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="2">
       <ex>Haiek manifestazioa deitu dute.</ex>
@@ -1190,11 +1191,11 @@
         <role>beneficiary</role><!--helburua-->
         <sem>human</sem><!--giz-->
       </iobj>
-      <advl2>
+      <advl1>
         <case>ala</case>
         <role>location</role><!--kokapena-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
       <advl3>
         <case>abl</case>
         <role>location</role><!--kokapena-->
@@ -1241,11 +1242,11 @@
         <role>theme</role><!--helburua-->
         <sem></sem><!-- -->
       </iobj>
-      <advl2>
+      <advl1>
         <case>abs</case>
         <role>predicate</role><!--ezaugarria-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
   </verb>
   
@@ -1358,11 +1359,11 @@
         <role>theme</role><!--denbora-->
         <sem></sem><!-- -->
       </obj>
-      <advl2>
+      <advl1>
         <case>ine</case>
         <role>recipient</role><!--jarduera-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
   </verb>
   
@@ -1429,7 +1430,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--+giz-->
       </subj>
       <obj>
         <case>abs</case>
@@ -1483,7 +1484,7 @@
       <advl1>
         <case>abs</case>
         <role>theme</role><!--edukia-->
-        <sem></sem><!-- -biz-->
+        <sem>inanimate</sem><!-- -biz-->
       </advl1>
       <advl2>
         <case>ine</case>
@@ -1576,22 +1577,22 @@
   
   <verb lm="erreparatu"><!--53-->
     <frame id="1">
-      <ex>Ispilu bat erreparatu du eta ispiluan ilargia.</ex>
+      <ex>Mikelek ispilu bat erreparatu du eta ispiluan ilargia.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ha reparado/ha visto en el espejo y en el espejo la luna.</gloss>
+        <gloss lang="spa"> Mikel ha visto el espejo y en el espejo la luna.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
         <role>experiencer</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>stimulus</role><!--gaia-->
-        <sem></sem><!-- -biz-->
-      </advl1>
+        <sem>inanimate</sem><!-- -biz-->
+      </obj>
     </frame>
     <frame id="2">
       <ex>Mikelek erreparatu du hori ez dela horrela.</ex>
@@ -1603,7 +1604,7 @@
       <subj>
         <case>erg</case>
         <role>experiencer</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <obj>
         <case>ela_konp</case>
@@ -1621,12 +1622,12 @@
       <subj>
         <case>erg</case>
         <role>experiencer</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>ine</case>
         <role>stimulus</role><!--gaia-->
-        <sem></sem><!-- -->
+        <sem>inanimate</sem><!-- -biz-->
       </advl1>
     </frame>
     <frame id="4">
@@ -1639,7 +1640,7 @@
       <subj>
         <case>erg</case>
         <role>experiencer</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <iobj>
         <case>dat</case>
@@ -1656,6 +1657,21 @@
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel le ha ofrecido su ayuda a su abuela.</gloss>
+	<subj>
+        <case>erg</case>
+        <role>agent</role><!--abiapuntua-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+        <case>abs</case>
+        <role>theme</role><!--gaia-->
+        <sem></sem><!-- -->
+      </obj>
+	<iobj>
+        <case>dat</case>
+        <role>recipient</role><!--helburua-->
+        <sem></sem><!-- -->
+
       </glosses>
       <ex>Mikelek 3 ordu eskaini dizkio artikuluari.</ex>
       <glosses>
@@ -1668,11 +1684,11 @@
         <role>agent</role><!--abiapuntua-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obs>
         <case>abs</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl1>
+      </obs>
       <iobj>
         <case>dat</case>
         <role>recipient</role><!--helburua-->
@@ -1694,11 +1710,11 @@
         <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>topic</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
     </frame>
     <frame id="2">
       <ex>Mikelek bere ama etor dadila eskatu du.</ex>
@@ -1714,7 +1730,7 @@
       </subj>
       <obj>
         <case>ela_konp</case>
-        <role>topic</role><!-- -->
+        <role>topic</role><!--gaia-->
         <sem></sem><!-- -->
       </obj>
     </frame>
@@ -1732,9 +1748,14 @@
       </subj>
       <obj>
         <case>abs</case>
-        <role>topic</role><!-- -->
+        <role>topic</role><!--gaia-->
         <sem></sem><!-- -->
       </obj>
+	<iobj>
+	  <case>dat</case>
+	  <role>source</role><!--abiapuntuagaia-->
+        <sem></sem><!-- -->
+	</iobj>
     </frame>
   </verb>
   
@@ -1749,7 +1770,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
     </frame>
   </verb>
@@ -1765,25 +1786,25 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <obj>
         <case>abs</case>
         <role>theme</role><!--gaia-->
-        <sem></sem><!-- -biz-->
+        <sem>inanimate</sem><!-- -biz-->
       </obj>
     </frame>
     <frame id="2">
-      <ex>Normalean telebistatik grabatzen dut.</ex>
+      <ex>Mikelek normalean telebistatik grabatzen dut.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Normalmente grabo de la televisión.</gloss>
+        <gloss lang="spa"> Mikel normalmente grabo de la televisión.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
     </frame>
   </verb>
@@ -1799,7 +1820,7 @@
       <subj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
-        <sem></sem><!-- -biz-->
+        <sem>inanimate</sem><!-- -biz-->
       </subj>
     </frame>
     <frame id="2">
@@ -1812,13 +1833,13 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--kausa-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
-        <sem></sem><!-- -biz-->
-      </advl1>
+        <sem>inanimate</sem><!-- -biz-->
+      </obj>
     </frame>
     <frame id="3">
       <ex>Mikel zinemagintzan hasi da.</ex>
@@ -1830,7 +1851,7 @@
       <subj>
         <case>abs</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>ine</case>
@@ -1848,7 +1869,7 @@
       <subj>
         <case>abs</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>soz</case>
@@ -1869,18 +1890,13 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
+      </obj>
     </frame>
   </verb>
   
@@ -1895,7 +1911,7 @@
       <subj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
-        <sem>animate</sem><!-- -->
+        <sem>animate</sem><!--biz-->
       </subj>
     </frame>
     <frame id="2">
@@ -1959,28 +1975,110 @@
   
   <verb lm="igo"><!--26-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikel herritik mendira igo da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha subido del pueblo al monte.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abl</case>
+        <role>source/path</role><!--abiapuntua/bidea-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>ala</case>
+        <role>location</role><!--helburua-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
+    <frame id="2">
+      <ex>Mikelek txakurra kaletik etxera igo du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha subido al perro de la calle a casa.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+	  <case>abs</case>
+	  <role>patient</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      <advl1>
+        <case>abl</case>
+        <role>source/path</role><!--abiapuntua/bidea-->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>location</role><!--helburua-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="3">
+      <ex>Prezioa %10 igo da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">El precio ha subido un 10%.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>patient</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+	  <case>abs</case>
+	  <role>extent</role><!--neurria-->
+        <sem></sem><!-- -->
+     </frame>
+     <frame id="4">
+      <ex>Gobernuak zergak %5 igo ditu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">El Gobierno ha subido los impuestos un 5%.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+	  <case>abs</case>
+	  <role>patient</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+	<advl1>
+        <case>abs</case>
+        <role>extent</role><!--neurria-->
+        <sem></sem><!-- -->
+      </advl1>
+     </frame>
+     <frame id="5">
+      <ex>Mikelek aldapa igo zuen.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel subió la cuesta.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>patient</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+	  <case>abs</case>
+	  <role>path</role><!--bidea-->
+        <sem></sem><!-- -->
   </verb>
   
   <verb lm="ikasi"><!--32-->
@@ -1994,13 +2092,13 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>animate</sem><!--biz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>topic</role><!--jarduera-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
     </frame>
     <frame id="2">
       <ex>Mikelek asko ikasi du.</ex>
@@ -2012,7 +2110,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
     </frame>    
     <frame id="3">
@@ -2025,7 +2123,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>animate</sem><!--biz-->
       </subj>
       <obj>
         <case>ela_konp</case>
@@ -2043,7 +2141,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>animate</sem><!--biz-->
       </subj>
       <advl1>
         <case>ine</case>
@@ -2064,7 +2162,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <obj>
         <case>abs</case>
@@ -2082,7 +2180,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
     </frame>
     <frame id="3">
@@ -2095,7 +2193,7 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <obj>
         <case>ela_konp</case>
@@ -2141,99 +2239,99 @@
         <role>agent</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--helburua-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
     </frame>
   </verb>
   
   <verb lm="isuri"><!--48-->
     <frame id="1">
-      <ex></ex>
+      <ex>Begietatik malkoak isurtzen dira.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Las lágrimas se derraman por los ojos.</gloss>
       </glosses>
       <subj>
         <case>abs</case>
-        <role></role><!--gai sortua-->
-        <sem></sem><!-- -biz-->
-      </subj>
-      <advl1>
-        <case>soz</case>
-        <role></role><!--iturria-->
-        <sem></sem><!-- -biz-->
-      </advl1>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <subj>
-        <case>abs</case>
-        <role></role><!--gai sortua-->
-        <sem></sem><!-- -biz-->
-      </subj>
-      <advl1>
-        <case>erg</case>
-        <role></role><!--iturria-->
-        <sem></sem><!-- -biz-->
-      </advl1>
-    </frame>
-    <frame id="3">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <subj>
-        <case>abs</case>
-        <role></role><!--gai ukitua-->
-        <sem></sem><!-- -biz-->
+        <role>theme</role><!--gai sortua-->
+        <sem>inanimate</sem><!-- -biz-->
       </subj>
       <advl1>
         <case>abl</case>
-        <role></role><!--abiapuntuko kokapena / bidea-->
+        <role>source</role><!--iturria-->
+        <sem>inanimate</sem><!-- -biz-->
+      </advl1>
+    </frame>
+    <frame id="2">
+      <ex>Bonbilak argi-izpiak isurtzen ditu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">La bombilla desprende rayos de luz.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>source</role><!--iturria-->
+        <sem>inanimate</sem><!-- -biz-->
+      </subj>
+      <obj>
+        <case>obs</case>
+        <role>theme</role><!--gai sortuaiturria-->
+        <sem>inanimate</sem><!-- -biz-->
+      </obj>
+    </frame>
+    <frame id="3">
+      <ex>Ardoa ontzi batetik bestera isurtzen da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">El vino se derrama de un recipiente a otro</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </subj>
+      <advl1>
+        <case>abl</case>
+        <role>source / path</role><!--abiapuntuko kokapena / bidea-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
         <case>ala</case>
-        <role></role><!--helburuko kokapena-->
+        <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
     <frame id="4">
-      <ex></ex>
+      <ex>Mikelek ardoa ontzi batetik bestera isuri du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha derramado el vino de un recipiente a otro.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
-        <role></role><!--kausa-->
+        <role>agent</role><!--kausa-->
         <sem>animate</sem><!--biz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
-        <role></role><!--gai ukitua-->
-        <sem></sem><!-- -biz-->
+        <role>theme</role><!--gai ukitua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </obj>
+      <advl1>
+        <case>abl</case>
+        <role>source / path</role><!--abiapuntuko kokapena / bidea-->
+        <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case>abl</case>
-        <role></role><!--abiapuntuko kokapena / bidea-->
-        <sem></sem><!-- -->
-      </advl2>
-      <advl2>
         <case>ala</case>
-        <role></role><!--helburuko kokapena-->
+        <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
@@ -2241,116 +2339,196 @@
   
   <verb lm="jaitsi"><!--27-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikel etxetik kalera jaitsi da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha bajado de casa a la calle.</gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role><!-- -->
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </subj>
       <advl1>
-        <case></case>
-        <role></role><!-- -->
+        <case>abl</case>
+        <role>source</role><!--abiapuntuko kokapena-->
         <sem></sem><!-- -->
       </advl1>
       <advl2>
-        <case></case>
-        <role></role><!-- -->
+        <case>ala</case>
+        <role>location</role><!--helburua-->
         <sem></sem><!-- -->
       </advl2>
     </frame>
-  </verb>
-  
-  <verb lm="jan"><!--42-->
-    <frame id="1">
-      <ex></ex>
+    <frame id="2">
+      <ex>Mikel txakurra etxetik kalera jaitsi du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Mikel ha bajado al perro de casa a la calle.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
-        <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </obj>
+      <advl1>
+        <case>abl</case>
+        <role>source</role><!--abiapuntuko kokapena -->
+        <sem></sem><!-- -->
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>location</role><!--helburua-->
+        <sem></sem><!-- -->
+      </advl2>
+    </frame>
+    <frame id="3">
+      <ex>Prezioak %10 jaitsi dira.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Los precios han bajado un 10%.</gloss>
+      </glosses>
+      <subj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
       </subj>
       <advl1>
         <case>abs</case>
-        <role>patient</role><!--gaia-->
-        <sem></sem><!-- -biz-->
+        <role>extent</role><!--neurria-->
+        <sem></sem><!-- -->
       </advl1>
-    </frame>
-    <frame id="2">
-      <ex></ex>
+      </frame>
+    <frame id="4">
+      <ex>Gobernuak zergak %5 jaitsi ditu.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">El Gobierno ha bajado los impuestos un 5%.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+	<obj>
+        <case>abs</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </obj>
+      <advl1>
+        <case>abs</case>
+        <role>extent</role><!--neurria-->
+        <sem></sem><!-- -->
+      </advl1>
+      </frame>
+    <frame id="5">
+      <ex>Mikelek aldapa jaitsi du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha bajado la cuesta.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>theme</role><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </subj>
+      <obj>
+        <case>abs</case>
+        <role>path</role><!--bidea-->
+        <sem></sem><!-- -->
+      </advl1>
+      </frame>
+
+  <verb lm="jan"><!--42-->
+    <frame id="1">
+      <ex>Mikelek sagarra jan du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel ha comido una manzana.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->      
+        <sem>animate</sem><!--biz-->
+      </subj>
+      <obj>
+        <case>abs</case>
+        <role>patient</role><!--gaia-->
+        <sem>inanimate</sem><!-- -biz-->
+      </obj>
+    </frame>
+    <frame id="2">
+      <ex>Mikelek egunero jaten du.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa">Mikel come a diario.</gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>animate</sem><!--biz-->      
       </subj>
     </frame>
   </verb>
   
   <verb lm="jarri"><!--34-->
     <frame id="1">
-      <ex>Zerbait nonbaiten jarri.</ex>
+      <ex>Norbaitek zerbait nonbaiten jarri.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Poner algo en algún sitio.</gloss>
+        <gloss lang="spa">Alguien pone algo en algún sitio.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <advl1>
         <case>ine</case>
         <role>destination</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="2">
-      <ex>Zerbait modu jakin batean jarri.</ex>
+      <ex>Norbaitek Mikel urduri jarri du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Poner algo de una manera determinada.</gloss>
-      </glosses>
-      <ex>Urduri jarri naiz.</ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa">Me he puesto nervioso.</gloss>
-      </glosses>
+        <gloss lang="spa">Alguien ha puesto nervioso a Mikel.</gloss>
+      </glosses>      
       <subj>
         <case>erg</case>
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <advl1>
         <case>abs</case>
         <role>destination</role><!--helburuko egoera-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="3">
       <ex>Buruko mina jarri zait.</ex>
@@ -2361,20 +2539,15 @@
       </glosses>
       <subj>
         <case>abs</case>
-        <role></role><!-- -->
+        <role>theme</role><!--gai sortua-->
         <sem></sem><!-- -konkr-->
       </subj>
-      <advl1>
+      <iobj>
         <case>dat</case>
-        <role></role><!--iturria-->
-        <sem>human</sem><!-- -->
-      </advl1>
-      <advl2>
-        <case></case>
-        <role></role><!-- -->
-        <sem></sem><!-- -->
-      </advl2>
-    </frame>
+        <role>source</role><!--iturria-->
+        <sem>human</sem><!--giz-->
+      </iobj>
+      </frame>
     <frame id="4">
       <ex>Badaki zein izen jarriko dion semeari.</ex>
       <glosses>
@@ -2385,21 +2558,21 @@
       <subj>
         <case>erg</case>
         <role>agent</role><!--abiapuntua-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--ezaugarria-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <iobj>
         <case>dat</case>
         <role>recipient</role><!--helburua-->
         <sem></sem><!-- -->
-      </advl2>
+      </iobj>
     </frame>
   </verb>
-  
+
   <verb lm="joan"><!--1-->
     <frame id="1">
       <ex>Mikel eskolatik etxera joan da.</ex>
@@ -2409,7 +2582,7 @@
         <gloss lang="spa">Mikel ha ido de la escuela a casa.</gloss>
       </glosses>
       <subj>
-        <case>erg</case>
+        <case>abs</case>
         <role>theme</role><!--gai ukitua--><!--would Sammallahti say: mover?-->
         <sem></sem><!--animate?-->
       </subj>
@@ -2434,8 +2607,8 @@
       </glosses>
       <subj>
         <case>abs</case>
-        <role>agent</role><!--esperimentatzailea [+giz]-->
-        <sem>human</sem>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </subj>
      </frame>
      <frame id="2">
@@ -2447,14 +2620,14 @@
       </glosses>
       <subj>
         <case>erg</case>
-        <role>agent</role><!--esperimentatzailea [+giz]-->
-        <sem>human</sem>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
-        <role>theme</role>
+        <role>theme</role><!--jarduera-->
         <sem></sem>
-      </advl1>
+      </obj>
     </frame>
     <frame id="3">
       <ex>Baskoniak etzi jokatuko du.</ex>
@@ -2465,62 +2638,62 @@
       </glosses>
       <subj>
         <case>erg</case>
-        <role>agent</role><!--esperimentatzailea [+giz]-->
-        <sem>human</sem>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </subj>
     </frame>
      <frame id="4">
-      <ex>Futbolean jokatuko dugu.</ex>
+      <ex>Guk futbolean jokatuko dugu.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Jugaremos al fútbol.</gloss>
+        <gloss lang="spa">Nosotros jugaremos al fútbol.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
-        <role>agent</role><!--esperimentatzailea [+giz]-->
-        <sem>human</sem>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>ine</case>
-        <role>theme</role>
+        <role>theme</role><!--jarduera-->
         <sem></sem>
       </advl1>
     </frame>
     <frame id="5">
-      <ex>Egilearekin zintzo jokatu du.</ex>
+      <ex>Mikelek egilearekin zintzo jokatu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ha jugado limpio con el autor.</gloss>
+        <gloss lang="spa">Mikel ha jugado limpio con el autor.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
-        <role>agent</role><!--esperimentatzailea [+giz]-->
-        <sem>human</sem>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>abs</case>
-        <role>mode</role><!--modua-->
+        <role>predicate</role><!--modua-->
         <sem></sem>
       </advl1>
     </frame>
     <frame id="6">
-      <ex>Askatasun handiz jokatu du idazterakoan.</ex>
+      <ex>Mikelek askatasun handiz jokatu du idazterakoan.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Ha actuado con mucha libertad al escribir.</gloss>
+        <gloss lang="spa">Mikel ha actuado con mucha libertad al escribir.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
-        <role>agent</role>
-        <sem>animate</sem>
+        <role>agent</role><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </subj>
-      <obj>
+      <advl1>
         <case>ins</case>
-        <role>mode</role><!--modua-->
-      </obj>
+        <role>predicate</role><!--modua-->
+      </advl1>
     </frame>
    </verb>
   
@@ -2535,7 +2708,7 @@
       <subj>
         <case>abs</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>ins</case>
@@ -2553,7 +2726,7 @@
       <subj>
         <case>abs</case>
         <role>agent</role><!--esperimentatzailea-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <obj>
         <case>ela_konp</case>
@@ -2575,16 +2748,16 @@
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <advl1>
         <case>ine</case>
         <role>destination</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="2">
       <ex>Mikelek patataz landatu du lurra.</ex>
@@ -2598,17 +2771,17 @@
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
+	<obj>
+        <case>abs</case>
+        <role>destination</role><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </obj>
       <advl1>
         <case>ins</case>
         <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </advl1>
-      <advl2>
-        <case>abs</case>
-        <role>destination</role><!--helburuko kokapena-->
-        <sem></sem><!-- -->
-      </advl2>
-    </frame>
+      </frame>
   </verb>
   
     <verb lm="lortu"><!--11-->
@@ -2624,11 +2797,11 @@
         <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
     </frame>
   </verb>
   
@@ -2642,8 +2815,8 @@
       </glosses>
       <subj>
         <case>abs</case>
-        <role></role><!--abiapuntua-->
-        <sem>human</sem><!-- -->
+        <role>source</role><!--abiapuntua-->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>ins</case>
@@ -2653,7 +2826,7 @@
       <advl2>
         <case>soz</case>
         <role>recipient</role><!--helburua-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </advl2>
     </frame>
     <frame id="2">
@@ -2666,7 +2839,7 @@
       <subj>
         <case>abs</case>
         <role>source</role><!--abiapuntua-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </subj>
       <advl1>
         <case>ins</case>
@@ -2676,7 +2849,7 @@
       <iobj>
         <case>dat</case>
         <role>recipient</role><!--helburua-->
-        <sem>human</sem><!-- -->
+        <sem>human</sem><!--giz-->
       </iobj>
     </frame>
   </verb>
@@ -2712,16 +2885,16 @@
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <advl1>
         <case>soz</case>
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1>
     </frame>
     <frame id="3">
       <ex>Zerbitzaria nahastu egin da.</ex>
@@ -2748,11 +2921,11 @@
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
     </frame>
   </verb>
   
@@ -2769,11 +2942,11 @@
         <role>agent</role><!--esperimentatzailea-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
-      </advl1>
+      </obj>
     </frame>
     <frame id="2">
       <ex>Mikelek hori egin beharra dagoela onartu du.</ex>
@@ -2849,44 +3022,44 @@
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <advl1>
         <case>abl</case>
         <role>source/path</role><!--abiapuntuko kokapena/bidea-->
         <sem></sem><!-- -->
-      </advl2>
-      <advl3>
+      </advl1>
+      <advl2>
         <case>ala</case>
         <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
-      </advl3>
+      </advl2>
     </frame>
     <frame id="4">
-      <ex>Mikelek paperak poltsatik kaxoira sartu ditu.</ex>
+      <ex>Mikelek paperak kaxoian sartu ditu.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa">Mikel ha metido los papeles en el cajón/al cajón.</gloss>
+        <gloss lang="spa">Mikel ha metido los papeles en el cajón.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
         <role>agent</role><!--kausa-->
         <sem></sem><!-- -->
       </subj>
-      <advl1>
+      <obj>
         <case>abs</case>
         <role>theme</role><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
-      <advl2>
+      </obj>
+      <advl1>
         <case>ine</case>
         <role>location</role><!--helburuko kokapena-->
         <sem></sem><!-- -->
-      </advl2>
+      </advl1http://www.publico.es/internacional/317058/israel/obliga/activistas/renunciar/derecho/apelaciona>
     </frame>
   </verb>
 </valency>
