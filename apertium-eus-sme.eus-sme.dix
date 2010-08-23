@@ -14,6 +14,8 @@
     
     <e><p><l>askotan<s n="Adv"/></l>dávjá<r><s n="Adv"/></r></p></e>
     <e><p><l>noski<s n="Adv"/></l><r>dieđusge<s n="Adv"/></r></p></e>
+    <e><p><l>atzera<s n="Adv"/></l><r>ruovttuluotta<s n="Adv"/></r></p></e>
+    <e><p><l>hantxe<s n="Adv"/></l><r>dáppe<s n="Adv"/></r></p></e>
 
     <!-- Conjunctions -->
     
@@ -22,9 +24,11 @@
     
     <!-- Pronouns -->
     
-    <e><p><l>hau<s n="Pron"/></l><r>dat<s n="Pron"/></r></p></e>
-    <e><p><l>hori<s n="Pron"/></l><r>diet<s n="Pron"/></r></p></e>
-    <e><p><l>hura<s n="Pron"/></l><r>duot<s n="Pron"/></r></p></e>
+    <e><p><l>hau<s n="Pron"/><s n="Dem"/></l><r>dat<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>hori<s n="Pron"/><s n="Dem"/></l><r>diet<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>hura<s n="Pron"/><s n="Dem"/></l><r>duot<s n="Pron"/><s n="Dem"/></r></p></e>
+
+    <e><p><l>bakoitz<s n="Pron"/></l><r>juohkehaš<s n="Adv"/></r></p></e>
     
     <!-- Adjectives -->
     <e><p><l>ahozko<s n="A"/></l><r>njálmmálaš<s n="A"/></r></p></e>
@@ -35,6 +39,11 @@
     <e><p><l>txiki<s n="A"/></l><r>unni<s n="A"/></r></p></e>
     <e><p><l>zahar<s n="A"/></l><r>boaris<s n="A"/></r></p></e>
     <e><p><l>zatar<s n="A"/></l><r>ropmi<s n="A"/></r></p></e>
+
+    <e><p><l>harro<s n="A"/></l><r>duhtavaš<s n="A"/></r></p></e>
+    <e><p><l>izugarri<s n="A"/></l><r>issoras<s n="A"/></r></p></e>
+    <e><p><l>lasai<s n="A"/></l><r>ráfálaš<s n="A"/></r></p></e>
+    <e><p><l>paregabe<s n="A"/></l><r>eronamaš<s n="A"/></r></p></e>
     
     <!-- Nouns -->
     <e><p><l>aita<s n="N"/></l><r>áhčči<s n="N"/></r></p></e>
@@ -77,6 +86,26 @@
     <e><p><l>urte<s n="N"/></l><r>jáhki<s n="N"/></r></p></e>
     <e><p><l>lo<s n="N"/></l><r>nagir<s n="N"/></r></p></e>
     <e><p><l>zaletsun<s n="N"/></l><r><s n="N"/></r></p></e><!--hobby, liking, fondness, addiction-->
+
+    <e><p><l>aingeru<s n="N"/></l><r>eŋgel<s n="N"/></r></p></e>
+    <e><p><l>barku<s n="N"/></l><r>fanas<s n="N"/></r></p></e>
+    <e><p><l>buru<s n="N"/></l><r>oaivi<s n="N"/></r></p></e>
+    <e><p><l>denbora<s n="N"/></l><r>áigi<s n="N"/></r></p></e>
+    <e><p><l>egun<s n="N"/></l><r>beaivi<s n="N"/></r></p></e>
+    <e><p><l>ekaitzaldi<s n="N"/></l><r>storbma<s n="N"/></r></p></e>
+    <e><p><l>errege<s n="N"/></l><r>gonagas<s n="N"/></r></p></e>
+    <e><p><l>esku<s n="N"/></l><r>giehta<s n="N"/></r></p></e>
+    <e><p><l>gauza<s n="N"/></l><r>ášši<s n="N"/></r></p></e>
+    <e><p><l>irla<s n="N"/></l><r>sullo<s n="N"/></r></p></e>
+    <e><p><l>laino<s n="N"/></l><r>balva<s n="N"/></r></p></e>
+    <e><p><l>itsaso<s n="N"/></l><r>meara<s n="N"/></r></p></e>
+    <e><p><l>uda<s n="N"/></l><r>geassi<s n="N"/></r></p></e>
+    <e><p><l>ume<s n="N"/></l><r>mánná<s n="N"/></r></p></e>
+    <e><p><l>urre<s n="N"/></l><r>golli<s n="N"/></r></p></e>
+    <e><p><l>zaldi<s n="N"/></l><r>heasta<s n="N"/></r></p></e>
+    <e><p><l>zeru<s n="N"/></l><r>álbmi<s n="N"/></r></p></e>
+    
+    
     
     <!-- Proper nouns -->
     <e><p><l>Pippi<s n="N"/><s n="Prop"/></l><r>Pippi<s n="N"/><s n="Prop"/></r></p></e>
@@ -185,5 +214,13 @@
     <e><p><l>ukan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to have-->
     <e><p><l>ulertu<s n="V"/></l><r>áddet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>ulertu<s n="V"/></l><r>ipmirdit<s n="V"/><s n="TV"/></r></p></e>
+
+    <e><p><l>begiratu<s n="V"/></l><r>geahččat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>desagertu<s n="V"/></l><r>jávkat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>erori<s n="V"/></l><r>gahčat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>igeri<s n="V"/></l><r>vuodjat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>kezkatu<s n="V"/></l><r>fuolasmuvvat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>ohi<s n="V"/></l><r>lávet<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>zahartu<s n="V"/></l><r>boarasmuvvat<s n="V"/><s n="IV"/></r></p></e>
   </section>
 </dictionary>
