@@ -573,7 +573,7 @@
       </advl2>
     </frame>
     <frame id="2">
-      <ex>amak pastela labetik mahaira atera du.</ex>
+      <ex>Amak pastela labetik mahaira atera du.</ex>
       <glosses>
         <gloss lang="eng">The mother has taken the cake out of the oven to the table.</gloss>
         <gloss lang="sme"></gloss>
@@ -1582,7 +1582,7 @@
   
   <verb lm="erreparatu"><!--53-->
     <frame id="1">
-      <ex>Mikelek ispilu bat erreparatu du eta ispiluan ilargia.</ex>
+      <ex>Mikelek ispilu batean erreparatu du eta ispiluan ilargia.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
