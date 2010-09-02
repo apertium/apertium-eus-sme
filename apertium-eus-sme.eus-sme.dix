@@ -74,6 +74,7 @@
     <e><p><l>izen<s n="N"/></l>namma<r><s n="N"/></r></p></e>
     <e><p><l>jardin<s n="N"/></l>gárdi<r><s n="N"/></r></p></e>
     <e><p><l>jatorri<s n="N"/></l>gáldu<r><s n="N"/></r></p></e><!--descent, ancestry, origin, source-->
+    <e><p><l>kopeta<s n="N"/></l>gállu<r><s n="N"/></r></p></e>
     <e><p><l>lore<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
     <e slr="1"><p><l>lore<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
     <e><p><l>mutil<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--boy-->
@@ -83,6 +84,7 @@
     <e slr="1"><p><l>neska<s n="N"/></l><r>moarsi<s n="N"/></r></p></e>
     <e><p><l>ohe<s n="N"/></l><r>seaŋga<s n="N"/></r></p></e>
     <e><p><l>seme<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--son-->
+    <e><p><l>uda<s n="N"/></l><r>geassi<s n="N"/></r></p></e>
     <e><p><l>urte<s n="N"/></l><r>jáhki<s n="N"/></r></p></e>
     <e><p><l>lo<s n="N"/></l><r>nagir<s n="N"/></r></p></e>
     <e><p><l>zaletsun<s n="N"/></l><r><s n="N"/></r></p></e><!--hobby, liking, fondness, addiction-->
@@ -142,8 +144,10 @@
     <e><p><l>bidali<s n="V"/></l>sáddet<r><s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bilakatu<s n="V"/></l><r>šaddat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bisitatu<s n="V"/></l><r>fitnat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>zahartu<s n="V"/></l><r>boarásmuvvat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>deitu<s n="V"/></l><r>riŋget<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>deitu<s n="V"/></l><r>gohčodit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>desagertu<s n="V"/></l><r>jávkat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>edan<s n="V"/></l><r>juhkat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>egin<s n="V"/></l><r>bargat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>egin<s n="V"/></l><r>dahkat<s n="V"/><s n="TV"/></r></p></e>
@@ -160,7 +164,8 @@
     <e><p><l>erantzun<s n="V"/></l><r>vástidit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ereparatu<s n="V"/></l>fuomášit<r><s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>erre<s n="V"/></l><r>borgguhit<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>erre<s n="V"/></l><r>boaldit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>erre<s n="V"/></l><r>boaldit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>erori<s n="V"/></l><r>gahččat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>eskaini<s n="V"/></l><r><s n="V"/><s n="IV"/></r></p></e><!--offer, dedicate-->
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>eskatu<s n="V"/></l><r>bivdit<s n="V"/><s n="TV"/></r></p></e>
