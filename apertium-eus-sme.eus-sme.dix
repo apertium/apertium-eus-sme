@@ -2,7 +2,9 @@
   <alphabet/>
   <sdefs>
     <sdef n="A"   c="Adjective"/>
+    <sdef n="Adv" c="Adverb"/>
     <sdef n="N"   c="Noun"/>
+    <sdef n="Po"  c="Postposition"/>
     <sdef n="V"   c="Verb"/>
     <sdef n="IV"  c="Intransitive"/>
     <sdef n="TV"  c="Transitive"/>
@@ -14,24 +16,40 @@
     
     <e><p><l>askotan<s n="Adv"/></l>dávjá<r><s n="Adv"/></r></p></e>
     <e><p><l>atzera<s n="Adv"/></l><r>ruovttuluotta<s n="Adv"/></r></p></e>
+    <e><p><l>atzo<s n="Adv"/></l><r>ikte<s n="Adv"/></r></p></e>
     <e><p><l>azkenik<s n="Adv"/></l><r>viimmat<s n="Adv"/></r></p></e>
+    <e slr="1"><p><l>azkenik<s n="Adv"/></l><r>loahpas<s n="Adv"/></r></p></e>
+    
+    <e><p><l>batzuetan<s n="Adv"/></l><r>muhtumin<s n="Adv"/></r></p></e>
     <e><p><l>behin<s n="Adv"/></l><r>oktii<s n="Adv"/></r></p></e><!--einmal-->
+    <e><p><l>berriro<s n="Adv"/></l><r>ođđasit<s n="Adv"/></r></p></e>
     <e><p><l>beti<s n="Adv"/></l><r>álo<s n="Adv"/></r></p></e>
+    <e><p><l>bihar<s n="Adv"/></l><r>ihttin<s n="Adv"/></r></p></e>
+    
+    <e><p><l>ere<s n="Adv"/></l><r>maid<s n="Adv"/></r></p></e>
+    
+    <e><p><l>gaur<s n="Adv"/></l><r>odne<s n="Adv"/></r></p></e>
     
     <e><p><l>hantxe<s n="Adv"/></l><r>dáppe<s n="Adv"/></r></p></e>
     <e><p><l>horregatik<s n="Adv"/></l><r>danin<s n="Adv"/></r></p></e>
     <e><p><l>hurbil<s n="Adv"/></l><r>lahka<s n="Adv"/></r></p></e>
     
     <e><p><l>laster<s n="Adv"/></l><r>fargga<s n="Adv"/></r></p></e>
+    <e><p><l>lehen<s n="Adv"/></l><r>ovdal<s n="Adv"/></r></p></e>
     
+    <e><p><l>nola<s n="Adv"/></l><r>mo<s n="Adv"/></r></p></e>
     <e><p><l>noski<s n="Adv"/></l><r>dieđusge<s n="Adv"/></r></p></e>
+    
     <!--e><p><l>inoiz<s n="Adv"/></l><r>ii_goassege<s n="Adv"/></r></p></e-->
+    <e><p><l>orain<s n="Adv"/></l><r>dál<s n="Adv"/></r></p></e>
+    <e><p><l>orduan<s n="Adv"/></l><r>dalle<s n="Adv"/></r></p></e>
     <e><p><l>oso<s n="Adv"/></l><r>hui<s n="Adv"/></r></p></e>
     <e><p><l>ote<s n="Adv"/></l><r>kánske<s n="Adv"/></r></p></e>
     
     <!-- Postpositions -->
     
-    <e><p><l>ondoan<s n="Adv"/></l><r>bálddas<s n="Adv"/></r></p></e>
+    <e><p><l>buruz<s n="Po"/></l><r>birra<s n="Po"/></r></p></e>
+    <e><p><l>ondoan<s n="Po"/></l><r>bálddas<s n="Po"/></r></p></e>
 
     <!-- Conjunctions -->
     
@@ -40,6 +58,7 @@
     
     <!-- Pronouns -->
     
+    <e><p><l>bakoitz<s n="Pron"/><s n="Indef"/></l><r>juohke<s n="Pron"/><s n="Indef"/></r></p></e>
     <e><p><l>beste<s n="Pron"/><s n="Dem"/></l><r>nubbi<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>denak<s n="Indef"/><s n="Dem"/></l><r>buohkat<s n="Indef"/><s n="Dem"/></r></p></e>
     
@@ -48,27 +67,38 @@
     <e><p><l>hori<s n="Pron"/><s n="Dem"/></l><r>diet<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>hura<s n="Pron"/><s n="Dem"/></l><r>duot<s n="Pron"/><s n="Dem"/></r></p></e>
     
+    <e><p><l>nork<s n="Pron"/><s n="Interr"/></l><r>gii<s n="Interr"/><s n="Dem"/></r></p></e>
+    
     <e><p><l>zergatik<s n="Pron"/><s n="Interr"/></l><r>manin<s n="Pron"/><s n="Interr"/></r></p></e>
     
 
     <e><p><l>bakoitz<s n="Pron"/></l><r>juohkehaš<s n="Pron"/></r></p></e>
     
     <!-- Adjectives -->
-    
+    <e><p><l>adimentsu<s n="A"/></l><r>čeahppi<s n="A"/></r></p></e>
     <e><p><l>ahozko<s n="A"/></l><r>njálmmálaš<s n="A"/></r></p></e>
     <e><p><l>altu<s n="A"/></l><r>allat<s n="A"/></r></p></e>
     
     <e><p><l>beltz<s n="A"/></l><r>čáhppat<s n="A"/></r></p></e>
+    <e><p><l>bero<s n="A"/></l><r>báhka<s n="A"/></r></p></e>
+    <e><p><l>berde<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
+    <e><p><l>berri<s n="A"/></l><r>ođđa<s n="A"/></r></p></e>
     
     <e><p><l>gazte<s n="A"/></l><r>nuorra<s n="A"/></r></p></e>
+    <e><p><l>gose<s n="A"/></l><r>nelgon<s n="A"/></r></p></e>
+    <e><p><l>goxo<s n="A"/></l><r>njálggat<s n="A"/></r></p></e>
+    
+    
     <e><p><l>handi<s n="A"/></l><r>stuoris<s n="A"/></r></p></e>
     <e><p><l>harrigarria<s n="A"/></l><r>imašlaš<s n="A"/></r></p></e>
     <e><p><l>harro<s n="A"/></l><r>duhtavaš<s n="A"/></r></p></e>
     <e><p><l>hori<s n="A"/></l><r>fiskat<s n="A"/></r></p></e>
+    <e><p><l>hotz<s n="A"/></l><r>galmmas<s n="A"/></r></p></e>
     
     <e><p><l>isats<s n="A"/></l><r><s n="A"/></r></p></e><!--tail-->
     <e><p><l>itsusi<s n="A"/></l><r>ropmi<s n="A"/></r></p></e>
     <e><p><l>izugarri<s n="A"/></l><r>issoras<s n="A"/></r></p></e>
+    <e><p><l>kontuz<s n="A"/></l><r>várrugas<s n="A"/></r></p></e>
     
     <e><p><l>libre<s n="A"/></l><r>friddjá<s n="A"/></r></p></e>
     <e><p><l>lasai<s n="A"/></l><r>ráfálaš<s n="A"/></r></p></e>
@@ -78,7 +108,12 @@
 
     <e><p><l>ondo<s n="A"/></l><r>buorre<s n="A"/></r></p></e
     <e><p><l>orlegi<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
+    
+    <e><p><l>pobre<s n="A"/></l><r>geafi<s n="A"/></r></p></e>
     <e><p><l>polit<s n="A"/></l><r>čáppat<s n="A"/></r></p></e>
+    <e><p><l>pozik<s n="A"/></l><r>lihkolaš<s n="A"/></r></p></e>
+    
+    <e><p><l>triste<s n="A"/></l><r>morašlaš<s n="A"/></r></p></e>
     <e><p><l>txiki<s n="A"/></l><r>unni<s n="A"/></r></p></e>
     <e><p><l>urdina<s n="A"/></l><r>álit<s n="A"/></r></p></e>
     
@@ -86,6 +121,8 @@
     <e slr="1"><p><l>xelebre<s n="A"/></l><r>ártet<s n="A"/></r></p></e>
     <e><p><l>zahar<s n="A"/></l><r>boaris<s n="A"/></r></p></e>
     <e><p><l>zatar<s n="A"/></l><r>ropmi<s n="A"/></r></p></e>
+    <e><p><l>zail<s n="A"/></l><r>váttis<s n="A"/></r></p></e>
+    <e><p><l>zuri<s n="A"/></l><r>vielgat<s n="A"/></r></p></e>
 
     
     <!-- Nouns -->
@@ -99,6 +136,13 @@
     <e><p><l>ama<s n="N"/></l><r>eadni<s n="N"/></r></p></e>
     <e><p><l>amama<s n="N"/></l><r>áhkku<s n="N"/></r></p></e>
     <e><p><l>anaia<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a boy-->
+    <e><p><l>ardo<s n="N"/></l><r>viidni<s n="N"/></r></p></e>
+    <e><p><l>argazki<s n="N"/></l><r>govva<s n="N"/></r></p></e>
+    <e><p><l>armairu<s n="N"/></l><r>skáhppe<s n="N"/></r></p></e>
+    <e><p><l>arrain<s n="N"/></l><r>guolli<s n="N"/></r></p></e>
+    <e><p><l>arratsalde<s n="N"/></l><r>eahket<s n="N"/></r></p></e>
+    <e><p><l>arrautz<s n="N"/></l><r>monni<s n="N"/></r></p></e>
+    <e><p><l>arrazoi<s n="N"/></l><r>sivva<s n="N"/></r></p></e>
     <e><p><l>arreba<s n="N"/></l><r>oabbá<s n="N"/></r></p></e><!--sister of a boy-->
     <e><p><l>aste<s n="N"/></l><r>vahkku<s n="N"/></r></p></e>
     <e><p><l>auzo<s n="N"/></l><r>ránnjá<s n="N"/></r></p></e>
@@ -110,18 +154,26 @@
     <e><p><l>buru<s n="N"/></l><r>oaivi<s n="N"/></r></p></e>
     
     <e><p><l>denbora<s n="N"/></l><r>áigi<s n="N"/></r></p></e>
+    <e><p><l>denda<s n="N"/></l><r>gávpi<s n="N"/></r></p></e>
+    <e><p><l>diru<s n="N"/></l><r>ruhta<s n="N"/></r></p></e>
     
     <e><p><l>egia<s n="N"/></l><r>duohtavuohta<s n="N"/></r></p></e>
+    <e><p><l>egongela<s n="N"/></l><r>stohpu<s n="N"/></r></p></e>
     <e><p><l>egun<s n="N"/></l><r>beaivi<s n="N"/></r></p></e>
+    <e><p><l>egunkarri<s n="N"/></l><r>aviisa<s n="N"/></r></p></e>
     <e><p><l>ekaitzaldi<s n="N"/></l><r>storbma<s n="N"/></r></p></e>
     <e><p><l>elkarreragin<s n="N"/></l><r><s n="N"/></r></p></e><!--interaction-->
+    <e><p><l>elur<s n="N"/></l><r>muohta<s n="N"/></r></p></e>
     <e><p><l>emakume<s n="N"/></l><r>nisson<s n="N"/></r></p></e>
     <e><p><l>erdi<s n="N"/></l><r>bealli<s n="N"/></r></p></e>
     <e><p><l>errege<s n="N"/></l><r>gonagas<s n="N"/></r></p></e>
     <e><p><l>esku<s n="N"/></l><r>giehta<s n="N"/></r></p></e>
     <e><p><l>etxe<s n="N"/></l><r>viessu<s n="N"/></r></p></e>
+    <e><p><l>euria<s n="N"/></l><r>arvi<s n="N"/></r></p></e>
     
     <e><p><l>galtzak<s n="N"/></l><r>buvssat<s n="N"/></r></p></e>
+    <e><p><l>garagardo<s n="N"/></l><r>vuolla<s n="N"/></r></p></e>
+    <e><p><l>gau<s n="N"/></l><r>idja<s n="N"/></r></p></e>
     <e><p><l>gauza<s n="N"/></l><r>ášši<s n="N"/></r></p></e>
     <e><p><l>azkazal<s n="N"/></l><r>gazza<s n="N"/></r></p></e>
     <e><p><l>gizon<s n="N"/></l><r>olmmái<s n="N"/></r></p></e>
@@ -130,49 +182,78 @@
     <e><p><l>guraso<s n="N"/></l><r>vánhen<s n="N"/></r></p></e>
     
     <e><p><l>hanka<s n="N"/></l>juolgi<r><s n="N"/></r></p></e>
+    <e><p><l>harri<s n="N"/></l>geađgi<r><s n="N"/></r></p></e>
     <e><p><l>helburu<s n="N"/></l>moalla<r><s n="N"/></r></p></e><!--goal, objective, purpose-->
     <e><p><l>herri<s n="N"/></l>báiki<r><s n="N"/></r></p></e>
     <e><p><l>hesi<s n="N"/></l>áidi<r><s n="N"/></r></p></e>
     <e><p><l>hiri<s n="N"/></l><r>gávpot<s n="N"/></r></p></e>
     <e><p><l>hitzegi<s n="N"/></l><r>sátnegirji<s n="N"/></r></p></e>
     <e><p><l>hizkuntz<s n="N"/></l><r>giella<s n="N"/></r></p></e>
-    <e><p><l>hortza<s n="N"/></l><r>bátni<s n="N"/></r></p></e>
+    <e><p><l>hondar<s n="N"/></l><r>báhcámuš<s n="N"/></r></p></e><!--Duommá?-->
+    <e><p><l>horma<s n="N"/></l><r>seaidni<s n="N"/></r></p></e>
+    <e><p><l>hortz<s n="N"/></l><r>bátni<s n="N"/></r></p></e>
     
+    <e><p><l>ibai<s n="N"/></l>johka<r><s n="N"/></r></p></e>
     <e><p><l>ikasket<s n="N"/></l><r><s n="N"/></r></p></e><!--studies, oahppu?-->
     <e><p><l>ikasle<s n="N"/></l><r>oahppi<s n="N"/></r></p></e>
     <e><p><l>ile<s n="N"/></l><r>vuokta<s n="N"/></r></p></e>
+    <e><p><l>ipuin<s n="N"/></l><r>máinnas<s n="N"/></r></p></e>
+    <e><p><l>ipurdi<s n="N"/></l><r>bahta<s n="N"/></r></p></e>
     <e><p><l>irakasle<s n="N"/></l><r>oahpaheaddji<s n="N"/></r></p></e>
     <e><p><l>irla<s n="N"/></l><r>sullo<s n="N"/></r></p></e>
+    <e><p><l>irrati<s n="N"/></l><r>radio<s n="N"/></r></p></e>
     <e><p><l>itsaso<s n="N"/></l><r>meara<s n="N"/></r></p></e>
+    <e><p><l>itxur<s n="N"/></l><r>hápmi<s n="N"/></r></p></e>
     <e><p><l>izen<s n="N"/></l>namma<r><s n="N"/></r></p></e>
     <e><p><l>izenordain<s n="N"/></l>pronomena<r><s n="N"/></r></p></e>
     
     <e><p><l>jabe<s n="N"/></l>oamasteaddji<r><s n="N"/></r></p></e>
+    <e><p><l>janari<s n="N"/></l>borramuš<r><s n="N"/></r></p></e>
     <e><p><l>jardin<s n="N"/></l>gárdi<r><s n="N"/></r></p></e>
+    <e><p><l>jatetxe<s n="N"/></l>borranbáiki<r><s n="N"/></r></p></e><
     <e><p><l>jatorri<s n="N"/></l>gáldu<r><s n="N"/></r></p></e><!--descent, ancestry, origin, source-->
     <e><p><l>kopeta<s n="N"/></l>gállu<r><s n="N"/></r></p></e>
+    <e><p><l>katu<s n="N"/></l>bussá<r><s n="N"/></r></p></e>
+    <e><p><l>komuna<s n="N"/></l>hivsset<r><s n="N"/></r></p></e>
     
     <e><p><l>lagun<s n="N"/></l><r>ustit<s n="N"/></r></p></e>
     <e><p><l>laino<s n="N"/></l><r>balva<s n="N"/></r></p></e>
+    <e><p><l>lan<s n="N"/></l><r>bargu<s n="N"/></r></p></e>
+    <e><p><l>liburu<s n="N"/></l><r>girji<s n="N"/></r></p></e>
+    <e><p><l>liburutegi<s n="N"/></l><r>girjjerádju<s n="N"/></r></p></e>
     <e><p><l>lo<s n="N"/></l><r>nagir<s n="N"/></r></p></e>
+    <e><p><l>logela<s n="N"/></l><r>oađđinlatnja<s n="N"/></r></p></e>
     <e><p><l>lore<s n="N"/></l><r>rássi<s n="N"/></r></p></e>
     <e slr="1"><p><l>lore<s n="N"/></l><r>lieđđi<s n="N"/></r></p></e>
     
+    <e><p><l>maite<s n="N"/></l><r>ráhkisvuohta<s n="N"/></r></p></e>
+    <e><p><l>mendi<s n="N"/></l><r>várri<s n="N"/></r></p></e>
+    <e><p><l>mundu<s n="N"/></l><r>máilbmi<s n="N"/></r></p></e>
     <e><p><l>mutil<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--boy-->
     <e slr="1"><p><l>mutil<s n="N"/></l><r>irgi<s n="N"/></r></p></e>
     <e><p><l>neba<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a girl-->
     <e><p><l>neska<s n="N"/></l><r>nieida<s n="N"/></r></p></e><!--girl-->
     <e slr="1"><p><l>neska<s n="N"/></l><r>moarsi<s n="N"/></r></p></e>
     
+    <e><p><l>ogi<s n="N"/></l><r>láibi<s n="N"/></r></p></e>
     <e><p><l>ohe<s n="N"/></l><r>seaŋga<s n="N"/></r></p></e>
+    <e><p><l>patata<s n="N"/></l><r>buđet<s n="N"/></r></p></e>
+    <e><p><l>pisu<s n="N"/></l><r>gárdi<s n="N"/></r></p></e>
+    <e><p><l>pisu<s n="N"/></l><r>assodat<s n="N"/></r></p></e>
+    
     <e><p><l>seme<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--son-->
+    <e><p><l>sonbrero<s n="N"/></l><r>háhtta<s n="N"/></r></p></e>
     <e><p><l>sorbalda<s n="N"/></l><r>oalgi<s n="N"/></r></p></e>
+    <e><p><l>sukalde<s n="N"/></l><r>gievkan<s n="N"/></r></p></e>
     <e><p><l>sudur<s n="N"/></l><r>njunni<s n="N"/></r></p></e>
     
     <e><p><l>te<s n="N"/></l><r>deadja<s n="N"/></r></p></e>
+    <e><p><l>txakur<s n="N"/></l><r>beana<s n="N"/></r></p></e>
     
     <e><p><l>uda<s n="N"/></l><r>geassi<s n="N"/></r></p></e>
     <e><p><l>ume<s n="N"/></l><r>mánná<s n="N"/></r></p></e>
+    <e><p><l>une<s n="N"/></l><r>áigi<s n="N"/></r></p></e>
+    <e><p><l>ura<s n="N"/></l><r>čáhci<s n="N"/></r></p></e>
     <e><p><l>urre<s n="N"/></l><r>golli<s n="N"/></r></p></e>
     <e><p><l>urte<s n="N"/></l><r>jáhki<s n="N"/></r></p></e>
     
@@ -180,6 +261,7 @@
     <e><p><l>zaletsun<s n="N"/></l><r><s n="N"/></r></p></e><!--hobby, liking, fondness, addiction-->
     <e><p><l>zapata<s n="N"/></l><r>gáma<s n="N"/></r></p></e>
     <e><p><l>zeru<s n="N"/></l><r>álbmi<s n="N"/></r></p></e>
+    <e><p><l>zuhaitz<s n="N"/></l><r>muorra<s n="N"/></r></p></e>
     
     
     
@@ -187,7 +269,10 @@
     <e><p><l>Annika<s n="N"/><s n="Prop"/></l><r>Annika<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Egipton<s n="N"/><s n="Prop"/></l><r>Egypta<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Kaltzaluze<s n="N"/><s n="Prop"/></l><r>Guhkessuohku<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jaungoikoa<s n="N"/><s n="Prop"/></l><r>Ipmil<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jainkoa<s n="N"/><s n="Prop"/></l><r>Ipmil<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Mozolomendi<s n="N"/><s n="Prop"/></l><r>Hearvadállu<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Olentzero<s n="N"/><s n="Prop"/></l><r>Jouvlastállu<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Pippi<s n="N"/><s n="Prop"/></l><r>Pippi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Tommy<s n="N"/><s n="Prop"/></l><r>Tomi<s n="N"/><s n="Prop"/></r></p></e>
 
@@ -210,23 +295,28 @@
     <e slr="1"><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>aurkitu<s n="V"/></l><r>gávdnat<s n="V"/><s n="TV"/></r></p></e>
+    
     <e><p><l>baieztatu<s n="V"/></l><r>duođaštit<s n="V"/><s n="TV"/></r></p></e><!--confirm-->
     <e><p><l>banandu<s n="V"/></l><r>juohkit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>banandu<s n="V"/></l><r>sirret<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>barkatu<s n="V"/></l><r>ándagassi<b/>addit<s n="V"/><s n="TV"/></r></p></e><!--forgive-->
     <e><p><l>bazkaldu<s n="V"/></l><r>lunša<b/>borrat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>begiratu<s n="V"/></l><r>geahččat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>behartu<s n="V"/></l><r>bágget<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>besarkatu<s n="V"/></l>salastit<r><s n="V"/><s n="TV"/></r></p></e><!-- -->
     <e><p><l>bete<s n="V"/></l>dievasmahttit<r><s n="V"/><s n="TV"/></r></p></e><!--fill,obey,be-->
     <e><p><l>bidali<s n="V"/></l>sáddet<r><s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bilakatu<s n="V"/></l><r>šaddat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>bilatu<s n="V"/></l><r>ohcat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bisitatu<s n="V"/></l><r>fitnat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>zahartu<s n="V"/></l><r>boarásmuvvat<s n="V"/><s n="IV"/></r></p></e>
         
     <e><p><l>deitu<s n="V"/></l><r>riŋget<s n="V"/><s n="TV"/></r></p></e>
-    <e slr="1"><p><l>deitu<s n="V"/></l><r>gohčodit<s n="V"/><s n="TV"/></r></p></e><!--nor-nori-->
-    
+    <e slr="1"><p><l>deitu<s n="V"/></l><r>gohčodit<s n="V"/><s n="TV"/></r></p></e><!--nor-nori-->    
     <e><p><l>desagertu<s n="V"/></l><r>jávkat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>deskribatu<s n="V"/></l><r>čilget<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>dibortziatu<s n="V"/></l><r>earránit<s n="V"/><s n="TV"/></r></p></e>
+    
     <e><p><l>edan<s n="V"/></l><r>juhkat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>egin<s n="V"/></l><r>bargat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>egin<s n="V"/></l><r>dahkat<s n="V"/><s n="TV"/></r></p></e>
@@ -236,6 +326,7 @@
     <e slr="1"><p><l>eman<s n="V"/></l><r>leat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>entzun<s n="V"/></l><r>gullat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>entzun<s n="V"/></l><r>guldalit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>erabili<s n="V"/></l>geavahit<r><s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>eraman<s n="V"/></l>buktit<r><s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>eraman<s n="V"/></l><r><s n="V"/><s n="TV"/></r></p></e><!--wear clothes-->
     <e slr="2"><p><l>eraman<s n="V"/></l><r><s n="V"/><s n="TV"/></r></p></e>
@@ -245,18 +336,24 @@
     <e><p><l>erre<s n="V"/></l><r>borgguhit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>erre<s n="V"/></l><r>boaldit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>erori<s n="V"/></l><r>gahččat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>erosi<s n="V"/></l><r>oastit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>eskaini<s n="V"/></l><r><s n="V"/><s n="IV"/></r></p></e><!--offer, dedicate-->
     <e><p><l>eskatu<s n="V"/></l><r>jearrat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>eskatu<s n="V"/></l><r>bivdit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="2"><p><l>eskatu<s n="V"/></l><r>diŋgot<s n="V"/><s n="TV"/></r></p></e>
     <e slr="3"><p><l>eskatu<s n="V"/></l><r>gáibidit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>etorri<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    
+    <e><p><l>garbitu<s n="V"/></l><r>čorget<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>geratu<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>geratu<s n="V"/></l><r>šaddat<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>geratu<s n="V"/></l><r>dáhppáhuvvat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>gogoratu<s n="V"/></l><r>muitit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>gosaldu<s n="V"/></l><r>iđitbiepmu<b/>borrat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>grabatu<s n="V"/></l>báddet<r><s n="V"/><s n="TV"/></r></p></e><!--tape-->
+    <e><p><l>gustatu<s n="V"/></l>liikot<r><s n="V"/><s n="TV"/></r></p></e>
+    
+    <e><p><l>hartu<s n="V"/></l><r>váldit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hasi<s n="V"/></l><r>álgit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hautatu<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hautatu<s n="V"/></l><r>jienastit<s n="V"/><s n="IV"/></r></p></e>
@@ -264,7 +361,10 @@
     <e slr="1"><p><l>hitz<b/>egin<s n="V"/></l><r>hupmat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hil<s n="V"/></l><r>jápmit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>hil<s n="V"/></l><r>goddit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>hoztu<s n="V"/></l><r>galbmot<s n="V"/><s n="TV"/></r></p></e>
+    
     <e><p><l>ibili<s n="V"/></l><r>vázzit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>igeri<s n="V"/></l><r>vuodjat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>igo<s n="V"/></l><r>goargŋut<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>igo<s n="V"/></l><r><s n="V"/><s n="IV"/></r></p></e><!--mannat bajás-->
     <e><p><l>ikasi<s n="V"/></l><r>oahppat<s n="V"/><s n="TV"/></r></p></e>
@@ -276,7 +376,10 @@
     <e><p><l>ireki<s n="V"/></l><r>rahpatsit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>iritsi<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>iritsi<s n="V"/></l><r>ollet<s n="V"/><s n="IV"/></r></p></e>
+    e><p><l>iruditu<s n="V"/></l><r>orrut<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>izan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to be-->
+    
+    <e><p><l>jakin<s n="V"/></l><r>diehtit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>jan<s n="V"/></l><r>borrat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>jaitsi<s n="V"/></l><r>njiedjat<s n="V"/><s n="IV"/></r></p></e><!--mannat vulos-->
     <e><p><l>jarri<s n="V"/></l><r>bidjat<s n="V"/><s n="TV"/></r></p></e>
@@ -287,6 +390,8 @@
     <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>jokatu<s n="V"/></l><r>speallat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>jokatu<s n="V"/></l><r>neaktit<s n="V"/><s n="TV"/></r></p></e>
+    
+    <e><p><l>kezkatu<s n="V"/></l><r>fuolasmuvvat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>konturatu<s n="V"/></l><r>fuomášit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>landatu<s n="V"/></l><r>gilvit<s n="V"/><s n="TV"/></r></p></e><!--plant-->
     <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
@@ -299,18 +404,16 @@
     <e><p><l>ohi<s n="V"/></l><r>lávet<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>ornatu<s n="V"/></l><r>lobi<b/>addit<s n="V"/><s n="TV"/></r></p></e>
     
+    <e><p><l>pentsatu<s n="V"/></l><r>smiehtat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>puskatu<s n="V"/></l><r>bilistit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>puskatu<s n="V"/></l><r>billašuvvat<s n="V"/><s n="IV"/></r></p></e>
+    
     <e><p><l>saiatu<s n="V"/></l><r>iskat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>sartu<s n="V"/></l><r>bidjat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>sartu<s n="V"/></l><r>mannat<s n="V"/><s n="TV"/></r></p></e><!--boahtit sisa-->
     <e><p><l>ukan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to have-->
     <e><p><l>ulertu<s n="V"/></l><r>áddet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>ulertu<s n="V"/></l><r>ipmirdit<s n="V"/><s n="TV"/></r></p></e>
-
-    <e><p><l>begiratu<s n="V"/></l><r>geahččat<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>desagertu<s n="V"/></l><r>jávkat<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>erori<s n="V"/></l><r>gahčat<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>igeri<s n="V"/></l><r>vuodjat<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>kezkatu<s n="V"/></l><r>fuolasmuvvat<s n="V"/><s n="IV"/></r></p></e>
     
     <e><p><l>zahartu<s n="V"/></l><r>boarasmuvvat<s n="V"/><s n="IV"/></r></p></e>
   </section>
