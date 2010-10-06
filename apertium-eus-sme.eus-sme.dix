@@ -31,6 +31,8 @@
     <e><p><l>beti<s n="Adv"/></l><r>álo<s n="Adv"/></r></p></e>
     <e><p><l>bihar<s n="Adv"/></l><r>ihttin<s n="Adv"/></r></p></e>
     
+    <e><p><l>berehala<s n="Adv"/></l><r>dakkaviđe<s n="Adv"/></r></p></e>
+    
     <e><p><l>ere<s n="Adv"/></l><r>maid<s n="Adv"/></r></p></e>
     
     <e><p><l>gainera<s n="Adv"/></l><r>maŋŋil<s n="Adv"/></r></p></e>
@@ -201,6 +203,7 @@
     
     <e><p><l>barku<s n="N"/></l><r>fanas<s n="N"/></r></p></e>
     <e><p><l>begi<s n="N"/></l><r>čalbmi<s n="N"/></r></p></e>
+    <e><p><l>beldura<s n="N"/></l><r>čibbi<s n="N"/></r></p></e>
     <e><p><l>bilatzaile<s n="N"/></l><r>ohcci<s n="N"/></r></p></e>
     <e><p><l>bizi<s n="N"/></l><r>eallin<s n="N"/></r></p></e>
     <e><p><l>bizitoki<s n="N"/></l><r>orrunsadji<s n="N"/></r></p></e><!--place of residence, home; house-->
@@ -330,6 +333,7 @@
     <e><p><l>sonbrero<s n="N"/></l><r>háhtta<s n="N"/></r></p></e>
     <e><p><l>sorbalda<s n="N"/></l><r>oalgi<s n="N"/></r></p></e>
     <e><p><l>sukalde<s n="N"/></l><r>gievkkan<s n="N"/></r></p></e>
+    <e><p><l>su<s n="N"/></l><r>dolla<s n="N"/></r></p></e>
     <e><p><l>sudur<s n="N"/></l><r>njunni<s n="N"/></r></p></e>
     
     <e><p><l>te<s n="N"/></l><r>deadja<s n="N"/></r></p></e>
@@ -363,6 +367,7 @@
     <e><p><l>Olentzero<s n="N"/><s n="Prop"/></l><r>Jouvlastállu<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Pippi<s n="N"/><s n="Prop"/></l><r>Pippi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Tommy<s n="N"/><s n="Prop"/></l><r>Tomi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Willie<s n="N"/><s n="Prop"/></l><r>Willy<s n="N"/><s n="Prop"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>abestu<s n="V"/></l><r>lávlut<s n="V"/><s n="TV"/></r></p></e>
@@ -399,6 +404,7 @@
     <e><p><l>bilatu<s n="V"/></l><r>ohcat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bisitatu<s n="V"/></l><r>fitnat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>bukatu<s n="V"/></l><r>geargat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>burlaka<s n="V"/></l><r>givssidit<s n="V"/><s n="TV"/></r></p></e>
         
     <e><p><l>deitu<s n="V"/></l><r>riŋget<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>deitu<s n="V"/></l><r>gohčodit<s n="V"/><s n="TV"/></r></p></e><!--nor-nori-->    
@@ -437,6 +443,7 @@
     <e slr="3"><p><l>eskatu<s n="V"/></l><r>gáibidit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>esnatu<s n="V"/></l><r>morihit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>etorri<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>ezagutu<s n="V"/></l><r>dovdat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>galdu<s n="V"/></l><r>láhppit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>garbitu<s n="V"/></l><r>čorget<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>geratu<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e>
@@ -451,6 +458,7 @@
     <e><p><l>haritu<s n="V"/></l><r>imaštallat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hartu<s n="V"/></l><r>váldit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hasi<s n="V"/></l><r>álgit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>haserretu<s n="V"/></l><r>suhttat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>hautatu<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hautatu<s n="V"/></l><r>jienastit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>hitz<b/>egin<s n="V"/></l><r>hállat<s n="V"/><s n="TV"/></r></p></e>
@@ -466,6 +474,7 @@
     <e><p><l>ikasi<s n="V"/></l><r>oahppat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>ikasi<s n="V"/></l><r>lohkat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ikusi<s n="V"/></l><r>oaidnit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>inguruatu<s n="V"/></l><r>birastahttit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>isuri<s n="V"/></l><r>leiket<s n="V"/><s n="TV"/></r></p></e><!--also flow, emit, spill-->
     <e><p><l>irankurri<s n="V"/></l><r>lohkat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ireki<s n="V"/></l><r>rahpat<s n="V"/><s n="TV"/></r></p></e>
@@ -494,6 +503,7 @@
     <e><p><l>landatu<s n="V"/></l><r>gilvit<s n="V"/><s n="TV"/></r></p></e><!--plant-->
     <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>lortu<s n="V"/></l><r>oažžut<s n="V"/><s n="TV"/></r></p></e><!--also joksat?-->
+    <e slr="1"><p><l>lortu<s n="V"/></l><r>nagodit<s n="V"/><s n="TV"/></r></p></e>
     
     <e><p><l>mintzatu<s n="V"/></l><r>hallat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>moztu<s n="V"/></l><r>čuohppat<s n="V"/><s n="TV"/></r></p></e>
