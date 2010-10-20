@@ -391,9 +391,9 @@
     <e><p><l>asmatu<s n="V"/></l><r>fuomášit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>asmatu<s n="V"/></l><r>árvidit<s n="V"/><s n="IV"/></r></p></e><!--???-->
     <e><p><l>aspertu<s n="V"/></l><r>láittastuvvat<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>atera<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
-    <e slr="1"><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
-    <e slr="2"><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>atera<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e><!--Kalera atera naiz-->
+    <e slr="1"><p><l>atera<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e><!--Etxetik atera naiz-->
+    <e slr="2"><p><l>atera<s n="V"/></l><r>viežžat<s n="V"/><s n="TV"/></r></p></e><!--Txakurra kalera atera/etxetik dut. - He sacado el perro a la calle.-->
     <e><p><l>aurkitu<s n="V"/></l><r>gávdnat<s n="V"/><s n="TV"/></r></p></e>
     
     <e><p><l>baieztatu<s n="V"/></l><r>duođaštit<s n="V"/><s n="TV"/></r></p></e><!--confirm-->
@@ -412,8 +412,8 @@
     <e><p><l>bukatu<s n="V"/></l><r>geargat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>burlaka<s n="V"/></l><r>givssidit<s n="V"/><s n="TV"/></r></p></e>
         
-    <e><p><l>deitu<s n="V"/></l><r>riŋget<s n="V"/><s n="TV"/></r></p></e>
-    <e slr="1"><p><l>deitu<s n="V"/></l><r>gohčodit<s n="V"/><s n="TV"/></r></p></e><!--nor-nori-->    
+    <e><p><l>deitu<s n="V"/></l><r>riŋget<s n="V"/><s n="TV"/></r></p></e><!--nor-nori-nork/nor-nork-->
+    <e slr="1"><p><l>deitu<s n="V"/></l><r>gohčodit<s n="V"/><s n="TV"/></r></p></e><!--nor/(nor-nork)-->    
     <e><p><l>desagertu<s n="V"/></l><r>jávkat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>deskansatu<s n="V"/></l><r>bosihit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>deskansatu<s n="V"/></l><r>vuoiŋŋastit<s n="V"/><s n="IV"/></r></p></e>
@@ -500,6 +500,7 @@
     <e slr="1"><p><l>jarri<s n="V"/></l><r>šaddat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="2"><p><l>jarri<s n="V"/></l><r>addit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>jaurti<s n="V"/></l><r>bálkestit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>jaurti<s n="V"/></l><r>gurastit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>joan<s n="V"/></l><r>mannat<s n="V"/><s n="IV"/></r></p></e>
     <e slr="1"><p><l>joan<s n="V"/></l><r>vuolgit<s n="V"/><s n="IV"/></r></p></e>
     <e slr="2"><p><l>joan<s n="V"/></l><r>boahtit<s n="V"/><s n="IV"/></r></p></e>
@@ -534,8 +535,10 @@
     <e><p><l>ulertu<s n="V"/></l><r>áddet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>ulertu<s n="V"/></l><r>ipmirdit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>utzi<s n="V"/></l><r>diktit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="1"><p><l>utzi<s n="V"/></l><r>guođđit<s n="V"/><s n="TV"/></r></p></e>
     
     <e><p><l>zahartu<s n="V"/></l><r>boarásmuvvat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>zintzilikatu<s n="V"/></l><r>giŋgot<s n="V"/><s n="IV"/></r></p></e>
   </section>
 </dictionary>
 
