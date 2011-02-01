@@ -1584,9 +1584,9 @@
     <frame id="1">
       <ex>Mikelek ispilu batean erreparatu du eta ispiluan ilargia.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has seen the mirror and in the mirror, the moon.</gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"> Mikel ha visto el espejo y en el espejo la luna.</gloss>
+        <gloss lang="spa">Mikel ha visto el espejo y en el espejo la luna.</gloss>
       </glosses>
       <subj>
         <case>erg</case>
@@ -1602,7 +1602,7 @@
     <frame id="2">
       <ex>Mikelek erreparatu du hori ez dela horrela.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has realised that that isn't like that.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel se ha dado cuenta de que eso no es así.</gloss>
       </glosses>
@@ -1620,7 +1620,7 @@
     <frame id="3">
       <ex>Mikelek ez du zure arazoetan erreparatu.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel hasn't noticed your problems.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel no se ha dado cuenta de tus problemas.</gloss>
       </glosses>
