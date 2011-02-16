@@ -1,6 +1,29 @@
 <valency lang="sme">
+
+<verb lm="addet"><!--95 ulertu-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>  
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sems>
+        <sem>human</sem>
+        <sem>matter</sem>
+        </sems>
+      </obj>
+    </frame>
+  </verb>
     
-  <verb lm="addit"><!--eman, jarri, ornatu--><!--set or other verbs that work the same way-->
+  <verb lm="addit"><!--6 eman, jarri, ornatu--><!--set or other verbs that work the same way-->
     <frame id="1">
       <ex>Mun attán dutnje ovtta vuokka, ja maid gottešat, de it galgga geahččat ovdalgo golbma leat goddán.</ex>
       <glosses>
@@ -15,12 +38,15 @@
       <obj>
         <case>acc</case>
         <role>theme</role>
-        <sem></sem>
+        <sems>
+            <sem>conobject</sem>
+            <sem>concept</sem>
+        </sems>
       </obj>
       <advl1>
         <case>ill</case>
         <role>recipient</role>
-        <sem>human</sem>
+        <sem>animate</sem>
       </advl1>
     </frame>
     <frame id="2">
@@ -31,7 +57,7 @@
       </glosses>
       <subj>
         <case>nom</case>
-        <role>cause?</role>
+        <role>agent</role><!--cause??-->
         <sem></sem>
       </subj>
       <advl0>
@@ -64,7 +90,11 @@
       <obj>
         <case>acc</case>
         <role>theme</role>
-        <sem>education</sem>
+        <sems>
+            <sem>conobject</sem>
+            <sem>concept</sem>
+            <sem>education</sem>
+        </sems>
       </obj>
     </frame>
   </verb>
@@ -281,6 +311,46 @@
     </frame>
   </verb>
   
+  <verb lm="badjelgeahččat">
+    <frame id="1">
+      <ex>Lohken sutnje ahte ledjen leamaš latnisge ja eallinagi mu ledjen badjelgeahččan ja bealkkehan, muhto son dušše himihii: Gal mun dan dieđán ... ja de fas jaskkodii.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem>hum</sem>
+      </obj>
+    </frame>
+  </verb>
+  
+    <verb lm="ballat">
+    <frame id="1">
+      <ex>Go mii ná ballát áhkuin, man heajos dilli lea dalle náitalan dievdduin?</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>experiencer</role>
+        <sem>animate</sem>
+      </subj>
+      <advl0>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem>
+      </advl0>
+    </frame>
+  </verb>
+  
   <verb lm="bargat">
     <frame id="1">
       <ex>Son barggai Buolbmát sámeskuvllas dan rájes go vuosttaš sámeluohkká álggahuvvui boares Buolbmát skuvlii, dahje Polmak skole mii lei skuvlla boares dárogielnamma.</ex>
@@ -345,7 +415,7 @@
         <sem>inanimate</sem>
       </advl0>
     </frame>
-        <frame id="4">
+        <frame id="5">
       <ex>Álgen cuoŋománus diibmá, barggan čuođi proseantta ja loavttán hui bures, muitala Merete, gii dán fálaldaga haga várra livččii šaddan barguimáhcahanortnegii.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
@@ -403,6 +473,95 @@
         <role>theme</role>
         <sem></sem><!--something that makes sounds - human, electronic item-->
       </obj>
+    </frame>
+  </verb>
+  
+  <verb lm="beassat">
+    <frame id="1">
+      <ex>Mun beasan duinna dohko.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>animate</sem>
+      </subj>
+      <advl1>
+        <case>com</case>
+        <role></role>
+        <sem>hum</sem>
+        <opt>optional<opt/>
+      </advl1>
+      <advl2>
+        <case>ill</case>
+        <role>destination</role>
+        <sem></sem>
+      </advl2>
+    </frame>
+    <frame id="2">
+      <ex>Son vurddii álo mášoheamet eahkeda, goas beasašii fas Ivváriin jávrri ala.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>animate</sem>
+      </subj>
+      <advl1>
+        <case>com</case>
+        <role></role>
+        <sem>hum</sem>
+        <opt>optional<opt/>
+      </advl1>
+      <advl2>
+        <case>ala</case>
+        <role>destination</role>
+        <sem>place</sem>       
+      </advl2>    
+    </frame>
+    <frame id="3">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>animate</sem>
+      </subj>
+      <advl1>
+        <case>com</case>
+        <role></role>
+        <sem>hum</sem>
+        <opt>optional<opt/>
+      </advl1>
+      <advl2>
+        <case>lusa</case>
+        <role>destination</role>
+        <sem>human</sem>       
+      </advl2>    
+    </frame>
+    <frame id="4">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>animate</sem>
+      </subj>
+      <advl1>
+        <case>com</case>
+        <role></role>
+        <sem>vehicle</sem>
+      </advl1>   
     </frame>
   </verb>
   
@@ -475,6 +634,26 @@
     </frame>
   </verb>
   
+    <verb lm="birget">
+    <frame id="1">
+      <ex>Soai čilgiiga bárdnáseaskka, man váttis lei dán áigge birget dušše dainna bákkolaš oahpuin ja válddiiga ovdamearkan iežaska.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>human</sem>
+      </subj>
+      <advl1>
+        <case>com</case>
+        <role>theme</role>
+        <sem></sem>
+      </advl1>
+    </frame>
+  </verb>
+  
   <verb lm="bivdit">
     <frame id="1">
       <ex>Mii bivddiimet ja oakkuimet ja čokkiimet skálžžuid, murjjiid ja eará mii lei borahahtti.</ex>
@@ -509,7 +688,7 @@
     </frame>
   </verb>
   
-  <verb lm="boahtit"><!--atera--><!--44-->
+  <verb lm="boahtit"><!--44 atera--><!--64 etorri-->
     <frame id="1">
       <ex>Sus bođii varra hávis.</ex>
       <glosses>
@@ -517,12 +696,14 @@
         <gloss lang="spa">Le salía sangre de la herida.</gloss>
       </glosses>
       <subj>
-        <case>loc</case>
+        <case>nom</case>
         <role>theme</role>
+        <sem>movable</sem>
       </subj>
       <advl0>
         <case>loc</case>
         <role>source</role>
+        <sem></sem>
       </advl0>
     </frame>
     <frame id="2a">
@@ -531,16 +712,6 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
-        <case>nom</case>
-        <role>theme</role>
-      </subj>
-      <advl0>
-        <case>lusa</case>
-        <role>destination</role>
-      </advl0>
-    </frame>
-    <frame id="2b">
       <ex>Go bohten internáhtii, de cissagohten buvssaide, dan in lean dahkan ovdal.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
@@ -549,13 +720,18 @@
       <subj>
         <case>nom</case>
         <role>theme</role>
+        <sem>movable</sem>
       </subj>
       <advl0>
-        <case>ill</case>
+        <cases>
+            <case>lusa</case>
+            <case>illative</case>
+        </cases>
         <role>destination</role>
+        <sem></sem>
       </advl0>
     </frame>
-    <frame id="3">
+    <frame id="2">
       <ex>Ii dáppe lean seammalágan ortnet go duoddaris, gos bohccot bohte ja manne mo dáhtto.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
@@ -564,13 +740,18 @@
       <subj>
         <case>nom</case>
         <role>theme</role>
+        <sem>movable</sem>
       </subj>
       <advl0>
         <case>sub</case>
         <role>manner</role>
       </advl0>
+      <advl1>
+        <case>loc</case>
+        <role>location</role>
+      </advl1>
     </frame>
-    <frame id="4">
+    <frame id="3">
       <ex>Dalle buohtá ovtta bieivvi, lie viimma mannamin ruoktot.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
@@ -584,7 +765,24 @@
       <subj>
         <case>nom</case>
         <role>theme</role>
+        <sem>movable</sem>
       </subj>
+    </frame>
+    <frame id="4">
+      <ex>Preassas lea erenoamaš ovddasvástádus das ahte iešguđet lágan oaivilat bohtet ovdan.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>movable</sem>
+      </subj>
+      <advl0>
+        <case>ovdan</case>
+        <role></role>
+      </advl0>
     </frame>
     <frame id="5">
       <ex>Preassas lea erenoamaš ovddasvástádus das ahte iešguđet lágan oaivilat bohtet ovdan.</ex>
@@ -595,10 +793,12 @@
       <subj>
         <case>nom</case>
         <role>theme</role>
+        <sem>movable</sem>
       </subj>
       <advl0>
-        <case>ovdan</case>
-        <role></role>
+        <case>com</case>
+        <role>manner</role>
+        <sem>vehicle</sem>
       </advl0>
     </frame>
   </verb>
@@ -679,27 +879,81 @@
   
   <verb lm="borrat">
     <frame id="1">
-      <ex></ex>
+      <ex>Finaimet jiekŋahoteallas, boraimet maid buori borramuša. </ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>animate</sem>
       </subj>
-      <advl0>
-        <case></case>
-        <role></role>
-      </advl0>
-      <advl1>
-        <case></case>
-        <role></role>
-      </advl1>
+      <obj>
+        <case>acc</case>
+        <role>patient</role>
+        <sem>inanimate</sem>
+      </obj>
     </frame>
+    <frame id="2">
+      <ex>Ale borra beare dávjá!</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>animate</sem>
+      </subj>
   </verb>
   
   <verb lm="buktit">
+    <frame id="1">
+      <ex>Láiggu ii sáhte molsut ovdal jagi geahčen, ja dalle ferte buktit čálalaččat mánu ovdal.</ex>
+      <ex>Juohke sajis máilmmis leat vuoras olbmot geain lea vástádus dasa mii buktá buoret eallima ja mii dagaha eallima váttisin.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem></sem><!-- -->
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem><!-- -->
+      </obj>
+    </frame>
+    <frame id="2">
+      <ex>Váhnemat fertejedje buktit mánáid skuvlafatnasii unna fatnasaččaiguin.</ex>
+      <ex>Máret buvttii munnje lávlaga maid lei dárogielas jorgalan.</ex>      
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>animate</sem><!-- -->
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem><!-- -->
+      </obj>
+      <advl0>
+        <case>ill</case>
+        <role>destination</role>
+        <sem></sem><!-- -->
+        <opt>optional</opt>
+      </advl0>
+    </frame>
+  </verb>
+  
+    <verb lm="buresboahtit">
     <frame id="1">
       <ex></ex>
       <glosses>
@@ -707,39 +961,62 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
       </subj>
-      <advl0>
-        <case></case>
-        <role></role>
-      </advl0>
-      <advl1>
-        <case></case>
-        <role></role>
-      </advl1>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem>human</sem>
+      </obj>
+    </frame>
+  </verb>
+  
+  <verb lm="čađahit">
+    <frame id="1">
+      <ex>Kursa lea dutnje gii leat čađahan Reform `94 vuođđokurssa ja vuosttaš joatkkakurssa fidnofágalaš suorggis.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>animate</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sems>
+            <sem>plan</sem>
+            <sem>education</sem>
+        </sems>
+      </obj>
     </frame>
   </verb>
   
   <verb lm="dahkat">
     <frame id="1">
-      <ex></ex>
+      <ex>Guttorm muitala iežaset áigut almmuhit skearru boahtte jagi, muhto lea ain eahpesihkar goas sii dahket dan.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem></sem>
+      </subj>
+      <obj>
         <case></case>
         <role></role>
-      </subj>
+        <sem></sem>
+      </obj>
       <advl0>
         <case></case>
         <role></role>
       </advl0>
-      <advl1>
-        <case></case>
-        <role></role>
-      </advl1>
     </frame>
   </verb>
   
@@ -762,6 +1039,26 @@
         <case></case>
         <role></role>
       </advl1>
+    </frame>
+  </verb>
+  
+  <verb lm="deaivat"><!--93 topatu-->
+    <frame id="1">
+      <ex>Vuosttaš gean deiven Guovdageainnu Sámi Joatkkaskuvlla- ja Boazodoalloskuvllas lei muhtin ruksesruossa.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem>human</sem>
+      </obj>
     </frame>
   </verb>
   
@@ -811,8 +1108,27 @@
       </advl1>
     </frame>
   </verb>
-
   
+  <verb lm="dovddadit">
+    <frame id="1">
+      <ex>Risten lei áidna, geainna lei álo bures dovddadan.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role></role>
+        <sem>hum</sem>
+      </subj>
+      <advl0>
+        <case>com</case>
+        <role></role>
+        <sem>hum</sem>
+      </advl0>
+    </frame>
+  </verb>
+
   <verb lm="duođaštit">
     <frame id="1">
       <ex></ex>
@@ -879,7 +1195,7 @@
     </frame>
   </verb>
   
-  <verb lm="fitnat">
+  <verb lm="fievrridit">
     <frame id="1">
       <ex></ex>
       <glosses>
@@ -887,17 +1203,80 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <subj>
-        <case></case>
-        <role></role>
+        <case>nom</case>
+        <role>agent</role>
+        <sem></sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem>concreteobject</sem>
+      </obj>
+    </frame>
+  </verb>
+  
+  <verb lm="finadit">
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>human</sem>
       </subj>
       <advl0>
-        <case></case>
-        <role></role>
+        <case>loc</case>
+        <role>location</role>
+        <sem>place</sem>
       </advl0>
-      <advl1>
-        <case></case>
-        <role></role>
-      </advl1>
+    </frame>
+  </verb>
+  
+  <verb lm="fitnat"><!--18 bisitatut-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>human</sem>
+      </subj>
+      <advl0>
+        <case>loc</case><!--su luhtte-->
+        <role>location</role>
+        <sem>place</sem>
+      </advl0>
+    </frame>
+  </verb>
+  
+  <verb lm="fuolahit"><!--zaindu/kezkatu?-->
+    <frame id="1">
+      <ex>Beaskidii sávzzaid, fuolahii iđiteahket šibitguoktá meahccái ja fas návehii ja girdnetge logai iežas sáhttit jos dárbu, iige gullostan ii oktiige ahte dát dahje duot dal lei nissonolbmuid bargu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem>
+      </obj>
+      <advl0>
+        <case>ill</case>
+        <role>location</role>
+        <sem>place</sem>
+      </advl0>
     </frame>
   </verb>
   
@@ -971,6 +1350,326 @@
         <case></case>
         <role></role>
       </advl1>
+    </frame>
+  </verb>
+  
+  <verb lm="fárret"><!-- -->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem>conobject</sem>
+      </obj>
+    </frame>
+  </verb>
+  
+  <verb lm="geargat"><!--13 amaitu-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <advl0>
+        <case>loc</case>
+        <role>theme</role>
+        <sem>instrument</sem>
+      </advl0>
+    </frame>
+    <frame id="2">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+    </frame>
+    <frame id="3">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <advl0>
+        <case>ill</case>
+        <role>time</role>
+        <sem>time</sem>
+      </advl0>
+    </frame>
+    <frame id="4">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <advl0>
+        <case>com</case>
+        <role>theme</role>
+        <sem>work</sem>
+      </advl0>
+    </frame>
+  </verb>
+  
+  <verb lm="girdit"><!-- -->
+    <frame id="1">
+      <ex>Giđđudehkoset heakkalaččat čáziin, ja girdoset lottit eatnama bajábealde, almmigomuvuođa vuolde.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem>movable</sem>
+      </subj>
+      <advl0>
+        <case>bajábealde</case>
+        <role>location</role>
+        <sem>place</sem>
+      </advl0>
+    </frame>
+  </verb>
+  
+<verb lm="gohčodit"><!--deitu-->
+    <frame id="1">
+      <ex>Ipmil gohčodii čuovgga beaivin ja seavdnjadasa idjan.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem>
+      </obj>
+      <opred>
+        <case>ess</case>
+        <role>predicative</role>
+        <sem></sem>
+      </opred>
+    </frame>
+  </verb>
+  
+    <verb lm="goikat"><!-- -->
+    <frame id="1">
+      <ex>Bálggis ladnjedalai viiddis jeakki goike sajiid mielde ovddosguvlui, garvvii fasttes juovvavári ja guoradii loahppamátkki ráhpes ávžeráigge gitta Stálojárgeahčai.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem></sem>
+      </subj>
+    </frame>
+  </verb>
+  
+  <verb lm="goiket"><!-- -->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem>
+      </obj>
+    </frame>
+  </verb>
+  
+  <verb lm="golahit"><!-- -->
+    <frame id="1">
+      <ex>Na sihkkarit ánssášan, dajai Heaika ja vázzilii Nillá geahčaiges áiggi golahit.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <ex>Eat mii ovttas mánus nagodan 80. 000 ruvnno golahit, dan dihte  šattai dat buorrin, ja mis lei vel 20.000 ruvdno maid leimmet seasttašeamen jahkečoahkkimii.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sems>
+            <sem>time</sem>
+            <sem>money</sem>
+        </sems>
+      </obj>
+    </frame>
+    <frame id="2">
+      <ex>Gilis ii lean oktage ovttaahkásaš, geainna golahit áiggi.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>hum</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem>time</sem>
+      </obj>
+      <advl0>
+        <case>com</case>
+        <role></role>
+        <sem>hum</sem>
+      </advl0>
+    </frame>
+  </verb>
+  
+  <verb lm="gullat"><!--7 entzun-->
+    <frame id="1">
+      <ex>Das muitalii Rávdná su ádjás birra, ahte su lávejedje lohkat noaidin, dan lean mun ge gullan iežan váhnemiin.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem>
+      </obj>
+      <advl0>
+        <case>loc</case>
+        <role>source</role>
+        <sem>hum</sem>
+      </advl0>
+    </frame>
+    <frame id="2">
+      <ex>Dasto gullen mo son nuoladii ja manai seŋgii, veallái jorggáhalai oanehassii ja de jáddadii radio.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>hum</sem>
+      </subj>
+      <obj>
+        <case>sub</case>
+        <role></role>
+        <sem></sem>
+      </obj>
+    </frame>
+    <frame id="3">
+      <ex>Dat gullá lunddolaččat dakkár áššiide go Sámedikkiid válganjuolggadusaide.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>theme</role>
+        <sem></sem>
+      </subj>
+      <advl0>
+        <case>ill</case>
+        <role></role>
+        <sem></sem>
+      </advl0>
+    </frame>
+  </verb>
+  
+  <verb lm="gullet"><!-- -->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role>agent</role>
+        <sem>human</sem>
+      </subj>
+      <advl0>
+        <case>loc</case>
+        <role>location</role>
+        <sem></sem>
+      </advl0>
+    </frame>
+  </verb>
+  
+    <verb lm="guoddit"><!-- -->
+    <frame id="1">
+      <ex>Áidna jeđđehus dás lei ahte ášši guoskkai maiddái su guoibmái, ja guovttá diekkár beahttašumi lei geahppasut guoddit.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>nom</case>
+        <role></role>
+        <sem></sem>
+      </subj>
+      <obj>
+        <case>acc</case>
+        <role>theme</role>
+        <sem></sem>
+      </obj>
     </frame>
   </verb>
   
