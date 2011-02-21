@@ -9,7 +9,7 @@ all:
 	hfst-invert .deps/eus-sme.morf.hfst | hfst-lookup-optimize -o sme-eus.autogen.hfst
 
 	hfst-lookup-optimize .deps/eus-sme.morf.hfst -o eus-sme.automorf.hfst
-	n:
+clean:
 	rm -rf .deps sme-eus.autobil.bin sme-eus.rlx.bin
 
 
