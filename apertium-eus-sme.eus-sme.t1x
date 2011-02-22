@@ -87,13 +87,22 @@
   </def-attr>
 
   <def-attr n="cas">
-     <attr-item tags="nom"/>
-     <attr-item tags="acc"/>
-     <attr-item tags="dat"/>
-     <attr-item tags="gen"/>
-     <attr-item tags="loc"/>
-     <attr-item tags="ins"/>
-     <attr-item tags="voc"/>
+     <attr-item tags="Abs"/>
+     <attr-item tags="Acc"/>
+     <attr-item tags="All"/>
+     <attr-item tags="Ben"/>
+     <attr-item tags="Dat"/>
+     <attr-item tags="Erg"/>
+     <attr-item tags="Ess"/>
+     <attr-item tags="Gen"/>
+     <attr-item tags="PGen"/>
+     <attr-item tags="LGen"/>
+     <attr-item tags="Ine"/>
+     <attr-item tags="Ill"/>
+     <attr-item tags="Ins"/>
+     <attr-item tags="Loc"/>
+     <attr-item tags="Nom"/>
+     <attr-item tags="Soc"/>
      <attr-item tags="prp"/>
   </def-attr>
 
@@ -103,6 +112,29 @@
   <def-var n="number"/>
   <def-var n="genere"/>
 </section-def-vars>
+
+<section-def-macros>
+<def-macro n="set_default_case_pattern" npar="1" c="This is the default case transfer pattern.">
+    <choose>
+        <when> <!-- Change +Abs to +Nom -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Abs"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Nom"/></let>
+        </when>
+        <when> <!-- Change +Dat to +Ill -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Dat"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Ill"/></let>
+        </when>
+      <when> <!-- Change +Ine to +Loc -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Ine"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Loc"/></let>
+        </when>
+        <when> <!-- Change +Soc to +Com -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Soc"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Com"/></let>
+        </when>
+    </choose>
+</def-macro>
+</section-def-macros>
 
 <section-rules>
 <!-- Sintagmas nominales -->
