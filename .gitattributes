@@ -3,6 +3,7 @@
 /apertium-eus-sme.eus-sme.dix -text
 /apertium-eus-sme.eus-sme.t1x -text
 /apertium-eus-sme.eus-sme.t2x -text
+/apertium-eus-sme.eus-sme.t3x -text
 /eus-verb-valency.xml -text
 /sme-verb-valency.xml -text
 /testsentences.txt -text
