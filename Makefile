@@ -9,6 +9,8 @@ all:
 	hfst-invert .deps/eus-sme.morf.hfst | hfst-lookup-optimize -o sme-eus.autogen.hfst
 
 	hfst-lookup-optimize .deps/eus-sme.morf.hfst -o eus-sme.automorf.hfst
+	apertium-validate-transfer apertium-eus-sme.eus-sme.t1x
+	apertium-preprocess-transfer apertium-eus-sme.eus-sme.t1x eus-sme.t1x.bin
 clean:
 	rm -rf .deps sme-eus.autobil.bin sme-eus.rlx.bin
 
