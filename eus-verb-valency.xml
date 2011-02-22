@@ -33,12 +33,12 @@
     </frame>
   </verb>
 
-  <verb lm="agertu"><!--44--><!--appear, show-->
+  <verb lm="agertu"><!--44--><!--appear, show--><!--ihtit-->
     <frame id="1">
       <ex>Giltza poltsikoan agertu da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Čoavdda lea ihtán burssas.</gloss>
         <gloss lang="spa">La llave ha aparecido en el bolsillo.</gloss>
       </glosses>
       <subj>
@@ -55,8 +55,8 @@
         <frame id="2">
       <ex>Enpresan kargurik ez duela agertu da epaiketan.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">At court it turned out that he doesn't have any position in the company.</gloss>
+        <gloss lang="sme">Dikkis bođii ovdan ahte sus ii leat miige virgi fitnodagas.</gloss>
         <gloss lang="spa">En el juicio ha aparecido que no tiene ningún cargo en la empresa.</gloss>
       </glosses>
       <subj>
@@ -73,8 +73,8 @@
         <frame id="3">
       <ex>Mikel sukalde aldetik agertu zen egongelara.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Mikel came through the kitchen into the sitting room.</gloss><!--Mikel showed up in the sitting room from the kitchen-->
+        <gloss lang="sme">Mikel bođii stohpui gievkana bokte.</gloss>
         <gloss lang="spa">Mikel apareció por la cocina a la sala.</gloss>
       </glosses>
       <subj>
@@ -97,7 +97,7 @@
       <ex>Mikel urduri agertu zen.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel orui balus.</gloss>
         <gloss lang="spa">Mikel apareció nervioso.</gloss>
       </glosses>
       <subj>
@@ -2461,6 +2461,45 @@
     </frame>
   </verb>
   
+  <verb lm="haserretu"><!--71-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>erg</case>
+        <role>cause</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+      <obj>
+        <case>abs</case>
+        <role>experiencer</role><!--gai ukitua-->
+        <sem>human</sem><!-- +giz-->
+      </obj>
+    </frame>
+    <frame id="2">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>soz</case>
+        <role>cause</role><!--kausa-->
+        <sem></sem><!-- -->
+      </subj>
+      <obj>
+        <case>abs</case>
+        <role>experiencer</role><!--gai ukitua-->
+        <sem>human</sem><!-- +giz-->
+      </obj>
+    </frame>
+  </verb>
+  
   <verb lm="hasi"><!--begin-->
     <frame id="1">
       <ex>Saioa hasi da.</ex>
@@ -3498,7 +3537,7 @@
     <frame id="1">
       <ex>Mikelek saria lortu du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has obtained the prize.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel ha conseguido el premio.</gloss>
       </glosses>
@@ -3560,6 +3599,27 @@
         <case>dat</case>
         <role>recipient</role><!--helburua-->
         <sem>human</sem><!--giz-->
+      </iobj>
+    </frame>
+  </verb>
+  
+  <verb lm="otu"><!--91--><!--occur-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <subj>
+        <case>ela_konp</case>
+        <role>theme</role><!--gaia-->
+        <sem></sem><!-- -->
+      </subj>
+      <iobj>
+        <case>dat</case>
+        <role>beneficiary</role><!--esperimentatzailea-->
+        <sem>human</sem><!--+giz-->
       </iobj>
     </frame>
   </verb>
