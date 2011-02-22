@@ -101,8 +101,8 @@
     <e><p><l>hori<s n="Pron"/><s n="Dem"/></l><r>diet<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>hura<s n="Pron"/><s n="Dem"/></l><r>duot<s n="Pron"/><s n="Dem"/></r></p></e>
     
-    <e><p><l>nork<s n="Pron"/><s n="Interr"/></l><r>gii<s n="Interr"/><s n="Dem"/></r></p></e>
-    
+    <e><p><l>nor<s n="Pron"/><s n="Interr"/></l><r>gii<s n="Interr"/><s n="Dem"/></r></p></e>
+    <e><p><l>zer<s n="Pron"/><s n="Interr"/></l><r>mii<s n="Pron"/><s n="Interr"/></r></p></e>
     <e><p><l>zergatik<s n="Pron"/><s n="Interr"/></l><r>manin<s n="Pron"/><s n="Interr"/></r></p></e>
     
 
@@ -286,6 +286,7 @@
     
     <e><p><l>hanka<s n="N"/></l>juolgi<r><s n="N"/></r></p></e>
     <e><p><l>harri<s n="N"/></l>geađgi<r><s n="N"/></r></p></e>
+    <e><p><l>hartz<s n="N"/></l>guovžža<r><s n="N"/></r></p></e>
     <e><p><l>hegazti<s n="N"/></l>loddi<r><s n="N"/></r></p></e>
     <e><p><l>helburu<s n="N"/></l>moalla<r><s n="N"/></r></p></e><!--goal, objective, purpose-->
     <e><p><l>herri<s n="N"/></l>báiki<r><s n="N"/></r></p></e>
@@ -372,6 +373,7 @@
     <e><p><l>neska<s n="N"/></l><r>nieida<s n="N"/></r></p></e><!--girl-->
     <e slr="1"><p><l>neska<s n="N"/></l><r>moarsi<s n="N"/></r></p></e>
     
+    <e><p><l>odol<s n="N"/></l><r>varra<s n="N"/></r></p></e>
     <e><p><l>ogi<s n="N"/></l><r>láibi<s n="N"/></r></p></e>
     <e><p><l>ohe<s n="N"/></l><r>seaŋga<s n="N"/></r></p></e>
     <e><p><l>ohian<s n="N"/></l><r>vuovdi<s n="N"/></r></p></e>
@@ -481,7 +483,7 @@
     <e><p><l>bilakatu<s n="V"/></l><r>šaddat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bilatu<s n="V"/></l><r>ohcat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>bisitatu<s n="V"/></l><r>fitnat<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>bukatu<s n="V"/></l><r>geargat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>bukatu<s n="V"/></l><r>geargat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>burlaka<s n="V"/></l><r>givssidit<s n="V"/><s n="TV"/></r></p></e>
         
     <e><p><l>deitu<s n="V"/></l><r>riŋget<s n="V"/><s n="TV"/></r></p></e><!--nor-nori-nork/nor-nork-->
@@ -586,6 +588,7 @@
     <e><p><l>jokatu<s n="V"/></l><r>speallat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>jokatu<s n="V"/></l><r>neaktit<s n="V"/><s n="TV"/></r></p></e>
     
+    <e><p><l>kexatu<s n="V"/></l><r>váidalit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>kezkatu<s n="V"/></l><r>fuolasmuvvat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>konturatu<s n="V"/></l><r>áicat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>landatu<s n="V"/></l><r>gilvit<s n="V"/><s n="TV"/></r></p></e><!--plant-->
