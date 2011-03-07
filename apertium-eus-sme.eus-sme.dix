@@ -596,6 +596,7 @@
     <e><p><l>lo<b/>egin<s n="V"/></l><r>oađđit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>lortu<s n="V"/></l><r>oažžut<s n="V"/><s n="TV"/></r></p></e><!--also joksat?-->
     <e slr="1"><p><l>lortu<s n="V"/></l><r>nagodit<s n="V"/><s n="TV"/></r></p></e>
+    <e slr="2"><p><l>lortu<s n="V"/></l><r>vuoitit<s n="V"/><s n="TV"/></r></p></e>
     
     <e><p><l>mintzatu<s n="V"/></l><r>hallat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>moztu<s n="V"/></l><r>čuohppat<s n="V"/><s n="TV"/></r></p></e>
@@ -615,7 +616,7 @@
     <e><p><l>saiatu<s n="V"/></l><r>iskat<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>saldu<s n="V"/></l><r>vuovdit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>sartu<s n="V"/></l><r>bidjat<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>sartu<s n="V"/></l><r>mannat<s n="V"/><s n="TV"/></r></p></e><!--boahtit sisa-->
+    <e slr="1"><p><l>sartu<s n="V"/></l><r>mannat<s n="V"/><s n="TV"/></r></p></e><!--boahtit sisa-->
     <e><p><l>ukan<s n="V"/></l><r>leat<s n="V"/><s n="IV"/></r></p></e><!--to have-->
     <e><p><l>ukitu<s n="V"/></l><r>guoskkahit<s n="V"/><s n="TV"/></r></p></e><!--to have-->
     <e><p><l>ulertu<s n="V"/></l><r>áddet<s n="V"/><s n="TV"/></r></p></e>
