@@ -6,6 +6,7 @@
     <sdef n="Pron" c="Pronoun"/>
     <sdef n="Num" c="Numeral"/>
     <sdef n="Dem" c="Demonstrative"/>
+    <sdef n="Pers" c="Personal"/>
     <sdef n="Indef" c="Indefinite"/>
     <sdef n="Interr" c="Interrogative"/>
     <sdef n="N"   c="Noun"/>
@@ -97,6 +98,8 @@
     
     
     <!-- Pronouns -->
+
+    <e><p><l>ni<s n="Pron"/><s n="Pers"/></l><r>mun<s n="Pron"/><s n="Pers"/></r></p></e>
     
     <e><p><l>bakoitz<s n="Pron"/><s n="Indef"/></l><r>juohke<s n="Pron"/><s n="Indef"/></r></p></e>
     <e><p><l>beste<s n="Pron"/><s n="Dem"/></l><r>nubbi<s n="Pron"/><s n="Dem"/></r></p></e>
@@ -111,7 +114,6 @@
     
     <e><p><l>nor<s n="Pron"/><s n="Interr"/></l><r>gii<s n="Interr"/><s n="Dem"/></r></p></e>
     <e><p><l>zer<s n="Pron"/><s n="Interr"/></l><r>mii<s n="Pron"/><s n="Interr"/></r></p></e>
-    
 
     <e><p><l>bakoitz<s n="Pron"/></l><r>juohkehaš<s n="Pron"/></r></p></e>
     
@@ -557,12 +559,12 @@
     <e><p><l>grabatu<s n="V"/></l><r>báddet<s n="V"/><s n="TV"/></r></p></e><!--tape-->
     <e><p><l>gustatu<s n="V"/></l><r>liikot<s n="V"/><s n="TV"/></r></p></e>
     
-    <e><p><l>haritu<s n="V"/></l><r>imaštallat<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>hartu<s n="V"/></l><r>váldit<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>hari<s n="V"/></l><r>imaštallat<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>har<s n="V"/></l><r>váldit<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>hasi<s n="V"/></l><r>álgit<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hasi<s n="V"/></l><r>álggahit<s n="V"/><s n="TV"/></r></p></e>
-    <e><p><l>haserretu<s n="V"/></l><r>suhttat<s n="V"/><s n="IV"/></r></p></e>
-    <e><p><l>hautatu<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
+    <e><p><l>haserre<s n="V"/></l><r>suhttat<s n="V"/><s n="IV"/></r></p></e>
+    <e><p><l>hauta<s n="V"/></l><r>válljet<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hautatu<s n="V"/></l><r>jienastit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>hitz<b/>egin<s n="V"/></l><r>hállat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>hitz<b/>egin<s n="V"/></l><r>hupmat<s n="V"/><s n="TV"/></r></p></e>
