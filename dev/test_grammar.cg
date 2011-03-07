@@ -4,61 +4,61 @@ DELIMITERS = "." ;
 
 SECTION
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj) ("lor");
+ADD  (Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj) TARGET ("lor");
     ## Mikelek saria lortu du.
     ## Mikel lea vuoitán balkašumi.
 
-SUBSTITUTE (V) (V Caucase_Erg Caucase_Soc Causyn_Subj Expcase_Abs Expsyn_Obj Expsem_Hum) ("haserre");
+ADD  (Caucase_Erg Caucase_Soc Causyn_Subj Expcase_Abs Expsyn_Obj Expsem_Hum) TARGET ("haserre");
     ## Zergatik haserretzen zara nirekin?
     ## Manin don suhtat mu ala/munnje?
     
-SUBSTITUTE (V) (V) ("utz");
+#ADD  (V) TARGET ("utz");
     ## Utziko al didazu bat?
     ## Attátgo munnje ovtta?
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Ani) ("abes");    
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Ani) TARGET ("abes");    
     ## Nik abesten dut.
     ## Mun lávllan.
 
-SUBSTITUTE (V Agcase_Erg Agsyn_Subj Agsem_Ani Tocase_Abs Tosyn_Obj Tosem_Ina) TARGET ("abes");    
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Ani Tocase_Abs Tosyn_Obj Tosem_Ina) TARGET ("abes");    
     ## Nik abesti bat abesten dut.
     ## Mun lávllan lávlaga.
 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Locase_Ine Losyn_Advl) ("ager"); 
+ADD  (Thcase_Abs Thsyn_Subj Locase_Ine Losyn_Advl) TARGET ("ager"); 
     ## Giltza poltsikoan agertu da.
     ## Čoavdda lea ihtán burssas.
 
-SUBSTITUTE (V) (V Thcase_Elasub Thsyn_Subj Locase_Ine Losyn_Advl) ("ager"); 
+ADD  (Thcase_Elasub Thsyn_Subj Locase_Ine Losyn_Advl) TARGET ("ager"); 
     ## Enpresan kargurik ez duela agertu da epaiketan.
     ## Dikkis bođii ovdan ahte sus ii leat miige virgi fitnodagas.
 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) ("ager"); 
+ADD  (Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("ager"); 
     ## Mikel sukalde aldetik agertu zen egongelara.
     ## Mikel bođii stohpui gievkana bokte.
 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Thsem_Hum Prcase_Abs Prsyn_Advl) ("ager"); 
+ADD  (Thcase_Abs Thsyn_Subj Thsem_Hum Prcase_Abs Prsyn_Advl) TARGET ("ager"); 
     ## Mikel urduri agertu zen.
     ## Mikel orui balus.
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Tocase_Abs Tosyn_Obj) ("ager");     
+ADD  (Agcase_Erg Agsyn_Subj Tocase_Abs Tosyn_Obj) TARGET ("ager");     
     ## Mikelek presa gutxi agertzen du.
     ## Mikel orui unnan hoahppus.
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Tocase_Elasub Tosyn_Obj) ("ager");   
+ADD  (Agcase_Erg Agsyn_Subj Tocase_Elasub Tosyn_Obj) TARGET ("ager");   
     ## Maite duela agertu dio Mikelek.
     ## Mikel eröffnete ihr seine Liebe.
     
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) ("etorr");
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Abl Losyn_Advl Losem_Ina) ("etorr");
+ADD  (Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("etorr");
+ADD  (Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Abl Losyn_Advl Losem_Ina) TARGET ("etorr");
     ## Erabaki horretatik etorri da zure haserrea. 
     ## Tu enfado viene de esa decisión. 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Dat Losyn_Advl Losem_Ani) ("etorr");
+ADD  (Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Dat Losyn_Advl Losem_Ani) TARGET ("etorr");
     ## Mikeli hitza etorri zitzaion bapatean. 
     ## De pronto a Mikel le vino la palabra. 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Thsem_Ina Locase_Ine Losyn_Advl Losem_Ina) ("etorr");
+ADD  (Thcase_Abs Thsyn_Subj Thsem_Ina Locase_Ine Losyn_Advl Losem_Ina) TARGET ("etorr");
     ## Liburu horretan dator jakin nahi duzun guztia
     ## Todo lo que quieres saber viene en ese libro. 
-SUBSTITUTE (V) (V Tocase_Abs Tosyn_Subj Locase_Abs Atsyn_Pred) ("etorr");
+ADD  (Tocase_Abs Tosyn_Subj Locase_Abs Atsyn_Pred) TARGET ("etorr");
     ## Mikel mutiko bihurria zetorren. 
     ## Mikel venía un niño travieso. 
 
@@ -68,48 +68,48 @@ SUBSTITUTE (V) (V Tocase_Abs Tosyn_Subj Locase_Abs Atsyn_Pred) ("etorr");
     ## Dalle buohtá ovtta bieivvi, lie viimma mannamin ruoktot.
     ## Preassas lea erenoamaš ovddasvástádus das ahte iešguđet lágan oaivilat bohtet ovdan.
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) ("entzun");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("entzun");
     ## Mikelek abestia entzun du.
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum) ("entzun");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum) TARGET ("entzun");
     ## Mikelek entzuten du.
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) ("entzun");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("entzun");
     ## Mikelek entzun du bihar euria egingo duela.
 
 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Thsem_Ani) ("hil");
+ADD  (Thcase_Abs Thsyn_Subj Thsem_Ani) TARGET ("hil");
     ## Miren hil da.
     
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) ("hil");
+ADD  (Thcase_Abs Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) TARGET ("hil");
     ## Mikelek Miren hil du.
 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) ("joan");
+ADD  (Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("joan");
     ## Mikel eskolatik etxera joan da.
 
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Thsem_Ina) ("amai");
+ADD  (Thcase_Abs Thsyn_Subj Thsem_Ina) TARGET ("amai");
     ## Antzerkia amaitu da.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Thsem_Ina) ("amai");
+ADD  (Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Thsem_Ina) TARGET ("amai");
     ## Mikelek pastela amaitu du.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Thcase_Soc Thsyn_Advl) ("amai");
+ADD  (Agcase_Erg Agsyn_Subj Thcase_Soc Thsyn_Advl) TARGET ("amai");
     ## Mikelek arazoarekin amaitu du.
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum) ("ikus");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum) TARGET ("ikus");
     ## Mikelek Miren ikusi du.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) ("ikus");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("ikus");
     ## Mikelek ikusten du.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Elasub) ("ikus");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Elasub) TARGET ("ikus");
     ## Mikelek ikusi du partida hasi dela.
 
-SUBSTITUTE (V) (V) ("eman");
+#ADD   TARGET ("eman");
     ## Mikelek muxua eman dio Mireni.
     ## Mikelek egunak eman ditu lanean.
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Becase_Abs Besyn_Obj Besem_Hum Locase_Ala Losyn_Advl) ("dei");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum Becase_Abs Besyn_Obj Besem_Hum Locase_Ala Losyn_Advl) TARGET ("dei");
     ## Haiek jendea manifestazioara deitu dute.
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Becase_Abs Besyn_Obj Besem_Hum Locase_Ala Losyn_Advl) ("dei");
+ADD  (Agcase_Erg Agsyn_Subj Agsem_Hum Becase_Abs Besyn_Obj Besem_Hum Locase_Ala Losyn_Advl) TARGET ("dei");
     ## Haiek manifestazioa deitu dute.
     ## Nik etxera deitu dut.
     ## Nik lagunari telefonoz deitu diot.
@@ -118,41 +118,41 @@ SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Agsem_Hum Becase_Abs Besyn_Obj Besem_Hum
     ## Haiek Mikeli tonto deitu diote.
 
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Tocase_Elasub Tosyn_Obj Recase_Soc Resyn_Advl Resem_Hum) ("mintz");
+ADD  (Agcase_Erg Agsyn_Subj Tocase_Elasub Tosyn_Obj Recase_Soc Resyn_Advl Resem_Hum) TARGET ("mintz");
     ## Ni zurekin mintzatu naiz atzoko partidari buruz.
     ## Mun lean hállan duinna ievttá čiekčamiid birra.
 
-SUBSTITUTE (V) (V Socase_Abs Sosyn_Subj Sosem_Hum Tocase_Ins Tosyn_Advl Recase_Dat Resyn_Iobj Resem_Hum) ("mintz");    
+ADD  (Socase_Abs Sosyn_Subj Sosem_Hum Tocase_Ins Tosyn_Advl Recase_Dat Resyn_Iobj Resem_Hum) TARGET ("mintz");    
     ## Ni zuri mintzatu natzaizu atzoko partidari buruz.
     ## Mun lean hállan duinna ievttá čiekčamiid birra.
     
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Locase_Ala Losyn_Advl) ("sar"); #bidjat, mannat
+ADD  (Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Locase_Ala Losyn_Advl) TARGET ("sar"); #bidjat, mannat
     ## Mikel kaletik tabernara sartu da.
     
-SUBSTITUTE (V) (V Thcase_Abs Thsyn_Subj Locase_Ine Losyn_Advl) ("sar");
+ADD  (Thcase_Abs Thsyn_Subj Locase_Ine Losyn_Advl) TARGET ("sar");
     ## Mikel tabernan sartu da.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Sopacase_Abl Sopasyn_Advl Locase_Ala Losyn_Advl) ("sar");
+ADD  (Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Sopacase_Abl Sopasyn_Advl Locase_Ala Losyn_Advl) TARGET ("sar");
     ## Mikelek paperak poltsatik kaxoira sartu ditu.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Locase_Ine Losyn_Advl) ("sar");
+ADD  (Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Locase_Ine Losyn_Advl) TARGET ("sar");
     ## Mikelek paperak kaxoian sartu ditu.
 
 
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Ins Thsyn_Advl) ("ahaz");
+ADD  (Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Ins Thsyn_Advl) TARGET ("ahaz");
     ## Mikel Mirenez ahaztu da.
     ## Mikel lea vajálduhttán Mirena.
 
-SUBSTITUTE (V) (V Agcase_Dat Agsyn_Iobj  Agsem_Hum Thcase_Abs Thsyn_Subj) ("ahaz");    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
+ADD  (Agcase_Dat Agsyn_Iobj  Agsem_Hum Thcase_Abs Thsyn_Subj) TARGET ("ahaz");    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
     ## Mikeli ikasitakoa ahaztu zaio.
     ## Mikel lea vajálduhttán dan maid lea oahppán.
     
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Abs Thsyn_Obj) ("ahaz"); 
+ADD  (Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("ahaz"); 
        ## Mikelek ikasitakoa ahaztu du.
        ## Mikel lea vajálduhttán dan maid lea oahppán.
 
-SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Elasub Thsyn_Obj) ("ahaz");     
+ADD  (Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("ahaz");     
     ## Mikelek lanera joan behar zuela ahaztu du.
     ## Mikel ha olvidado que tenía que ir a trabajar.
 
