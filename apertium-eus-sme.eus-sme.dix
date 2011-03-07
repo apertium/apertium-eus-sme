@@ -209,8 +209,11 @@
     <e><p><l>amama<s n="N"/></l><r>áhkku<s n="N"/></r></p></e>
     <e><p><l>anaia<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a boy-->
     <e><p><l>anka<s n="N"/></l><r>juolgi<s n="N"/></r></p></e>
+    <e><p><l>antzerki<s n="N"/></l><r>teahter<s n="N"/></r></p></e>
     <e><p><l>apaiz<s n="N"/></l><r>báhppa<s n="N"/></r></p></e>
     <e><p><l>apiril<s n="N"/></l><r>cuoŋománnu<s n="N"/></r></p></e>
+    <e><p><l>arazo<s n="N"/></l><r>váttisvuohta<s n="N"/></r></p></e>
+    <e><p><l>arazoi<s n="N"/></l><r>riekta<s n="N"/></r></p></e>
     <e><p><l>ardo<s n="N"/></l><r>viidni<s n="N"/></r></p></e>
     <e><p><l>argazki<s n="N"/></l><r>govva<s n="N"/></r></p></e>
     <e><p><l>armairu<s n="N"/></l><r>skáhpe<s n="N"/></r></p></e>
@@ -268,6 +271,7 @@
     <e><p><l>erizain<s n="N"/></l><r>buoccedikšu<s n="N"/></r></p></e>
     <e><p><l>erraldoi<s n="N"/></l><r>stállu<s n="N"/></r></p></e>
     <e><p><l>errege<s n="N"/></l><r>gonagas<s n="N"/></r></p></e>
+    <e><p><l>eskola<s n="N"/></l><r>skuvla<s n="N"/></r></p></e>
     <e><p><l>esku<s n="N"/></l><r>giehta<s n="N"/></r></p></e>
     <e><p><l>etxe<s n="N"/></l><r>viessu<s n="N"/></r></p></e>
     <e><p><l>euria<s n="N"/></l><r>arvi<s n="N"/></r></p></e>
@@ -307,6 +311,7 @@
     <e><p><l>horma<s n="N"/></l><r>seaidni<s n="N"/></r></p></e>
     <e><p><l>hosto<s n="N"/></l><r>lasta<s n="N"/></r></p></e>
     <e><p><l>hortz<s n="N"/></l><r>bátni<s n="N"/></r></p></e>
+    <e><p><l>hotel<s n="N"/></l><r>hotealla<s n="N"/></r></p></e>
     
     <e><p><l>ibai<s n="N"/></l><r>johka<s n="N"/></r></p></e>
     <e><p><l>ibar<s n="N"/></l><r>vággi<s n="N"/></r></p></e>
@@ -336,7 +341,9 @@
     <e><p><l>jardin<s n="N"/></l><r>gárdi<s n="N"/></r></p></e>
     <e><p><l>jatetxe<s n="N"/></l><r>borranbáiki<s n="N"/></r></p></e>
     <e><p><l>jatorri<s n="N"/></l><r>gáldu<s n="N"/></r></p></e><!--descent, ancestry, origin, source-->
+    <e><p><l>jende<s n="N"/></l><r>olmmoš<s n="N"/></r></p></e>
     
+    <e><p><l>kale<s n="N"/></l><r>geaidnu<s n="N"/></r></p></e>
     <e><p><l>katu<s n="N"/></l><r>bussá<s n="N"/></r></p></e>
     <e><p><l>kaxa<s n="N"/></l><r>giisá<s n="N"/></r></p></e>
     <e><p><l>ke<s n="N"/></l><r>suovva<s n="N"/></r></p></e>
@@ -368,6 +375,7 @@
     <e><p><l>maindire<s n="N"/></l><r>govččas<s n="N"/></r></p></e>
     <e><p><l>maite<s n="N"/></l><r>ráhkisvuohta<s n="N"/></r></p></e>
     <e><p><l>maleta<s n="N"/></l><r>koaffar<s n="N"/></r></p></e>
+    <e><p><l>manifestazio<s n="N"/></l><r>demonstrašuvdna<s n="N"/></r></p></e>
     <e><p><l>martxo<s n="N"/></l><r>njukčamánnu<s n="N"/></r></p></e>
     <e><p><l>mendi<s n="N"/></l><r>várri<s n="N"/></r></p></e>
     <e><p><l>minutu<s n="N"/></l><r>minuhta<s n="N"/></r></p></e>
@@ -393,6 +401,7 @@
     <e><p><l>otsail<s n="N"/></l><r>guovvamánnu<s n="N"/></r></p></e>
     
     <e><p><l>pasta<s n="N"/></l><r>gáhkku<s n="N"/></r></p></e>
+    <e><p><l>pastel<s n="N"/></l><r>gáhkku<s n="N"/></r></p></e>
     <e><p><l>patata<s n="N"/></l><r>buđet<s n="N"/></r></p></e>
     <e><p><l>pertson<s n="N"/></l><r>olmmoš<s n="N"/></r></p></e>
     <e slr="1"><p><l>pertson<s n="N"/></l><r>persovdna<s n="N"/></r></p></e>
@@ -408,6 +417,7 @@
     <e><p><l>sudur<s n="N"/></l><r>njunni<s n="N"/></r></p></e>
     
     <e><p><l>te<s n="N"/></l><r>deadja<s n="N"/></r></p></e>
+    <e><p><l>telefono<s n="N"/></l><r>telefuvdna<s n="N"/></r></p></e>
     <e><p><l>testu<s n="N"/></l><r>teaksta<s n="N"/></r></p></e>
     <e><p><l>toki<s n="N"/></l><r>báiki<s n="N"/></r></p></e>
     <e><p><l>txakur<s n="N"/></l><r>beana<s n="N"/></r></p></e>
