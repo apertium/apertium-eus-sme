@@ -3,18 +3,24 @@
   <sdefs>
     <sdef n="A"   c="Adjective"/>
     <sdef n="Adv" c="Adverb"/>
+    <sdef n="Pron" c="Pronoun"/>
+    <sdef n="Num" c="Numeral"/>
+    <sdef n="Dem" c="Demonstrative"/>
+    <sdef n="Indef" c="Indefinite"/>
+    <sdef n="Interr" c="Interrogative"/>
     <sdef n="N"   c="Noun"/>
     <sdef n="Po"  c="Postposition"/>
     <sdef n="V"   c="Verb"/>
     <sdef n="IV"  c="Intransitive"/>
     <sdef n="TV"  c="Transitive"/>
     <sdef n="CC"  c="Co-ordinator"/>
+    <sdef n="Prop"  c="Proper name"/>
   </sdefs>
   <section id="main" type="standard">
   
     <!-- Adverbs -->
     
-    <e><p><l>askotan<s n="Adv"/></l>dávjá<r><s n="Adv"/></r></p></e>
+    <e><p><l>askotan<s n="Adv"/></l><r>dávjá<s n="Adv"/></r></p></e>
     <e><p><l>atzera<s n="Adv"/></l><r>ruovttoluotta<s n="Adv"/></r></p></e>
     <e><p><l>atzeraka<s n="Adv"/></l><r>maŋálas<s n="Adv"/></r></p></e>
     <e><p><l>atzo<s n="Adv"/></l><r>ikte<s n="Adv"/></r></p></e>
@@ -153,7 +159,7 @@
     <e><p><l>more<s n="A"/></l><r>fioleahtta<s n="A"/></r></p></e>
     <e><p><l>paregabe<s n="A"/></l><r>eronamaš<s n="A"/></r></p></e>
     
-    <e><p><l>oker<s n="A"/></l><r>fuotni<s n="A"/></r></p></e
+    <e><p><l>oker<s n="A"/></l><r>fuotni<s n="A"/></r></p></e>
     <e><p><l>ondo<s n="A"/></l><r>buorre<s n="A"/></r></p></e>
     <e><p><l>orlegi<s n="A"/></l><r>ruoná<s n="A"/></r></p></e>
     <e><p><l>ospetsu<s n="A"/></l><r>dovddus<s n="A"/></r></p></e>
@@ -195,7 +201,7 @@
     <e><p><l>aita<s n="N"/></l><r>áhčči<s n="N"/></r></p></e>
     <e><p><l>aitite<s n="N"/></l><r>áddjá<s n="N"/></r></p></e>
     <e><p><l>ahizpa<s n="N"/></l><r>oabbá<s n="N"/></r></p></e><!--sister of a girl-->
-    <e><p><l>aintzira<s n="N"/></l>jávri<r><s n="N"/></r></p></e>
+    <e><p><l>aintzira<s n="N"/></l><r>jávri<s n="N"/></r></p></e>
     <e><p><l>alab<s n="N"/></l><r>nieida<s n="N"/></r></p></e><!--daughter-->
     <e><p><l>aldi<s n="N"/></l><r>vuorru<s n="N"/></r></p></e>
     <e><p><l>alferkeri<s n="N"/></l><r>láikkesvuohta<s n="N"/></r></p></e>
@@ -328,7 +334,7 @@
     <e><p><l>jabe<s n="N"/></l>oamasteaddji<r><s n="N"/></r></p></e>
     <e><p><l>janari<s n="N"/></l>borramuš<r><s n="N"/></r></p></e>
     <e><p><l>jardin<s n="N"/></l>gárdi<r><s n="N"/></r></p></e>
-    <e><p><l>jatetxe<s n="N"/></l>borranbáiki<r><s n="N"/></r></p></e><
+    <e><p><l>jatetxe<s n="N"/></l>borranbáiki<r><s n="N"/></r></p></e>
     <e><p><l>jatorri<s n="N"/></l>gáldu<r><s n="N"/></r></p></e><!--descent, ancestry, origin, source-->
     
     <e><p><l>katu<s n="N"/></l>bussá<r><s n="N"/></r></p></e>
