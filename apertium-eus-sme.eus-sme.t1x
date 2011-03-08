@@ -97,9 +97,10 @@
      <attr-item tags="Sg"/>
      <attr-item tags="Du"/>
      <attr-item tags="Pl"/>
+     <attr-item tags="Mgg"/>
   </def-attr>
 
-  <def-attr n="cas">
+  <def-attr n="case">
      <attr-item tags="Abs"/>
      <attr-item tags="Acc"/>
      <attr-item tags="All"/>
@@ -176,7 +177,7 @@
              <clip pos="1" side="tl" part="a_pronom"/>
              <clip pos="1" side="tl" part="pers"/>
              <clip pos="1" side="tl" part="nbr"/>
-             <clip pos="1" side="tl" part="cas"/>
+             <clip pos="1" side="tl" part="case"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
