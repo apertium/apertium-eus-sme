@@ -136,6 +136,18 @@
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Abs"/></equal></test>
         <let><clip pos="1" side="tl" part="case"/><lit-tag v="Nom"/></let>
         </when>
+        <when> <!-- Change +Erg to +Nom -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Erg"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Nom"/></let>
+        </when>
+        <when> <!-- Change +PGen to +Gen -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="PGen"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Gen"/></let>
+        </when>
+        <when> <!-- Change +LGen to +Gen -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="LGen"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Gen"/></let>
+        </when>
         <when> <!-- Change +Dat to +Ill -->
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Dat"/></equal></test>
         <let><clip pos="1" side="tl" part="case"/><lit-tag v="Ill"/></let>
@@ -144,8 +156,16 @@
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Ine"/></equal></test>
         <let><clip pos="1" side="tl" part="case"/><lit-tag v="Loc"/></let>
         </when>
+        <when> <!-- Change +All to +Ill -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="All"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Ill"/></let>
+        </when>
         <when> <!-- Change +Soc to +Com -->
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Soc"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Com"/></let>
+        </when>
+        <when> <!-- Change +Ins to +Com -->
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Ins"/></equal></test>
         <let><clip pos="1" side="tl" part="case"/><lit-tag v="Com"/></let>
         </when>
     </choose>
@@ -174,7 +194,7 @@
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_pronom"/>
+             <clip pos="1" side="tl" part="a_prn"/>
              <clip pos="1" side="tl" part="pers"/>
              <clip pos="1" side="tl" part="nbr"/>
              <clip pos="1" side="tl" part="case"/>
