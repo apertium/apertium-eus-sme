@@ -81,15 +81,22 @@
      <attr-item tags="mf"/>
   </def-attr>
 
-  <def-attr n="prs">
-     <attr-item tags="p1"/>
-     <attr-item tags="p2"/>
-     <attr-item tags="p3"/>
+  <def-attr n="pers">
+     <attr-item tags="Sg1"/>
+     <attr-item tags="Sg2"/>
+     <attr-item tags="Sg3"/>
+     <attr-item tags="Du1"/>
+     <attr-item tags="Du2"/>
+     <attr-item tags="Du3"/>
+     <attr-item tags="Pl1"/>
+     <attr-item tags="Pl2"/>
+     <attr-item tags="Pl3"/>
   </def-attr>
 
   <def-attr n="nbr">
-     <attr-item tags="sg"/>
-     <attr-item tags="pl"/>
+     <attr-item tags="Sg"/>
+     <attr-item tags="Du"/>
+     <attr-item tags="Pl"/>
   </def-attr>
 
   <def-attr n="cas">
@@ -97,6 +104,7 @@
      <attr-item tags="Acc"/>
      <attr-item tags="All"/>
      <attr-item tags="Ben"/>
+     <attr-item tags="Com"/>
      <attr-item tags="Dat"/>
      <attr-item tags="Erg"/>
      <attr-item tags="Ess"/>
@@ -108,6 +116,7 @@
      <attr-item tags="Ins"/>
      <attr-item tags="Loc"/>
      <attr-item tags="Nom"/>
+     <attr-item tags="Par"/>
      <attr-item tags="Soc"/>
      <attr-item tags="prp"/>
   </def-attr>
@@ -167,7 +176,7 @@
              <clip pos="1" side="tl" part="a_pronom"/>
              <clip pos="1" side="tl" part="pers"/>
              <clip pos="1" side="tl" part="nbr"/>
-             <clip pos="1" side="tl" part="case"/>
+             <clip pos="1" side="tl" part="cas"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
