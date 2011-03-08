@@ -12,6 +12,10 @@ all:
 
 	apertium-validate-transfer apertium-eus-sme.eus-sme.t1x
 	apertium-preprocess-transfer apertium-eus-sme.eus-sme.t1x eus-sme.t1x.bin
+	apertium-validate-interchunk apertium-eus-sme.eus-sme.t2x
+	apertium-preprocess-transfer apertium-eus-sme.eus-sme.t2x eus-sme.t2x.bin
+	apertium-validate-postchunk apertium-eus-sme.eus-sme.t3x
+	apertium-preprocess-transfer apertium-eus-sme.eus-sme.t3x eus-sme.t3x.bin
 
 	apertium-validate-dictionary apertium-eus-sme.eus-sme.dix
 	lt-comp lr apertium-eus-sme.eus-sme.dix eus-sme.autobil.bin
