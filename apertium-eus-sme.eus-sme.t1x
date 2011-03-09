@@ -298,7 +298,7 @@
         <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl3"/></let>
         </when>
     </choose>
-<otherwise>
+</otherwise>
 </choose>
 </def-macro>
 
