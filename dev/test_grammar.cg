@@ -79,7 +79,7 @@ COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("ent
 COPY (&Val Thcase_Abs Thsyn_Subj Thsem_Ani) TARGET ("hil" V) - (&Val);
     ## Miren hil da.
     
-COPY (&Val Thcase_Abs Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) TARGET ("hil" V) - (&Val);
+COPY (&Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) TARGET ("hil" V) - (&Val);
     ## Mikelek Miren hil du.
 
 COPY (&Val Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("joan" V) - (&Val);

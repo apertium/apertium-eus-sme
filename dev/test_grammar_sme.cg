@@ -79,11 +79,13 @@ COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("ent
     ## Mikelek entzun du bihar euria egingo duela.
     ## Mikel lea gullán ahte ihttin galgá 
     
-COPY (&Val Thcase_Nom Thsyn_Subj Thsem_Ani) TARGET ("hil" V) - (&Val);
+COPY (&Val Thcase_Nom Thsyn_Subj Thsem_Ani) TARGET ("jápmit" V) - (&Val);
     ## Miren hil da.
+    ## Miren lea jápmán.
     
-COPY (&Val Thcase_Nom Thsyn_Subj Pacase_Acc Pasyn_Obj Pasem_Ani) TARGET ("hil" V) - (&Val);
+COPY (&Val Thcase_Nom Thsyn_Subj Pacase_Acc Pasyn_Obj Pasem_Ani) TARGET ("goddit" V) - (&Val);
     ## Mikelek Miren hil du.
+    ## Mikel lea gottán Mirena.
 
 COPY (&Val Thcase_Nom Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ill Desyn_Advl) TARGET ("joan" V) - (&Val);
     ## Mikel eskolatik etxera joan da.
