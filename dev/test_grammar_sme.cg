@@ -20,7 +20,7 @@ COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Ani) TARGET ("lávlut" V) - (&Val);
     ## Nik abesten dut.
     ## Mun lávllan.
 
-SUBSTITUTE (Agcase_Nom Agsyn_Subj Agsem_Ani Tocase_Acc Tosyn_Obj Tosem_Ina) TARGET TARGET ("lávlut" V) - (&Val);    
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Ani Tocase_Acc Tosyn_Obj Tosem_Ina) TARGET ("lávlut" V) - (&Val);    
     ## Nik abesti bat abesten dut.
     ## Mun lávllan lávlaga.
 
@@ -69,13 +69,13 @@ COPY (&Val Tocase_Abs Tosyn_Subj Locase_Abs Atsyn_Pred) TARGET ("boahtit" V) - (
     ## Ii dáppe lean seammalágan ortnet go duoddaris, gos bohccot bohte ja manne mo dáhtto.
     ## Dalle buohtá ovtta bieivvi, lie viimma mannamin ruoktot.
     ## Preassas lea erenoamaš ovddasvástádus das ahte iešguđet lágan oaivilat bohtet ovdan.
-COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("entzun" V) - (&Val);
+COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("gullat" V) - (&Val);
     ## Mikelek abestia entzun du.
     ## Mikel gullá lávlága.
-COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum) TARGET ("entzun" V) - (&Val);
+COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum) TARGET ("guldalit" V) - (&Val);
     ## Mikelek entzuten du.
     ## Mikel gullá. #Er det mulig? - guldalit
-COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("entzun" V) - (&Val);
+COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Sub Thsyn_Obj) TARGET ("gullat" V) - (&Val);
     ## Mikelek entzun du bihar euria egingo duela.
     ## Mikel lea gullán ahte ihttin galgá 
     
@@ -87,38 +87,38 @@ COPY (&Val Thcase_Nom Thsyn_Subj Pacase_Acc Pasyn_Obj Pasem_Ani) TARGET ("goddit
     ## Mikelek Miren hil du.
     ## Mikel lea gottán Mirena.
 
-COPY (&Val Thcase_Nom Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ill Desyn_Advl) TARGET ("joan" V) - (&Val);
+COPY (&Val Thcase_Nom Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ill Desyn_Advl) TARGET ("vuolgit" V) - (&Val);
     ## Mikel eskolatik etxera joan da.
     ## Mikel vulgii skuvllas ruoktot.
     
     ## Mikel etxera joan da.
     ## Mikel manai ruoktot.
 
-COPY (&Val Thcase_Nom Thsyn_Subj Thsem_Ina) TARGET ("amai" V) - (&Val);
+COPY (&Val Thcase_Nom Thsyn_Subj Thsem_Ina) TARGET ("nohkkat" V) - (&Val);
     ## Antzerkia amaitu da.
     ## The theatre has started. Teahter lea nohkan.
     
-COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Acc Thsyn_Obj Thsem_Ina) TARGET ("amai" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Acc Thsyn_Obj Thsem_Ina) TARGET ("geargat" V) - (&Val);
     ## Mikelek pastela amaitu du.
     ## Mikel lea geargan gáhkkuin.
     
-COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Soc Thsyn_Advl) TARGET ("amai" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Soc Thsyn_Advl) TARGET ("geargat" V) - (&Val);
     ## Mikelek arazoarekin amaitu du.
     ## Mikel lea geargan váttsivuođaiguin.
 
-COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum) TARGET ("ikus" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum) TARGET ("oaidnit" V) - (&Val);
     ## Mikelek Miren ikusi du.
     ## Mikel lea oaidnán Mirena.
     
-COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("ikus" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("oaidnit" V) - (&Val);
     ## Mikelek ikusten du.
     ## Mikel oaidná.
     
-COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Nom Thsyn_Elasub) TARGET ("ikus" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Nom Thsyn_Elasub) TARGET ("oaidnit" V) - (&Val);
     ## Mikelek ikusi du partida hasi dela.
     ## Mikel lea oaidnán ahte kámpa lea álgan.
 
-COPY (&Val V) TARGET ("eman" V) - (&Val);
+COPY (&Val V) TARGET ("addit" V) - (&Val);
     ## Mikelek muxua eman dio Mireni.
     ## Mikelek egunak eman ditu lanean.
 
@@ -132,11 +132,11 @@ COPY (&Val V) TARGET ("dei" V) - (&Val);
     ## Haiek Mikeli tonto deitu diote.
 
 
-COPY (&Val Agcase_Nom Agsyn_Subj Tocase_Sub Tosyn_Obj) TARGET ("mintz" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Tocase_Sub Tosyn_Obj) TARGET ("hállat" V) - (&Val);
     ## Ni zurekin mintzatu naiz atzoko partidari buruz.
     ## Mun lean hállan duinna ievttá čiekčamiid birra.
 
-COPY (&Val Socase_Nom Sosyn_Subj Sosem_Hum Tocase_Ins Tosyn_Advl Recase_Dat Resyn_Iobj Resem_Hum) TARGET ("mintz" V) - (&Val);    
+COPY (&Val Socase_Nom Sosyn_Subj Sosem_Hum Tocase_Ins Tosyn_Advl Recase_Dat Resyn_Iobj Resem_Hum) TARGET ("hállat" V) - (&Val);    
     ## Ni zuri mintzatu natzaizu atzoko partidari buruz.
     ## Mun lean hállan duinna ievttá čiekčamiid birra.
     
@@ -155,19 +155,19 @@ COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Acc Thsyn_Obj Locase_Loc Losyn_Advl) TAR
 
 
 
-COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Ins Thsyn_Advl) TARGET ("ahaz" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Ins Thsyn_Advl) TARGET ("vajálduhttit" V) - (&Val);
     ## Mikel Mirenez ahaztu da.
     ## Mikel lea vajálduhttán Mirena.
 
-COPY (&Val Agcase_Dat Agsyn_Iobj  Agsem_Hum Thcase_Nom Thsyn_Subj) TARGET ("ahaz" V) - (&Val);    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
+COPY (&Val Agcase_Dat Agsyn_Iobj  Agsem_Hum Thcase_Nom Thsyn_Subj) TARGET ("vajálduhttit" V) - (&Val);    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
     ## Mikeli ikasitakoa ahaztu zaio.
     ## Mikel lea vajálduhttán dan maid lea oahppán.
     
-COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("ahaz" V) - (&Val); 
+COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val); 
        ## Mikelek ikasitakoa ahaztu du.
        ## Mikel lea vajálduhttán dan maid lea oahppán.
 
-COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Sub Thsyn_Obj) TARGET ("ahaz" V) - (&Val);     
+COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Sub Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val);     
     ## Mikelek lanera joan behar zuela ahaztu du.
     ## Mikel ha olvidado que tenía que ir a trabajar.
 
