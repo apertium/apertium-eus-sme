@@ -235,13 +235,71 @@
     </choose>
 </def-macro>
 
+<!-- Change ergative agreements to person of the verb  in Sámi and if there is no ergative change the absolutive agreements to person -->
+
 <def-macro n="convert_person" npar="1" c="">
     <choose>
+        <when> <!-- Change NK_NI to Sg1 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_NI"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg2"/></let>
+        </when>
+        <when> <!-- Change NK_ZU to Sg2 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_ZU"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg2"/></let>
+        </when>
+        <when> <!-- Change NK_HI to Sg2 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_HI"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg2"/></let>
+        </when>
+        <when> <!-- Change NK_HU to Sg3 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_HU"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg3"/></let>
+        </when>
+        <when> <!-- Change NK_GU to Pl1 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_GU"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl1"/></let>
+        </when>
+        <when> <!-- Change NK_ZE to Pl2 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_ZE"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl2"/></let>
+        </when>
+        <when> <!-- Change NK_HA to Pl3 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NK_HA"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl3"/></let>
+        </when>
+    <otherwise>
+        <choose>
+        <when> <!-- Change NR_NI to Sg1 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_NI"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg2"/></let>
+        </when>
         <when> <!-- Change NR_ZU to Sg2 -->
             <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_ZU"/></equal></test>
         <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg2"/></let>
         </when>
+        <when> <!-- Change NR_HI to Sg2 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_HI"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg2"/></let>
+        </when>
+        <when> <!-- Change NR_HU to Sg3 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_HU"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Sg3"/></let>
+        </when>
+        <when> <!-- Change NR_GU to Pl1 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_GU"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl1"/></let>
+        </when>
+        <when> <!-- Change NR_ZE to Pl2 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_ZE"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl2"/></let>
+        </when>
+        <when> <!-- Change NR_HA to Pl3 -->
+            <test><equal><clip pos="1" side="sl" part="pers"/><lit-tag v="NR_HA"/></equal></test>
+        <let><clip pos="1" side="tl" part="pers"/><lit-tag v="Pl3"/></let>
+        </when>
     </choose>
+<otherwise>
+</choose>
 </def-macro>
 
 </section-def-macros>
