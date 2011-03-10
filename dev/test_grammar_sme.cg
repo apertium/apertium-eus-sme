@@ -45,9 +45,9 @@ COPY (&Val Agcase_Nom Agsyn_Subj Tocase_Acc Tosyn_Obj) TARGET ("ihttit" V) - (&V
     ## Mikelek presa gutxi agertzen du.
     ## Mikel orui unnan hoahppus.
 
-COPY (&Val Agcase_Nom Agsyn_Subj Tocase_Sub Tosyn_Obj) TARGET ("ihttit" V) - (&Val);   
+COPY (&Val Agcase_Nom Agsyn_Subj Tocase_Sub Tosyn_Obj) TARGET ("civkalit" V) - (&Val);   
     ## Maite duela agertu dio Mikelek.
-    ## Mikel eröffnete ihr seine Liebe.
+    ## Mikel civkalii ahte ráhkista su.
     
 COPY (&Val Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("boahtit" V) - (&Val);
     ## Mikel etxetik eskolara etorri da gaur goizean.
@@ -56,10 +56,13 @@ COPY (&Val Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Abl Losyn_Advl Losem_Ina) TARG
     ## Tu enfado viene de esa decisión. 
 COPY (&Val Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Dat Losyn_Advl Losem_Ani) TARGET ("boahtit" V) - (&Val);
     ## Mikeli hitza etorri zitzaion bapatean. 
-    ## De pronto a Mikel le vino la palabra. 
+    ## De pronto a Mikel le vino la palabra.
+    ## suddenly Mikel came up with the word
+    ## fahkkestaga Mikel huomihii sáni / fahkkestaga Mikelii bođii sátni millii
 COPY (&Val Thcase_Abs Thsyn_Subj Thsem_Ina Locase_Ine Losyn_Advl Losem_Ina) TARGET ("boahtit" V) - (&Val);
     ## Liburu horretan dator jakin nahi duzun guztia
-    ## Todo lo que quieres saber viene en ese libro. 
+    ## Todo lo que quieres saber viene en ese libro.
+    ## Visot maid áiggut diehtit boahtá dán girjjis. 
 COPY (&Val Tocase_Abs Tosyn_Subj Locase_Abs Atsyn_Pred) TARGET ("boahtit" V) - (&Val);
     ## Mikel mutiko bihurria zetorren. 
     ## Mikel venía un niño travieso. 
@@ -77,7 +80,7 @@ COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum) TARGET ("guldalit" V) - (&Val);
     ## Mikel gullá. #Er det mulig? - guldalit
 COPY (&Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Sub Thsyn_Obj) TARGET ("gullat" V) - (&Val);
     ## Mikelek entzun du bihar euria egingo duela.
-    ## Mikel lea gullán ahte ihttin galgá 
+    ## Mikel lea gullán ahte ihttin galgá árvit.
     
 COPY (&Val Thcase_Nom Thsyn_Subj Thsem_Ani) TARGET ("jápmit" V) - (&Val);
     ## Miren hil da.
@@ -96,11 +99,11 @@ COPY (&Val Thcase_Nom Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ill Desyn_Advl
 
 COPY (&Val Thcase_Nom Thsyn_Subj Thsem_Ina) TARGET ("nohkkat" V) - (&Val);
     ## Antzerkia amaitu da.
-    ## The theatre has started. Teahter lea nohkan.
+    ## Teahter lea nohkan.
     
 COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Acc Thsyn_Obj Thsem_Ina) TARGET ("geargat" V) - (&Val);
     ## Mikelek pastela amaitu du.
-    ## Mikel lea geargan gáhkkuin.
+    ## Mikel lea geargan gáhkuin.
     
 COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Soc Thsyn_Advl) TARGET ("geargat" V) - (&Val);
     ## Mikelek arazoarekin amaitu du.
