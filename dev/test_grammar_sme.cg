@@ -158,19 +158,19 @@ COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Acc Thsyn_Obj Locase_Loc Losyn_Advl) TAR
 
 
 
-COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Ins Thsyn_Advl) TARGET ("vajálduhttit" V) - (&Val);
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val);
     ## Mikel Mirenez ahaztu da.
     ## Mikel lea vajálduhttán Mirena.
 
-COPY (&Val Agcase_Dat Agsyn_Iobj  Agsem_Hum Thcase_Nom Thsyn_Subj) TARGET ("vajálduhttit" V) - (&Val);    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val);    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
     ## Mikeli ikasitakoa ahaztu zaio.
     ## Mikel lea vajálduhttán dan maid lea oahppán.
     
-COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val); 
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val); 
        ## Mikelek ikasitakoa ahaztu du.
        ## Mikel lea vajálduhttán dan maid lea oahppán.
 
-COPY (&Val Agcase_Nom Agsyn_Subj  Agsem_Hum Thcase_Sub Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val);     
+COPY (&Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Sub Thsyn_Obj) TARGET ("vajálduhttit" V) - (&Val);     
     ## Mikelek lanera joan behar zuela ahaztu du.
     ## Mikel ha olvidado que tenía que ir a trabajar.
 

@@ -7,19 +7,19 @@ SECTION
 
 
 
-COPY (%Val Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Ins Thsyn_Advl) TARGET ("ahaz" V) - (%Val);
+COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Ins Thsyn_Advl) TARGET ("ahaz" V) - (%Val);
     ## Mikel Mirenez ahaztu da.
     ## Mikel lea vajálduhttán Mirena.
 
-COPY (%Val Agcase_Dat Agsyn_Iobj  Agsem_Hum Thcase_Abs Thsyn_Subj) TARGET ("ahaz" V) - (%Val);    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
+COPY (%Val Agcase_Dat Agsyn_Iobj Agsem_Hum Thcase_Abs Thsyn_Subj) TARGET ("ahaz" V) - (%Val);    # This is good to show that the agentcase can differ dative in euskara and nominative in Sámi
     ## Mikeli ikasitakoa ahaztu zaio.
     ## Mikel lea vajálduhttán dan maid lea oahppán.
     
-COPY (%Val Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("ahaz" V) - (%Val); 
+COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) TARGET ("ahaz" V) - (%Val); 
        ## Mikelek ikasitakoa ahaztu du.
        ## Mikel lea vajálduhttán dan maid lea oahppán.
 
-COPY (%Val Agcase_Erg Agsyn_Subj  Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("ahaz" V) - (%Val);     
+COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("ahaz" V) - (%Val);     
     ## Mikelek lanera joan behar zuela ahaztu du.
     ## Mikel ha olvidado que tenía que ir a trabajar.
 
@@ -95,7 +95,7 @@ COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj Thsem_Tim Recase
     
 COPY (%Val Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("etorr" V) - (%Val);
     ## Mikel etxetik eskolara etorri da gaur goizean.
-    ## Mikel vulgii skuvllas ruoktot odne iđđeđis.
+    ## Mikel bo skuvllas ruoktot odne iđđeđis.
 COPY (%Val Thcase_Abs Thsyn_Subj Thsem_Abs Locase_Abl Losyn_Advl Losem_Ina) TARGET ("etorr" V) - (%Val);
     ## Erabaki horretatik etorri da zure haserrea. 
     ## Tu enfado viene de esa decisión. 
@@ -154,8 +154,9 @@ COPY (%Val Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Locase_Ala Losyn_Advl
     ## Mikel ollii skuvllas ruoktot.
 
 COPY (%Val Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj) TARGET ("irits" V) - (%Val);
-    ## Mikelek egunak eman ditu lanean.
-    ## Mikel ha pasado días trabajando.
+    ## Gasteizko mendizaleek tontorra iritsi dute.
+    ## Los montañeros de Gasteiz han llegado a la cima.
+    ## Gasteiz-gorkŋodeaddjit ollejedje čohkkii.
 
 COPY (%Val Thcase_Abs Thsyn_Subj Sopacase_Abl Sopasyn_Advl Decase_Ala Desyn_Advl) TARGET ("joan" V) - (%Val);
     ## Mikel eskolatik etxera joan da.
