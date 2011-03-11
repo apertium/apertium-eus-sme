@@ -70,6 +70,13 @@ LIST Adp = Adp ;
 # Morphosyntactic properties
 # --------------------------
 
+LIST Abs = Abs ;
+LIST Erg = Erg ;
+LIST Ine = Ine ;
+LIST Soc = Soc ;
+LIST Abl = Abl ;
+LIST Ins = Ins ;
+
 LIST Nom = Nom ;
 LIST Acc = Acc ;
 
@@ -227,6 +234,12 @@ LIST Der/vuolle = Der/vuolle ;
 LIST Der/vuollai = Der/vuollai ;
 LIST Der/vuolde = Der/vuolde ;
 
+# Valency tags
+# ------------
+LIST Pacase_Abs = Pacase_Abs ;
+LIST Pasyn_Obj = Pasyn_Obj ;
+LIST Pasem_Ani = Pasem_Ani ;
+
 # Syntactic tags
 # --------------
 
@@ -365,5 +378,13 @@ SECTION
 #hil0 - jápmit
 #hil1 - goddit
 
-SUBSTITUTE ("hil") ("hil:1") ("hil") (*1 Abs LINK 0 ANIMATE);
+SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
+SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
     ## Mikelek Miren hil du.
+    
+REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
+
+    
+REMOVE V IF (NOT 0 (%Val));
+
+END
