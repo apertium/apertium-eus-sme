@@ -356,8 +356,9 @@ LIST ¶ = ¶;
 
 LIST OKTA = "akta" "okta";
 LIST go = "go" ;
+
  
-LIST ANIMATE = (Prop) (Biz) ;
+LIST ANIMATE = (Prop Fem) (Prop Masc) (Biz) ;
 
 SECTION
 
