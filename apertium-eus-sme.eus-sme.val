@@ -382,7 +382,7 @@ SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1
 SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
     ## Mikelek Miren hil du.
     
-REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
+#REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
 
     
 REMOVE V IF (NOT 0 (%Val));
