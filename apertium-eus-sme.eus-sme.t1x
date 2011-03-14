@@ -192,10 +192,14 @@
        <attr-item tags="Cacase_Erg"/>
        <attr-item tags="Cacase_Soc"/>
        <attr-item tags="Cacase_Nom"/>
+       <attr-item tags="Cacase_Ill"/>
+       <attr-item tags="Cacase_ala"/>
   </def-attr>
   
   <def-attr n="a_casyn">
        <attr-item tags="Casyn_Subj"/>
+       <attr-item tags="Casyn_Advl"/>
+       <attr-item tags="Casyn_Obj"/>
   </def-attr>
   
   <def-attr n="a_casem">
@@ -312,12 +316,15 @@
         <let><var n="Thcase"/><clip pos="1" side="sl" part="a_thcase"/></let>
         <let><var n="Thsyn"/><clip pos="1" side="sl" part="a_thsyn"/></let>
         <let><var n="Thsem"/><clip pos="1" side="sl" part="a_thsem"/></let>
+        <let><var n="Cacase"/><clip pos="1" side="sl" part="a_cacase"/></let>
+        <let><var n="Casyn"/><clip pos="1" side="sl" part="a_casyn"/></let>
+        <let><var n="Casem"/><clip pos="1" side="sl" part="a_casem"/></let>
 </def-macro>
 
 <def-macro n="set_case_pattern_based_on_valency" npar="1" c="This changes the default case transfer pattern based on verb valency.">
     <choose>
-        <when> <!-- Set case to +Ill if Excase is Excase_Ill-->
-            <test><equal><var n="Excase"/><lit-tag v="Excase_Ill"/></equal></test>
+        <when> <!-- Set case to +Ill if Cacase is Cacase_Ill-->
+            <test><equal><var n="Cacase"/><lit-tag v="Cacase_Ill"/></equal></test>
         <let><clip pos="1" side="tl" part="case"/><lit-tag v="Ill"/></let>
         </when>
         <when> <!-- Set case to +Acc if Thcase is Thcase_Acc--><!--Mikel Mirenez ahaztu da.-->
@@ -417,6 +424,7 @@
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
              <tag><clip pos="1" side="tl" part="case"/></tag>
            </tags>
+           <lu><lit v="@@@"/><var n="Cacase"/></lu>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="a_prn"/>
