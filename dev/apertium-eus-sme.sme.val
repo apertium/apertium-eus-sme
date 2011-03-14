@@ -8,7 +8,7 @@ COPY (&Val Agcase_Nom Agsyn_Subj Thcase_Acc Thsyn_Obj) TARGET ("oažžut" V) - (
     ## Mikelek saria lortu du.
     ## Mikel lea vuoitán balkašumi.
 
-COPY (&Val Caucase_Nom Causyn_Subj Causem_Hum Expcase_Ill Expcase_ala Expsyn_Advl Expsem_Hum) TARGET ("suhttat" V) - (&Val);
+COPY (&Val Cacase_Nom Casyn_Subj Casem_Hum Excase_Ill Excase_ala Exsyn_Advl Exsem_Hum) TARGET ("suhttat" V) - (&Val);
     ## Zergatik haserretzen zara nirekin?
     ## Manin don suhtat mu ala/munnje?
     

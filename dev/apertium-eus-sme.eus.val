@@ -173,8 +173,10 @@ COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Advl Prcase_Abs Prsy
     ## Nik hoteletik etxera deitu dut.
 COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Advl Prcase_Abs Prsyn_Advl) TARGET ("dei" V) - (%Val);
     ## Haiek tonto deitu dute Mikel.
+    ## Dat gohčodedje Mikela jorbbasin.
 COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Iobj Prcase_Dat Prsyn_Advl) TARGET ("dei" V) - (%Val);
     ## Haiek Mikeli tonto deitu diote.
+    ## Dat gohčodedje Mikela jorbbasin.
     
 COPY (%Val Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj) TARGET ("lor" V) - (%Val);
     ## Mikelek saria lortu du.
