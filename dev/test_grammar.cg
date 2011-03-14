@@ -204,3 +204,4 @@ COPY (%Val Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj Locase_Ine Losyn_Advl) TAR
 # use valency to find the correct case in the other language
 # use valency to find the correct lexical equivalent (agertu - orrut/boahtit/ihtet)
 
+SELECT (%Val);
