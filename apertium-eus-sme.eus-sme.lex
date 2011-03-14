@@ -382,6 +382,14 @@ SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1
 SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
     ## Mikelek Miren hil du.
     
+# agertu - ihttit, agertu:1 - boahtit, agertu:2 - orrut, agertu:3 - civkalit
+
+# amaitu - nohkat, amaitu:1 - geargat
+
+# eman - addit, addit:1 - golahit
+
+# etorri - boahtit, etorri:1, etorri:2
+    
 #REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
 
     
