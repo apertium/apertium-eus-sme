@@ -375,16 +375,25 @@ LIST ANIMATE = (Prop Fem) (Prop Masc) (Biz) ;
 
 SECTION
 
-#hil0 - jápmit
-#hil1 - goddit
+#haserre Soc - Ill instead of Com
 
-SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
-SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
-    ## Mikelek Miren hil du.
+SUBSTITUTE (%Val Caucase_Erg Caucase_Soc Causyn_Subj Expcase_Abs Expsyn_Obj Expsem_Hum) (%Val Caucase_Nom Causyn_Subj Causem_Hum Expcase_Ill Expcase_ala Expsyn_Advl Expsem_Hum)("haserre");
+    ## Zergatik haserretzen zara nirekin?
+    ## Manin don suhtat mu ala/munnje?
+
+# ahaztu Ins - Acc instead of Com    
+SUBSTITUTE (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Ins Thsyn_Advl) (%Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj)("ahaz");
+    ## Mikel Mirenez ahaztu da.
+    ## Mikel lea vajálduhttán Mirena.
+SUBSTITUTE (%Val Agcase_Dat Agsyn_Iobj Agsem_Hum Thcase_Abs Thsyn_Subj) (%Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj)("ahaz");
+    ## Mikeli ikasitakoa ahaztu zaio.
+    ## Mikel lea vajálduhttán dan maid lea oahppán.
+SUBSTITUTE (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Abs Thsyn_Obj) (%Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Acc Thsyn_Obj)("ahaz");
+    ## Mikelek ikasitakoa ahaztu du.
+    ## Mikel lea vajálduhttán dan maid lea oahppán.
+SUBSTITUTE (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) (%Val Agcase_Nom Agsyn_Subj Agsem_Hum Thcase_Sub Thsyn_Obj)("ahaz");
+    ## Mikelek lanera joan behar zuela ahaztu du.
+    ## Mikel ha olvidado que tenía que ir a trabajar.
+
     
-#REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
-
-    
-REMOVE V IF (NOT 0 (%Val));
-
 END
