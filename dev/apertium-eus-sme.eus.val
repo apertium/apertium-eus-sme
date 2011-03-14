@@ -122,7 +122,7 @@ COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum) TARGET ("entzun" V) - (%Val);
 COPY (%Val Agcase_Erg Agsyn_Subj Agsem_Hum Thcase_Elasub Thsyn_Obj) TARGET ("entzun" V) - (%Val);
     ## Mikelek entzun du bihar euria egingo duela.
 
-COPY (%Val Caucase_Erg Caucase_Soc Causyn_Subj Expcase_Abs Expsyn_Obj Expsem_Hum) TARGET ("haserre" V) - (%Val);
+COPY (%Val Cacase_Erg Cacase_Soc Casyn_Subj Excase_Abs Exsyn_Obj Exsem_Hum) TARGET ("haserre" V) - (%Val);
     ## Zergatik haserretzen zara nirekin?
     ## Manin don suhtat mu ala/munnje?
     
