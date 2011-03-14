@@ -377,7 +377,7 @@ SECTION
 
 #haserre Soc - Ill instead of Com
 
-SUBSTITUTE (%Val Caucase_Erg Caucase_Soc Causyn_Subj Expcase_Abs Expsyn_Obj Expsem_Hum) (%Val Caucase_Nom Causyn_Subj Causem_Hum Expcase_Ill Expcase_ala Expsyn_Advl Expsem_Hum)("haserre");
+SUBSTITUTE (%Val Cacase_Erg Cacase_Soc Casyn_Subj Excase_Abs Exsyn_Obj Exsem_Hum) (%Val Cacase_Ill Cacase_ala Casyn_Advl Casem_Hum Excase_Nom Exsyn_Subj Exsem_Hum)("haserre");
     ## Zergatik haserretzen zara nirekin?
     ## Manin don suhtat mu ala/munnje?
 
