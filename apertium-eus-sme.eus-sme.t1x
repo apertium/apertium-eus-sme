@@ -11,7 +11,7 @@
   </def-cat>
   
   <def-cat n="verb_cont">
-     <cat-item tags="V.Der_N.Cont"/>
+     <cat-item tags="V.Der_N.Cont.*"/>
   </def-cat>
   
   <def-cat n="aux">
@@ -309,6 +309,9 @@
         <let><var n="Excase"/><clip pos="1" side="sl" part="a_excase"/></let>
         <let><var n="Exsyn"/><clip pos="1" side="sl" part="a_exsyn"/></let>
         <let><var n="Exsem"/><clip pos="1" side="sl" part="a_exsem"/></let>
+        <let><var n="Thcase"/><clip pos="1" side="sl" part="a_thcase"/></let>
+        <let><var n="Thsyn"/><clip pos="1" side="sl" part="a_thsyn"/></let>
+        <let><var n="Thsem"/><clip pos="1" side="sl" part="a_thsem"/></let>
 </def-macro>
 
 <def-macro n="set_case_pattern_based_on_valency" npar="1" c="This changes the default case transfer pattern based on verb valency.">
@@ -316,6 +319,10 @@
         <when> <!-- Set case to +Ill if Excase is Excase_Ill-->
             <test><equal><var n="Excase"/><lit-tag v="Excase_Ill"/></equal></test>
         <let><clip pos="1" side="tl" part="case"/><lit-tag v="Ill"/></let>
+        </when>
+        <when> <!-- Set case to +Acc if Thcase is Thcase_Acc--><!--Mikel Mirenez ahaztu da.-->
+            <test><equal><var n="Thcase"/><lit-tag v="Thcase_Acc"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Acc"/></let>
         </when>
     </choose>
 </def-macro>
