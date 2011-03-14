@@ -172,13 +172,83 @@
   <def-attr n="der">
      <attr-item tags="Der_N"/>
   </def-attr>
+  
+  <def-attr n="a_excase">
+       <attr-item tags="Excase_Abs"/>
+       <attr-item tags="Excase_Ill"/>
+       <attr-item tags="Excase_ala"/>
+  </def-attr>
+  
+  <def-attr n="a_exsyn">
+       <attr-item tags="Exsyn_Obj"/>
+       <attr-item tags="Exsyn_Advl"/>
+  </def-attr>
+  
+  <def-attr n="a_exsem">
+       <attr-item tags="Exsem_Hum"/>
+  </def-attr>
+  
+  <def-attr n="a_cacase">
+       <attr-item tags="Cacase_Erg"/>
+       <attr-item tags="Cacase_Soc"/>
+       <attr-item tags="Cacase_Nom"/>
+  </def-attr>
+  
+  <def-attr n="a_casyn">
+       <attr-item tags="Casyn_Subj"/>
+  </def-attr>
+  
+  <def-attr n="a_casem">
+       <attr-item tags="Casyn_Hum"/>
+  </def-attr>
+  
+  <def-attr n="a_agcase">
+       <attr-item tags="Agcase_Erg"/>
+       <attr-item tags="Agcase_Dat"/>
+       <attr-item tags="Agcase_Nom"/>
+  </def-attr>
+  
+  <def-attr n="a_agsyn">
+       <attr-item tags="Agsyn_Subj"/>
+       <attr-item tags="Agsyn_Iobj"/>
+  </def-attr>
+  
+  <def-attr n="a_agsem">
+       <attr-item tags="Agsem_Hum"/>
+  </def-attr>
+  
+  <def-attr n="a_thcase">
+       <attr-item tags="Thcase_Ins"/>
+       <attr-item tags="Thcase_Abs"/>
+       <attr-item tags="Thcase_Acc"/>
+  </def-attr>
+  
+  <def-attr n="a_thsyn">
+       <attr-item tags="Thsyn_Advl"/>
+       <attr-item tags="Thcase_Sub"/>
+  </def-attr>
+  
+  <def-attr n="a_thsem">
+       <attr-item tags="Thsyn_Hum"/>
+  </def-attr>
 
 </section-def-attrs>
 
 <section-def-vars>
   <def-var n="number"/>
   <def-var n="genere"/>
-  <def-var n="caseSecondWord"/>
+  <def-var n="Excase"/>
+  <def-var n="Exsyn"/>
+  <def-var n="Exsem"/>
+  <def-var n="Cacase"/>
+  <def-var n="Casyn"/>
+  <def-var n="Casem"/>
+  <def-var n="Agcase"/>
+  <def-var n="Agsyn"/>
+  <def-var n="Agsem"/>
+  <def-var n="Thcase"/>
+  <def-var n="Thsyn"/>
+  <def-var n="Thsem"/>
 </section-def-vars>
 
 <section-def-macros>
@@ -234,6 +304,22 @@
         </when>
     </choose>
 </def-macro>
+
+<def-macro n="change_valency_attributes" npar="1" c="This the contents of the word in position 1 which coincide with the attributes specified in the part to the variable.">
+        <let><var n="Excase"/><clip pos="1" side="sl" part="a_excase"/></let>
+        <let><var n="Exsyn"/><clip pos="1" side="sl" part="a_exsyn"/></let>
+        <let><var n="Exsem"/><clip pos="1" side="sl" part="a_exsem"/></let>
+</def-macro>
+
+<def-macro n="set_case_pattern_based_on_valency" npar="1" c="This changes the default case transfer pattern based on verb valency.">
+    <choose>
+        <when> <!-- Set case to +Ill if Excase is Excase_Ill-->
+            <test><equal><var n="Excase"/><lit-tag v="Excase_Ill"/></equal></test>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="Ill"/></let>
+        </when>
+    </choose>
+</def-macro>
+
 
 <!-- Change ergative agreements to person of the verb  in Sámi and if there is no ergative change the absolutive agreements to person -->
 
@@ -346,6 +432,9 @@
        <call-macro n="convert_person">
          <with-param pos="2"/>
        </call-macro>
+       <call-macro n="change_valency_attributes">
+         <with-param pos="1"/>
+       </call-macro>
        <out>
          <chunk name="verb" case="caseSecondWord">
              <tags>
@@ -363,192 +452,6 @@
        </out>
      </action>
   </rule>
-
-
-  <rule>
-     <pattern>
-       <pattern-item n="nom"/>
-     </pattern>
-     <action>
-       <choose>
-         <when>
-           <test>
-             <equal>
-               <clip pos="1" side="sl" part="cas"/>
-               <lit-tag v="prp"/>
-             </equal>
-           </test>
-           <let>
-             <clip pos="1" side="tl" part="cas"/>
-             <lit-tag v="loc"/>
-           </let>
-         </when>
-       </choose>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-	     <tag><clip pos="1" side="tl" part="cas"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	     <clip pos="1" side="tl" part="cas" link-to="4"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
-
-<!-- Sintagmas adjetivos -->
-
-  <rule>
-     <pattern>
-       <pattern-item n="adj"/>
-     </pattern>
-     <action>
-       <choose>
-         <!--  When the adjective is in the comparative 
-               prefix with po~ -->
-         <when>
-           <test>
-             <equal>
-               <clip pos="1" side="sl" part="a_adj"/>
-               <lit-tag v="adj.comp"/>
-             </equal>
-           </test>
-           <out>
-             <chunk name="adj" case="caseFirstWord">
-               <tags>
-                 <tag><lit-tag v="SA"/></tag>
-                 <tag><clip pos="1" side="tl" part="gen"/></tag>
-                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
-               </tags>
-               <lu>
-                 <lit v="по"/>
-               </lu>
-               <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <lit-tag v="adj.comp"/>
-                 <clip pos="1" side="tl" part="gen"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-               </lu>
-             </chunk>
-           </out>
-         </when>
-         <otherwise>
-           <out>
-             <chunk name="adj" case="caseFirstWord">
-               <tags>
-                 <tag><lit-tag v="SA"/></tag>
-                 <tag><clip pos="1" side="tl" part="gen"/></tag>
-                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
-               </tags>
-               <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <clip pos="1" side="tl" part="a_adj"/>
-                 <clip pos="1" side="tl" part="gen"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-               </lu>
-             </chunk>
-           </out>
-         </otherwise>
-       </choose>
-     </action>
-  </rule>
-
-  <rule>
-    <pattern>
-       <pattern-item n="prefix-adj"/>
-       <pattern-item n="adj"/>
-     </pattern>
-     <action>
-       <choose>
-         <!--  When the adjective is in the superlative
-               prefix with naj~ -->
-         <when>
-           <test>
-             <and>
-               <equal>
-                 <clip pos="1" side="sl" part="lem"/>
-                 <lit v="naj"/>
-               </equal>
-               <equal>
-                 <clip pos="1" side="sl" part="a_adj"/>
-                 <lit-tag v="adj.sup"/>
-               </equal>
-             </and>
-           </test>
-           <out>
-             <chunk name="adj" case="caseFirstWord">
-               <tags>
-                 <tag><lit-tag v="SA"/></tag>
-                 <tag><clip pos="2" side="tl" part="gen"/></tag>
-                 <tag><clip pos="2" side="tl" part="nbr"/></tag>
-               </tags>
-               <lu>
-                 <lit v="нај"/>
-               </lu>
-               <lu>
-                 <clip pos="2" side="tl" part="lem"/>
-                 <lit-tag v="adj.pve"/>
-                 <clip pos="2" side="tl" part="gen"/>
-                 <clip pos="2" side="tl" part="nbr"/>
-               </lu>
-	     </chunk>
-           </out>
-           </when>
-           <otherwise>
-             <out>
-               <chunk name="adj" case="caseFirstWord">
-                 <tags>
-                   <tag><lit-tag v="SA"/></tag>
-                   <tag><clip pos="2" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
-                 </tags>
-                 <lu>
-                   <clip pos="2" side="tl" part="lem"/>
-                   <clip pos="1" side="tl" part="a_adj"/>
-                   <clip pos="2" side="tl" part="gen"/>
-                   <clip pos="2" side="tl" part="nbr"/>
-                 </lu>
-               </chunk>
-             </out>
-           </otherwise>
-         </choose>
-     </action>
-   </rule>
-
-  <rule>
-     <pattern>
-       <pattern-item n="vblex"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="verb" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="tns"/></tag>
-              <tag><clip pos="1" side="tl" part="prs"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_vrb"/>
-              <clip pos="1" side="tl" part="tns"/>
-              <clip pos="1" side="tl" part="prs"/>
-              <clip pos="1" side="tl" part="nbr"/>
-            </lu>
-          </chunk>
-        </out>
-     </action>
-  </rule>
-
 
 </section-rules>
 
