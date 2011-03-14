@@ -20,6 +20,9 @@ all:
 	apertium-validate-dictionary apertium-eus-sme.eus-sme.dix
 	lt-comp lr apertium-eus-sme.eus-sme.dix eus-sme.autobil.bin
 
+	cg-comp dev/apertium-eus-sme.eus.val eus.val.bin
+	cg-comp dev/apertium-eus-sme.sme.val sme.val.bin
+
 	cg-comp apertium-eus-sme.eus-sme.dis eus-sme.dis.bin
 	cg-comp apertium-eus-sme.eus-sme.val eus-sme.val.bin
 	cg-comp apertium-eus-sme.eus-sme.lex eus-sme.lex.bin
