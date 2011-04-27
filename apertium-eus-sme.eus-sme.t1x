@@ -6,6 +6,10 @@
      <cat-item tags="N.*"/>
   </def-cat>
   
+  <def-cat n="propnom">
+     <cat-item tags="N.Prop.*"/>
+  </def-cat>
+  
   <def-cat n="verb_nom">
      <cat-item tags="V.Der_N.*"/>
   </def-cat>
@@ -14,8 +18,17 @@
      <cat-item tags="V.Der_N.Cont.*"/>
   </def-cat>
   
+  <def-cat n="verb_prc">
+     <cat-item tags="V.Prc.*"/>
+     <cat-item tags="V.Prc"/>
+  </def-cat>
+  
   <def-cat n="aux">
      <cat-item tags="V.Aux.*"/>
+  </def-cat>
+  
+    <def-cat n="aux_pres">
+     <cat-item tags="V.Aux.Ind.Prs.*"/>
   </def-cat>
   
   <def-cat n="vblex">
@@ -111,7 +124,7 @@
   </def-attr>
 
   <def-attr n="sem">
-     <attr-item tags="Masc"/>
+     <attr-item tags="Mal"/>
      <attr-item tags="Fem"/>
      <attr-item tags="Plc"/>
      <attr-item tags="Biz"/>
@@ -440,7 +453,7 @@
   
     <rule comment="REGLA: NOM">
      <pattern>
-       <pattern-item n="prn"/>
+       <pattern-item n="nom"/>
      </pattern>
      <action>
        <call-macro n="set_default_case_pattern">
@@ -450,18 +463,48 @@
          <with-param pos="1"/>
        </call-macro>
        <out>
-         <chunk name="pronom" case="caseFirstWord">
+         <chunk name="nom" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
              <tag><clip pos="1" side="tl" part="case"/></tag>
            </tags>
-           <lu><lit v="@@@"/><var n="Thcase"/></lu>
+           <lu><lit v=""/><var n="Thcase"/></lu>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="a_nom"/>
              <clip pos="1" side="tl" part="sem"/>
              <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="1" side="tl" part="case"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  
+  <rule comment="REGLA: PROPNOM">
+     <pattern>
+       <pattern-item n="propnom"/>
+     </pattern>
+     <action>
+       <call-macro n="set_default_case_pattern">
+         <with-param pos="1"/>
+       </call-macro>
+       <call-macro n="set_case_pattern_based_on_valency">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="case"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="sem"/>
+             <lit-tag v="Sg"/>
              <clip pos="1" side="tl" part="case"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
@@ -493,6 +536,44 @@
                <clip pos="2" side="tl" part="mood"/>
                <clip pos="2" side="tl" part="temps"/>
                <clip pos="2" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
+  <rule comment="REGLA: Prc Aux_Pres"><!--Mikelek Miren hil du.-->
+     <pattern>
+       <pattern-item n="verb_prc"/>
+       <pattern-item n="aux_pres"/>
+     </pattern>
+     <action>
+       <call-macro n="convert_person">
+         <with-param pos="2"/>
+       </call-macro>
+       <call-macro n="change_valency_attributes">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="verb" case="caseSecondWord">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <clip pos="2" side="tl" part="mood"/>
+               <clip pos="2" side="tl" part="temps"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+           <b pos="1"/>
+            <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <clip pos="1" side="tl" part="mood"/>
+               <lit-tag v="PrfPrc"/>
                <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
