@@ -7,6 +7,7 @@
 /apertium-eus-sme.eus-sme.t2x -text
 /apertium-eus-sme.eus-sme.t3x -text
 /apertium-eus-sme.eus-sme.val -text
+/apertium-eus-sme.sme.lexc -text
 dev/apertium-eus-sme.eus.val -text
 dev/apertium-eus-sme.sme.val -text
 /eus-sme.prob -text
