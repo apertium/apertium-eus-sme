@@ -16,6 +16,9 @@
     <sdef n="TV"  c="Transitive"/>
     <sdef n="CC"  c="Co-ordinator"/>
     <sdef n="Prop"  c="Proper name"/>
+    <sdef n="Punct"  c="Punctuation"/>
+    <sdef n="CLB"  c="Clause Boundary"/>
+
   </sdefs>
   <section id="main" type="standard">
   
@@ -148,6 +151,7 @@
     <e><p><l>hori<s n="A"/></l><r>fiskat<s n="A"/></r></p></e>
     <e><p><l>hotz<s n="A"/></l><r>galmmas<s n="A"/></r></p></e>
     
+    <e><p><l>iraunkor<s n="A"/></l><r>bissovaš<s n="A"/></r></p></e>
     <e><p><l>isats<s n="A"/></l><r><s n="A"/></r></p></e><!--tail-->
     <e><p><l>itsusi<s n="A"/></l><r>ropmi<s n="A"/></r></p></e>
     <e><p><l>izugarri<s n="A"/></l><r>issoras<s n="A"/></r></p></e>
@@ -210,7 +214,6 @@
     <e><p><l>ama<s n="N"/></l><r>eadni<s n="N"/></r></p></e>
     <e><p><l>amama<s n="N"/></l><r>áhkku<s n="N"/></r></p></e>
     <e><p><l>anaia<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a boy-->
-    <e><p><l>anka<s n="N"/></l><r>juolgi<s n="N"/></r></p></e>
     <e><p><l>antzerki<s n="N"/></l><r>teahter<s n="N"/></r></p></e>
     <e><p><l>apaiz<s n="N"/></l><r>báhppa<s n="N"/></r></p></e>
     <e><p><l>apiril<s n="N"/></l><r>cuoŋománnu<s n="N"/></r></p></e>
@@ -353,6 +356,7 @@
     <e><p><l>klase<s n="N"/></l><r>luohkká<s n="N"/></r></p></e>
     <e><p><l>kopeta<s n="N"/></l><r>gállu<s n="N"/></r></p></e>
     <e><p><l>komuna<s n="N"/></l><r>hivsset<s n="N"/></r></p></e>
+    <e><p><l>konponbide<s n="N"/></l><r>čoavddus<s n="N"/></r></p></e>
     
     <e><p><l>laber<s n="N"/></l><r>oapman<s n="N"/></r></p></e>
     <e><p><l>lagun<s n="N"/></l><r>ustit<s n="N"/></r></p></e>
@@ -386,6 +390,8 @@
     <e><p><l>mundu<s n="N"/></l><r>máilbmi<s n="N"/></r></p></e>
     <e><p><l>mutil<s n="N"/></l><r>bárdni<s n="N"/></r></p></e><!--boy-->
     <e slr="1"><p><l>mutil<s n="N"/></l><r>irgi<s n="N"/></r></p></e>
+    
+    <e><p><l>nekazaritza<s n="N"/></l><r>eanandoallu<s n="N"/></r></p></e>
     <e><p><l>neba<s n="N"/></l><r>viellja<s n="N"/></r></p></e><!--brother of a girl-->
     <e><p><l>negu<s n="N"/></l><r>dálvi<s n="N"/></r></p></e>
     <e><p><l>neska<s n="N"/></l><r>nieida<s n="N"/></r></p></e><!--girl-->
@@ -445,6 +451,7 @@
     <e><p><l>zaletsun<s n="N"/></l><r>indu<s n="N"/></r></p></e><!--hobby, liking, fondness, addiction-->
     <e><p><l>zapata<s n="N"/></l><r>gáma<s n="N"/></r></p></e>
     <e><p><l>zati<s n="N"/></l><r>bihttá<s n="N"/></r></p></e>
+    <e><p><l>zentral<s n="N"/></l><r>doaimmahat<s n="N"/></r></p></e>
     <e><p><l>zeru<s n="N"/></l><r>albmi<s n="N"/></r></p></e>
     <e><p><l>zilar<s n="N"/></l><r>silba<s n="N"/></r></p></e>
     <e><p><l>zubi<s n="N"/></l><r>šaldi<s n="N"/></r></p></e>
@@ -468,6 +475,8 @@
     <e><p><l>Willie<s n="N"/><s n="Prop"/></l><r>Willy<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Francis<s n="N"/><s n="Prop"/></l><r>Francis<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Linda<s n="N"/><s n="Prop"/></l><r>Linda<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mikel<s n="N"/><s n="Prop"/></l><r>Mikel<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Miren<s n="N"/><s n="Prop"/></l><r>Miren<s n="N"/><s n="Prop"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>abes<s n="V"/></l><r>lávlut<s n="V"/><s n="TV"/></r></p></e>
@@ -646,6 +655,9 @@
     
     <e><p><l>zahartu<s n="V"/></l><r>boarásmuvvat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>zintzilikatu<s n="V"/></l><r>giŋgot<s n="V"/><s n="IV"/></r></p></e>
+
+    <e><re>[\-\+]</re><p><l><s n="Punct"/></l><r><s n="Punct"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="CLB"/></l><r><s n="CLB"/></r></p></e>
   </section>
 </dictionary>
 
