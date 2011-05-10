@@ -28,76 +28,67 @@
       <topic>
         <case>abs</case>
         <syn>obj</syn><!--gaia-->
-	  <sem>inanimate</sem>	
+	    <sem>text</sem>	
       </topic>
     </frame>
   </verb>
   
-  <verb lm="adierazi"><!--62-->
+  <verb lm="adierazi"><!--62--><!--express, assert, state-->
     <frame id="1">
-      <ex></ex>
+      <ex>Presidenteak adierazi zuenez ez zela bilerarik egingo.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">As the president had announced, he was not going to have a meeting.</gloss>
+        <gloss lang="sme">Nu go presideanta lei almmuhan ahte son ii áiggo doallat čoahkkima.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn>subj</syn>
         <sem></sem>
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
+      <topic><!--gaia-->
+        <cases>
+        <case>abs</case>
+        <case>ela</case>
+        </cases>
+        <syn>obj</syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      </theme>
     </frame>
   </verb>
   
   <verb lm="afaldu"><!--36-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikelek 8tan afaldu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">Mikel borai eahketbiepmu gávccis.</gloss>
+        <gloss lang="spa">Mikel ha cenado a las 8</gloss>
       </glosses>
       <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem>animate</sem>
       </agent>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Mikelek arraina afaldu du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="eng">Mikel ate fish for dinner.</gloss>
+        <gloss lang="sme">Mikel borren guoli eahketbiepmun.</gloss>
+        <gloss lang="sme">Mikel veaiggádalai guliin.</gloss>
+        <gloss lang="spa">Mikel ha cenado pescado</gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn>subj</syn>
         <sem></sem>
       </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <patient><!--gaia-->
+        <case>abs</case>
+        <syn>obj</syn>
+	    <sem>concrete</sem>	
+      </patient>
     </frame>
   </verb>
 
@@ -128,7 +119,7 @@
         <gloss lang="spa">En el juicio ha aparecido que no tiene ningún cargo en la empresa.</gloss>
       </glosses>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>subj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -183,7 +174,7 @@
       <ex>Mikelek presa gutxi agertzen du.</ex>
       <glosses>
         <gloss lang="eng">Mikel displayed little hurry.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel orui unnan hoahppus.</gloss>
         <gloss lang="spa">Mikel demuestra poca prisa.</gloss>
       </glosses>
       <agent>
@@ -201,7 +192,7 @@
       <ex>Maite duela agertu dio Mikelek.</ex>
       <glosses>
         <gloss lang="eng">Mikel showed them that he loves them.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel civkalii ahte ráhkista su.</gloss>
         <gloss lang="spa">Mikel le ha manifestado que le quiere.</gloss>
       </glosses>
       <agent>
@@ -210,7 +201,7 @@
         <sem></sem><!-- -->
       </agent>
        <topic>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -285,7 +276,7 @@
         <sem>human</sem><!--+giz-->
       </agent>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -296,8 +287,8 @@
     <frame id="1">
       <ex>Elektroiak gorputz batetik bestera aldatzen direnean, korronte elektrikoa sortzen da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">When the electrons change from one form to another, they produce electricity.</gloss>
+        <gloss lang="sme">Go elektronat nuppástuvvet dain boahtá seahkku</gloss><!--Go noaidi nuppástuvvai olmbmos beanan-->
         <gloss lang="spa">Cuando los electrones cambian de un cuerpo a otro, se produce la corriente eléctrica.</gloss>
       </glosses>
       <theme>
@@ -319,8 +310,8 @@
     <frame id="2">
       <ex>Zergatik aldatzen dira bizilekuz.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Why do they change (their) house?</gloss>
+        <gloss lang="sme">Manin dat molsot viesu?</gloss>
         <gloss lang="spa">Por qué cambian de casa?</gloss>
       </glosses>
       <patient>
@@ -337,8 +328,8 @@
     <frame id="3">
       <ex>Guk autonomi-mailatik probintzi-mailara aldatu nahi ditugu lurralde horiek.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">We want to change those territories from the level of autonomy to the level of provinces.</gloss>
+        <gloss lang="sme">Mi áigut rievdadit dieid riikkaid autonomiija dásis provinsan. </gloss>
         <gloss lang="spa">Nosotros queremos cambiar esos territorios del nivel de autonomía al nivel de provincia.</gloss>
       </glosses>
       <agent>
@@ -365,7 +356,7 @@
     <frame id="4">
       <ex>Kanpamendua lekuz aldatu dute arduradunek.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">The responsible ones have taken away the .. from the place ???</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Los responsables han cambiado el campamento de sitio.</gloss>
       </glosses>
@@ -388,8 +379,8 @@
     <frame id="5">
       <ex>Ardoa sagardoz aldatu zuen Mikelek.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Mikel has exchanged wine for cider.</gloss>
+        <gloss lang="sme">Mikel lea lonuhan eret viinni sideriin.</gloss>
         <gloss lang="spa">Mikel reemplazó el vino por sidra.</gloss>
       </glosses>
       <agent>
@@ -415,7 +406,7 @@
       <ex>Antzerkia amaitu da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Teahter lea nohkan.</gloss>
         <gloss lang="spa">Se ha terminado el teatro.</gloss>
       </glosses>
       <theme>
@@ -428,7 +419,7 @@
       <ex>Mikelek pastela amaitu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lea geargan gáhkuin.</gloss>
         <gloss lang="spa">Mikel ha terminado el pastel.</gloss>
       </glosses>
       <agent>
@@ -446,7 +437,7 @@
       <ex>Mikelek arazoarekin amaitu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lea geargan váttsivuođaiguin.</gloss>
         <gloss lang="spa">Mikel ha terminado con el problema.</gloss>
       </glosses>
       <agent>
@@ -466,8 +457,8 @@
     <frame id="1">
       <ex>Linternak argitzen du guzti hau.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The latern illuminates all of this.</gloss>
+        <gloss lang="sme">Likta cuvge dán visot.</gloss>
         <gloss lang="spa">La linterna ilumina todo esto.</gloss>
       </glosses>
       <agent>
@@ -484,7 +475,7 @@
     <frame id="2">
       <ex>Mikelek ez zuen argitu ez zela etorriko.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has not clarified that he would not come.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel no aclaró que no vendría.</gloss>
       </glosses>
@@ -494,7 +485,7 @@
         <sem></sem><!-- -->
       </agent>
       <obj>
-        <case>ela_konp</case>
+        <case>ela</case>
         <role>patient</role><!--gai ukitua-->
         <sem></sem><!-- -->
       </theme>
@@ -612,7 +603,7 @@
         <sem>human</sem><!--giz-->
       </agent>
       <themeproduct>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </themeproduct>
@@ -631,10 +622,10 @@
         <case>abs</case>
         <syn>subj</syn><!--gai ukitua-->
       </theme>
-      <advl1>
+      <sourcepath>
         <case>abl</case>
-        <role>source/path</role><!--/abiapuntuko kokapena/bidea-->
-      </advl1>
+        <syn>advl</syn><!--/abiapuntuko kokapena/bidea-->
+      </sourcepath>
       <destination>
         <case>ala</case>
         <syn>advl</syn><!--helburuko kokapena-->
@@ -652,11 +643,11 @@
         <syn>subj</syn><!--kausa-->
         <sem></sem>
       </cause>
-      <advl1>
+      <sourcepath>
         <case>abl</case>
-        <role>source/path</role><!--abiapuntuko kokapena/bidea-->
+        <syn>advl</syn><!--abiapuntuko kokapena/bidea-->
         <sem></sem>
-      </advl1>
+      </sourcepath>
       <destination>
         <case>ala</case>
         <syn>advl</syn><!--helburuko kokapena-->
@@ -679,7 +670,7 @@
         <case>dat</case>
         <syn>iobj</syn><!--abiapuntuko kokapena/bidea-->
         <sem></sem>
-      </source/path>
+      </sourcepath>
       <destination>
         <case>ala</case>
         <syn>advl</syn><!--helburuko kokapena-->
@@ -834,7 +825,7 @@
         <sem></sem><!-- -->
       </agent>
       <obj>
-        <case>ela_konp</case>
+        <case>ela</case>
         <role>predicate</role><!--gaia-->
         <sem>inanimate</sem><!-- -biz-konkr-->
       </theme>
@@ -1023,11 +1014,11 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa">La calle se ha llenado de gente.</gloss>
       </glosses>
-      <subj>
+      <destination>
         <case>abs</case>
-        <role>destination</role><!--helburuko kokapena-->
+        <syn>subj</syn><!--helburuko kokapena-->
         <sem></sem><!-- -->
-      </agent>
+      </destination>
       <advl1>
         <case>ins</case>
         <role></role><!--gai ukitua-->
@@ -1594,12 +1585,17 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gaia-->
+        <case>abs</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-    </frame>
+      </theme>
+      <location><!--kokapena-->
+        <case>ine</case>
+        <syn></syn>
+        <sem></sem>
+      </location>    
+      </frame>
     <frame id="2">
       <ex></ex>
       <glosses>
@@ -1607,16 +1603,36 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <topic><!--gaia-->
+      <cases>
+        <case>abs</case>
+      </cases>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </topic>
+      <attribute><!--egoera-->
+        <case>abs</case>
         <syn></syn>
 	  <sem></sem>	
-      </topic>
+      </attribute>
+    </frame>
+    <frame id="3">
+      <ex>ezaugarri/eginkizun baten esleitzea</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <theme><!--gaia-->
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </theme>
+      <location><!--kokapena-->
+        <case>dat</case>
+        <syn></syn>
+        <sem></sem>
+      </location>    
     </frame>
   </verb>
     
@@ -1946,7 +1962,7 @@
         <sem>human</sem><!--+giz-->
       </agent>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -2114,7 +2130,7 @@
         <sem></sem><!-- -->
       </agent>
        <topic>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -2213,7 +2229,7 @@
         <sem>human</sem><!--giz-->
       </experiencer>
       <obj>
-        <case>ela_konp</case>
+        <case>ela</case>
         <role>stimulus</role><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -2288,7 +2304,7 @@
         <sem>hum</sem><!---->
       </agent>
       <obj>
-        <case>ela_konp</case>
+        <case>ela</case>
         <role></role><!--gaia-->
         <sem></sem><!---->
       </theme>
@@ -2398,7 +2414,7 @@
         <sem></sem><!-- -->
       </agent>
        <topic>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -2529,29 +2545,19 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
+      <agent><!--esperimentatzailea -->
+        <case>erg</case>
+        <syn>subj</syn>
         <sem></sem>
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gaia -->
+        <cases>
+        <case>abs</case>
+        <case>dat</case>
+        </cases>
         <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+        <sem>inanimate</sem>
+      </theme>
     </frame>
   </verb>
   
@@ -2559,33 +2565,18 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Unicorns don't exist.</gloss>
+        <gloss lang="sme">Ovttačoarvvagat eai gávdno.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme>
+        <cases>
+        <case>abs</case>
+        <case>erg</case>
+        </cases>
         <syn></syn>
         <sem></sem>
-      </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      </theme>
     </frame>
   </verb>
 
@@ -2594,14 +2585,24 @@
       <ex></ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Báhppa náittii Mikela Mirehiin</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem>human</sem>
       </agent>
+      <patient>
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem>human</sem>
+      </patient>
+      <patient>
+        <case>soz</case>
+        <syn>advl</syn>
+	  <sem>human</sem>	
+      </patient>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -2610,16 +2611,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <patient>
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem>human</sem>
+      </patient>
+      <patient>
+        <case>soz</case>
+        <syn>advl</syn>
+	  <sem>human</sem>	
+      </patient>
     </frame>
   </verb>
   
@@ -2627,33 +2628,20 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The boat is floating on the river.</gloss>
+        <gloss lang="sme">Vanca govddoda eanus.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gaia-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </theme>
+      <location><!--kokapena-->
+        <case>ine</case>
         <syn></syn>
 	  <sem></sem>	
-      </topic>
+      </location>
     </frame>
   </verb>
 
@@ -2661,33 +2649,19 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Her performance exceeds our expectations. He passed his exam. The red car passed the green car.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme><!--esperimentatzailea-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gaia-->
+        <case>abs</case>
         <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+	    <sem></sem>	
+      </theme>
     </frame>
   </verb>
   
@@ -2745,33 +2719,48 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">take</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn></syn>
+        <sem>human</sem>
+      </agent>
+      <theme><!--gai ukitua-->
+        <case>abs</case>
         <syn></syn>
         <sem></sem>
-      </agent>
+      </theme>
+      <source><!--abiapuntuko kokapena-->
+        <case>abl</case>
+        <syn></syn>
+        <sem></sem>
+      </source>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>-Alor horrek industria izaera har dezan</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">acquire</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--edukitzailea-->
+        <case>erg</case>
+        <syn></syn>
+        <sem>human</sem>
+      </agent>
+      <theme><!--edukia-->
+        <case>abs</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </theme>
+      <source><!--kokapena-->
+        <case>ine</case>
         <syn></syn>
-	  <sem></sem>	
-      </topic>
+        <sem></sem>
+      </source>
     </frame>
   </verb>
     
@@ -2801,16 +2790,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <cause>
         <case>soc</case>
-        <role>cause</role><!--kausa-->
+        <syn></syn><!--kausa-->
         <sem></sem><!-- -->
-      </agent>
-      <obj>
+      </cause>
+      <experiencer>
         <case>abs</case>
-        <role>experiencer</role><!--gai ukitua-->
+        <syn>obj</syn><!--gai ukitua-->
         <sem>human</sem><!-- +giz-->
-      </theme>
+      </experiencer>
     </frame>
   </verb>
   
@@ -2913,11 +2902,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--kausa-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
       </agent>
+      <patient><!--gai ukitua-->
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </patient>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -2926,16 +2920,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <experiencer><!--gai ukitua-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </experiencer>
+      <agent><!--gai ukitua-->
+        <case>abs</case>
         <syn></syn>
 	  <sem></sem>	
-      </topic>
+      </agent>
     </frame>
   </verb>
     
@@ -3016,33 +3010,38 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">increase</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--kausa-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
       </agent>
+      <patient><!--gai ukitua-->
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </patient>
     </frame>
     <frame id="2">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">grow</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--kausa-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
       </agent>
-      <topic>
-        <case></case>
+      <product><!--gai ukitua-->
+        <case>abs</case>
         <syn></syn>
-	  <sem></sem>	
-      </topic>
+        <sem></sem>
+      </product>
     </frame>
   </verb>
   
@@ -3050,33 +3049,25 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">provide, supply</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem></sem><!-- -->
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+       <theme><!--gai ukitua-->
+        <case>ins</case>
+        <syn>obj</syn>
+        <sem></sem><!-- -->
+      </theme>
+      <recipient><!--helburuko kokapena-->
+        <case>abs</case>
+        <syn>advl</syn>
+        <sem></sem><!-- -->
+      </recipient>
     </frame>
   </verb>
 
@@ -3088,29 +3079,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem></sem><!-- -->
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+       <themesource><!--gai ukitua/abiapuntuko kokapena-->
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem></sem><!-- -->
+      </themesource>
     </frame>
   </verb>
   
@@ -3272,7 +3250,7 @@
         <sem>animate</sem><!--biz-->
       </agent>
        <topic>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--jarduera-->
         <sem></sem><!-- -->
       </topic>
@@ -3342,7 +3320,7 @@
         <sem>human</sem><!--giz-->
       </agent>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -3374,28 +3352,18 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+        <case>erg</case>
+        <syn>subj</syn><!--esperimentatzailea-->
+        <sem>human</sem><!--giz-->
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <theme>
+        <cases>
+        <case>abs</case>
+        <case>ela</case>
+        </cases>
+        <syn>obj</syn><!--gaia-->
+        <sem>inanimate</sem><!-- -konkr-->
+      </theme>
     </frame>
   </verb>
   
@@ -3407,11 +3375,22 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme><!--esperimentatzailea-->
+      <cases>
+        <case>erg</case>
+      </cases>
         <syn></syn>
         <sem></sem>
-      </agent>
+      </theme>
+      <attribute><!--denbora-->
+      <cases>
+        <case>abs</case>
+        <case>ine</case>
+        <case>ins</case>
+      </cases>
+        <syn></syn>
+	  <sem></sem>	
+      </attribute>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -3420,16 +3399,20 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--esperimentatzailea-->
+      <cases>
+        <case>erg</case>
+      </cases>
         <syn></syn>
         <sem></sem>
       </agent>
-      <topic>
+      <attribute><!--egora-->
+      <cases>
         <case></case>
+      </cases>
         <syn></syn>
 	  <sem></sem>	
-      </topic>
+      </attribute>
     </frame>
   </verb>
   
@@ -3485,29 +3468,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <cause><!--kausa-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
+      </cause>
+      <patient><!--gai ukitua-->
+        <case>abs</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      </patient>    
     </frame>
   </verb>
   
@@ -3609,11 +3579,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gaia-->
+        <case>abs</case>
         <syn></syn>
         <sem></sem>
-      </agent>
+      </theme>
+      <location><!--kokapena-->
+        <case>ine</case>
+        <syn></syn>
+        <sem></sem>
+      </location>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -3622,16 +3597,37 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <topic><!--gaia-->
+      <cases>
+        <case>abs</case>
+        <case>ela</case>
+      </cases>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </topic>
+      <attribute><!--ezaugarria-->
+        <case>abs</case>
         <syn></syn>
 	  <sem></sem>	
-      </topic>
+      </attribute>
+    </frame>
+    <frame id="3">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng">own, possess</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <theme><!--edukitzailea-->
+        <case>erg</case>
+        <syn></syn>
+        <sem></sem>
+      </theme>
+      <theme><!--edukia-->
+        <case>abs</case>
+        <syn></syn>
+	  <sem></sem>	
+      </theme>
     </frame>
   </verb>
     
@@ -3879,29 +3875,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
+      <experiencer><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn>advl</syn>
         <sem></sem>
-      </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      </experiencer>
+      <cause><!--gaia-->
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem></sem><!---->
+      </cause>
     </frame>
   </verb>
 
@@ -3913,11 +3896,26 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem></sem><!-- -->
       </agent>
+      <theme><!--gai ukitua-->
+        <case>abs</case>
+        <syn>subj</syn>
+        <sem></sem><!-- -->
+      </theme>
+      <source><!--abiapuntuko kokapena-->
+        <case>abl</case>
+        <syn>advl</syn>
+        <sem></sem><!-- -->
+      </source>
+      <destination><!--helburuko kokapena-->
+        <case>ala</case>
+        <syn>advl</syn>
+        <sem></sem><!-- -->
+      </destination>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -3926,16 +3924,62 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+      <agent><!--helburua-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem>human</sem><!-- -->
       </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <theme><!--gaia-->
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem>unanimate</sem><!-- -->
+      </theme>
+      <source><!--abiapunta-->
+        <case>abl</case>
+        <syn>advl</syn>
+        <sem></sem><!-- -->
+      </source>
+    </frame>
+    <frame id="3">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--edukitzailea-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem></sem><!-- -->
+      </agent>
+      <theme><!--edukia-->
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem></sem><!-- -->
+      </theme>
+      <location><!--kokapena-->
+        <case>ine</case>
+        <syn>advl</syn>
+        <sem></sem><!-- -->
+      </location>
+    </frame>
+    <frame id="4">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem></sem><!-- -->
+      </agent>
+      <product><!--gaia-->
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem></sem><!-- -->
+      </product>
     </frame>
   </verb>
   
@@ -4068,33 +4112,110 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">play game/music</gloss>
+        <gloss lang="sme">Mun čuojahan musihkka.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
       </agent>
+      <theme><!--gaia-->
+        <case>abs</case>
+        <syn></syn>
+        <sem>unanimate</sem>
+      </theme>
     </frame>
     <frame id="2">
+      <ex>Telefonoak jo du.</ex>
+      <glosses>
+        <gloss lang="eng">The telephone rings.</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn></syn>
+        <sem></sem>
+      </agent>
+      <theme><!--gaia-->
+        <case>abs</case>
+        <syn></syn>
+	    <sem>unanimate</sem>	
+      </theme>
+    </frame>
+    <frame id="3">
+      <ex>Larraungo bailaran, Aste Santuan, “hamabiak” jotzeko erabiltzen genuen.</ex>
+      <glosses>
+        <gloss lang="eng">strike</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn></syn>
+        <sem></sem>
+      </agent>
+      <patient><!--gaia-->
+      <cases>
+        <case>abs</case>
+        <case>ine</case>
+        <case>dat</case>
+      </cases>
+        <syn></syn>
+	    <sem></sem>	
+      </patient>
+    </frame>
+    <frame id="4">
       <ex></ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gai ukitua-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </theme>
+      <sourcepath><!--bidea-->
+      <cases>
+        <case>abl</case>
+      </cases>
         <syn></syn>
-	  <sem></sem>	
-      </topic>
+	    <sem></sem>	
+      </sourcepath>
+      <destination><!--helburuko kokapena-->
+        <case>ala</case>
+        <syn></syn>
+        <sem></sem>
+      </destination>
+    </frame>
+    <frame id="5">
+      <ex>Ez da jangarria, zenbait autorek erdipurdiko jangarritzat jotzen badute ere. </ex>
+      <glosses>
+        <gloss lang="eng">consider</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <theme><!--abiapuntua-->
+        <case>erg</case>
+        <syn></syn>
+        <sem>human</sem>
+      </theme>
+      <theme><!--helburua-->
+      <cases>
+        <case>abs</case>
+      </cases>
+        <syn></syn>
+	    <sem></sem>	
+      </theme>
+      <predicate><!--ezaugarria-->
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </predicate>
     </frame>
   </verb>
    
@@ -4106,29 +4227,25 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--esperimentatzailea -->
+        <cases>
+        <case>abs</case>
+        <case>erg</case>
+        </cases>
         <syn></syn>
-        <sem></sem>
+        <sem>animate</sem>
       </agent>
     </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
+      <theme><!--jarduera-->
+        <case>ine</case>
         <syn></syn>
         <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      </theme>
+      <agent><!--esperimentatzailea -->
+        <case>soz</case>
         <syn></syn>
-	  <sem></sem>	
-      </topic>
+	  <sem>animate</sem>	
+      </agent>
     </frame>
   </verb>
    
@@ -4139,16 +4256,16 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <experiencer>
         <case>abs</case>
-        <role>experiencer</role><!--gai ukitua-->
+        <syn></syn><!--gai ukitua-->
         <sem>human</sem>
-      </agent>
-      <advl1>
+      </experiencer>
+      <cause>
         <case>ins</case>
-        <role>cause</role><!--kausa-->
+        <syn>advl</syn><!--kausa-->
         <sem></sem>
-      </advl1>
+      </cause>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -4178,28 +4295,20 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+        <case>erg</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
+      <theme><!--gai ukitua-->
+        <case>abs</case>
         <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+        <sem></sem><!-- -->
+      </theme>
+      <destination>
+        <case>ine</case>
+        <syn>advl</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </destination>
     </frame>
   </verb>
   
@@ -4211,29 +4320,25 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
         <syn></syn>
         <sem></sem>
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
+      <patient><!--gaia-->
+      <cases>
+        <case>abs</case>
+      </cases>
         <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+	    <sem></sem>	
+      </patient>
+     <patient><!--gaia-->
+      <cases>
+        <case>soz</case>
+      </cases>
         <syn></syn>
-	  <sem></sem>	
-      </topic>
+	    <sem></sem>	
+      </patient>
     </frame>
   </verb>
   
@@ -4269,7 +4374,7 @@
         <sem>human</sem><!--giz-->
       </agent>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
       </theme>
     </frame>
@@ -4283,29 +4388,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn>subj</syn>
+        <sem>human</sem><!-- -->
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <product><!--gaia-->
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem>unanimate</sem><!-- -->
+      </product>
     </frame>
   </verb>
   
@@ -4367,28 +4459,15 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+        <case>erg</case>
+        <syn>subj</syn><!--esperimentatzailea-->
+        <sem>human</sem>
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+       <experiencer>
+        <case>abs</case>
+        <syn>advl</syn><!--gaia-->
+        <sem>human</sem>
+      </experiencer>
     </frame>
   </verb>
   
@@ -4504,29 +4583,16 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
+      <agent><!--esperimentatzailea-->
+        <case>erg</case>
+        <syn>subj</syn>
         <sem></sem>
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <patient><!--gaia-->
+        <case>abs</case>
+        <syn>obj</syn>
+	    <sem>unanimate</sem>	
+      </patient>
     </frame>
   </verb>
   
@@ -4539,28 +4605,25 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
+        <case>erg</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
-        <syn></syn>
-	  <sem></sem>	
-      </topic>
+      <theme>
+        <case>abs</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      <sourcepath>
+        <case>abl</case>
+        <syn>advl</syn><!--abiapuntuko kokapena/bidea-->
+        <sem></sem><!-- -->
+      </sourcepath>
+      <destination>
+        <case>ala</case>
+        <syn>advl</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </destination>
     </frame>
   </verb>
   
@@ -4572,29 +4635,23 @@
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--esperimentatzailea-->
+        <cases>
+        <case>abs</case>
+        <case>erg</case>
+        </cases>
         <syn></syn>
         <sem></sem>
       </agent>
-    </frame>
-    <frame id="2">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case></case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <topic>
-        <case></case>
+      <theme><!--gaia-->
+        <cases>
+        <case>ins</case>
+        <case>abs</case>
+        <case>ela</case>
+        </cases>
         <syn></syn>
 	  <sem></sem>	
-      </topic>
+      </theme>
     </frame>
   </verb>
   
@@ -4607,7 +4664,7 @@
         <gloss lang="spa"></gloss>
       </glosses>
       <subj>
-        <case>ela_konp</case>
+        <case>ela</case>
         <role>theme</role><!--gaia-->
         <sem></sem><!-- -->
       </agent>
@@ -4726,7 +4783,7 @@
         <sem></sem><!-- -->
       </agent>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
       </theme>
@@ -4975,7 +5032,7 @@
         <sem>human</sem>  
       </agent>
       <theme>
-        <case>ela_konp</case>
+        <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sems>
         <sem>matter</sem>
