@@ -192,7 +192,7 @@
       <ex>Maite duela agertu dio Mikelek.</ex>
       <glosses>
         <gloss lang="eng">Mikel showed them that he loves them.</gloss>
-        <gloss lang="sme">Mikel čájehii civkalii ahte ráhkista su.</gloss>
+        <gloss lang="sme">Mikel čájehii / civkalii ahte ráhkista su.</gloss>
         <gloss lang="spa">Mikel le ha manifestado que le quiere.</gloss>
       </glosses>
       <agent>
@@ -557,7 +557,7 @@
       <ex>Mikelek emaitza asmatu du.</ex>
       <glosses>
         <gloss lang="eng">Mikel has anticipated the result.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">árvidit</gloss>
         <gloss lang="spa">Mikel ha acertado el resultado.</gloss>
       </glosses>
       <ex>Mikelek kantua asmatu du.</ex>
@@ -798,7 +798,7 @@
       <ex>Mikelek datu hori baieztatu du.</ex>
       <glosses>
         <gloss lang="eng">Mikel has confirmed this date.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lea duođaštan dán dátuma.</gloss>
         <gloss lang="spa">Mikel ha confirmado ese dato.</gloss>
       </glosses>
       <agent>
@@ -816,7 +816,7 @@
       <ex>Mikelek ezkontzara joango dela baieztatu du.</ex>
       <glosses>
         <gloss lang="eng">Mikel has confirmed that he will attend the wedding.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lea duođaštan ahte son áigu leat heajain.</gloss>
         <gloss lang="spa">Mikel ha confirmado que acudirá a la boda.</gloss>
       </glosses>
       <agent>
@@ -2547,6 +2547,7 @@
         <case>erg</case>
         <syn></syn>
         <sem></sem>
+      </theme>
       <theme><!--gaia-->
         <case>abs</case>
         <syn></syn>
@@ -2982,12 +2983,12 @@
     </frame>
   </verb>
   
-  <verb lm="igo"><!--26-->
+  <verb lm="igo"><!--26--><!--rise, ascend, climb-->
     <frame id="1">
       <ex>Mikel herritik mendira igo da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme">goargŋut</gloss>
+        <gloss lang="eng">Mikel ascended the mountain from the village.</gloss>
+        <gloss lang="sme">Mikel gorgŋui bajás vári (gilis).</gloss>
         <gloss lang="spa">Mikel ha subido del pueblo al monte.</gloss>
       </glosses>
       <patient>
@@ -3009,8 +3010,8 @@
     <frame id="2">
       <ex>Mikelek txakurra kaletik etxera igo du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Mikel picked up the dog from the street home.</gloss>
+        <gloss lang="sme">Mikel loktii beatnaga bajás gáhtas</gloss>
         <gloss lang="spa">Mikel ha subido al perro de la calle a casa.</gloss>
       </glosses>
       <agent>
@@ -3401,7 +3402,7 @@
     </frame>
   </verb>
   
-  <verb lm="isuri"><!--48-->
+  <verb lm="isuri"><!--48--><!--flow, pour, spill-->
     <frame id="1">
       <ex>Begietatik malkoak isurtzen dira.</ex>
       <glosses>
@@ -3663,6 +3664,7 @@
       </path>
       </frame>
   </verb>
+  
   <verb lm="jan"><!--42-->
     <frame id="1">
       <ex>Mikelek sagarra jan du.</ex>
@@ -3791,7 +3793,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">stand, undergo, suffer</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -3812,7 +3814,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">lift, raise, receive</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4052,7 +4054,7 @@
       <ex>Telefonoak jo du.</ex>
       <glosses>
         <gloss lang="eng">The telephone rings.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Telefuvdna čuodjá.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--esperimentatzailea-->
@@ -4144,7 +4146,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">play a game</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4211,7 +4213,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">place, situate, stand</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4237,7 +4239,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">compare</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4267,7 +4269,7 @@
     <frame id="1">
       <ex>Mikel ez da horretaz konturatu.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel has not noticed that his friend fell.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel no se ha dado cuenta de que su amigo se ha caido.</gloss>
       </glosses>
@@ -4285,8 +4287,8 @@
     <frame id="2">
       <ex>Mikel ez da konturatu bere laguna erori dela.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Mikel has not noticed it.</gloss>
+        <gloss lang="sme">Mikel ii leat fuomášan dan.</gloss>
         <gloss lang="spa">Mikel no se ha dado cuenta de eso</gloss>
       </glosses>
       <agent>
@@ -4305,7 +4307,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">work, cultivate, develop</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4521,7 +4523,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">move</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4552,7 +4554,7 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">remember</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4580,8 +4582,8 @@
     <frame id="1">
       <ex></ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">A question occurred to me.</gloss>
+        <gloss lang="sme">Bođii gazaldat millii.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <theme>
@@ -4601,8 +4603,8 @@
     <frame id="1">
       <ex>Olioa urarekin nahastu da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The oil has mixed with the water.</gloss>
+        <gloss lang="sme">Olju seaguhii viinni čáhciin.</gloss>
         <gloss lang="spa">El aceite se ha mezclado con el agua.</gloss>
       </glosses>
       <patient>
@@ -4620,7 +4622,7 @@
       <ex>Mikelel ardoa urarekin nahastu du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lea seaguhan viinni čáhciin.</gloss>
         <gloss lang="spa">Mikel ha mezclado el vino con agua.</gloss>
       </glosses>
       <agent>
@@ -4643,7 +4645,8 @@
       <ex>Zerbitzaria nahastu egin da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Kelleneren válddi boastut.</gloss>
+        <gloss lang="nob">Kelneren tok feil.</gloss>
         <gloss lang="spa">El camarero se ha confundido.</gloss>
       </glosses>
       <patient>
@@ -4655,8 +4658,9 @@
     <frame id="4">
       <ex>Kontakizunak irakurlea nahastu egiten du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The story confuses the ...</gloss>
+        <gloss lang="sme">Muitalus seaguha oahpaheaddji.</gloss>
+        <gloss lang="deu">verwirren</gloss>
         <gloss lang="spa">La narración confunde al lector.</gloss>
       </glosses>
       <agent>
@@ -4676,8 +4680,8 @@
     <frame id="1">
       <ex>Mikelek zure iritzia onartu du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Mikel has accepted your opinion.</gloss>
+        <gloss lang="sme">Mikel lea dohkkhan su oaivvila.</gloss>
         <gloss lang="spa">Mikel ha aceptado tu opinión.</gloss>
       </glosses>
       <agent>
@@ -4790,7 +4794,7 @@
     <frame id="1">
       <ex>Mikel kaletik tabernara sartu da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel entered the bar from the street.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel ha entrado de la calle al bar.</gloss>
       </glosses>
@@ -4813,7 +4817,7 @@
     <frame id="2">
       <ex>Mikel tabernan sartu da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel entered the bar.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel ha entrado en el bar/al bar.</gloss>
       </glosses>
@@ -4831,7 +4835,7 @@
     <frame id="3">
       <ex>Mikelek paperak poltsatik kaxoira sartu ditu.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Mikel took the papers out of the bag into the something.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">Mikel ha metido los papeles desde la bolsa al cajón.</gloss>
       </glosses>
@@ -4860,7 +4864,7 @@
       <ex>Mikelek paperak kaxoian sartu ditu.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel put the papers into the sth</gloss>
         <gloss lang="spa">Mikel ha metido los papeles en el cajón.</gloss>
       </glosses>
       <agent>
@@ -4883,11 +4887,11 @@
   
   <verb lm="ukitu"><!--94-->
     <frame id="1">
-      <ex></ex>
+      <ex>Eskuaz sagarrak ukitu dut.</ex>
       <glosses>
         <gloss lang="eng">touch</gloss>
-        <gloss lang="sam">guoskat</gloss>
-        <gloss lang="spa">tocar</gloss>
+        <gloss lang="sme">Lean guoskan ehpela gieđain.</gloss>
+        <gloss lang="spa">He tocado la manzana con la mano.</gloss>
       </glosses>
       <agent>
         <case>erg</case>
@@ -4907,11 +4911,11 @@
   
   <verb lm="ulertu"><!--95--><!--addet-->
     <frame id="1">
-      <ex></ex>
+      <ex>Ez du tutik ere ulertzen</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sam"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">Ii ipmir maidege.</gloss>
+        <gloss lang="spa">No entiende nada</gloss>
       </glosses>
       <agent>
         <case>erg</case>
@@ -4928,10 +4932,10 @@
       </theme>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Ez dut ulertu.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sam"></gloss>
+        <gloss lang="sme">In ipmir.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -4941,10 +4945,10 @@
       </agent>
     </frame>
     <frame id="3">
-      <ex></ex>
+      <ex>ulertu ela</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sam"></gloss>
+        <gloss lang="sme">In ipmir ahte</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -4964,9 +4968,10 @@
   
   <verb lm="topatu"><!--93-->
     <frame id="1">
-      <ex></ex>
+      <ex>Bidea topatu dugu azkenean.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
+        <gloss lang="sme">Loahppas mii leat gávdnan geainnu.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -4984,6 +4989,7 @@
       <ex></ex>
       <glosses>
         <gloss lang="eng"></gloss>
+        <gloss lang="sme">gávdnat</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -5001,9 +5007,16 @@
   
   <verb lm="zeharkatu"><!--96-->
     <frame id="1">
-      <ex></ex>
+      <ex>Autobus bat zeharkatu zuten errepidean.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">They passed a car in the street.</gloss>
+        <gloss lang="sme">Sii manne biilla meattá gahta alde</gloss>
+        <gloss lang="spa">Cruzaron un autobús en la carretera.</gloss>
+      </glosses>
+    <ex></ex>
+      <glosses>
+        <gloss lang="eng">They crossed the desert.</gloss>
+        <gloss lang="sme">Sii rasttildeigga avdineatnama.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
        <theme>
@@ -5021,9 +5034,18 @@
   
   <verb lm="zintzilikatu"><!--97-->
     <frame id="1">
-      <ex></ex>
+      <ex>Bi gazte zarauztar zintzilikatu dira Santa Barbara mendian</ex>
+      <glosses>
+        <gloss lang="eng">The clothes are hanging in the tree.</gloss>
+        <gloss lang="sme">Gárvvut gohcahit muoras.</gloss>
+        <gloss lang="sme">biktasat heaŋgájit muoras</gloss><!--Tomi, Biret Anne-->
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <ex>Zuhaitz batetik zintzilikatu zuten.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
+        <gloss lang="sme">Sii gozastit juoga murriii.</gloss><!--Duomma-->        
+        <gloss lang="sme">Sii heaŋgájit juoga murriii.</gloss><!--Duomma-->
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
