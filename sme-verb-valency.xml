@@ -7,19 +7,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem>human</sem>  
-      </subj>
-      <obj>
+      </agent>
+      <theme>
         <case>acc</case>
-        <role>theme</role>
+        <syn>object</syn>
         <sems>
         <sem>human</sem>
         <sem>matter</sem>
         </sems>
-      </obj>
+      </theme>
     </frame>
   </verb>
     
@@ -30,14 +30,14 @@
         <gloss lang="eng">I give you one hook, and what you might kill, you should not look at until you have killed three.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>  <!--possibly also non human as in the next example-->
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sems>
             <sem>conobject</sem>
             <sem>concept</sem>
@@ -45,7 +45,7 @@
       </obj>
       <advl1>
         <case>ill</case>
-        <role>recipient</role>
+        <syn>recipient</syn>
         <sem>animate</sem>
       </advl1>
     </frame>
@@ -55,19 +55,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role><!--cause??-->
+        <syn>agent</syn><!--cause??-->
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>inanimate</sem>
       </advl0>
       <advl1>
         <case>ill</case>
-        <role>recipient</role>
+        <syn>recipient</syn>
         <sem>human</sem>
       </advl1>
     </frame>
@@ -82,14 +82,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sems>
             <sem>conobject</sem>
             <sem>concept</sem>
@@ -107,14 +107,14 @@
         <gloss lang="spa"></gloss>
         <gloss lang="eus"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>erg</case>
-        <role>agent</role><!--abiapuntua-->
+        <syn>agent</syn><!--abiapuntua-->
         <sem>human</sem><!--giz-->
-      </subj>
+      </agent>
       <advl0>
         <case>ill</case>
-        <role>theme</role><!--helburua-->
+        <syn>theme</syn><!--helburua-->
         <sem>human</sem><!--giz-->
       </advl0>
     </frame>
@@ -128,14 +128,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>experiencer</role>
+        <syn>experiencer</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>sub</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem><!--something,someone-->
       </obj>
     </frame>
@@ -146,14 +146,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>experiencer</role>
+        <syn>experiencer</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem><!--something,someone-->
       </obj>
     </frame>
@@ -166,14 +166,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>inanimate</sem>
       </advl0>
     </frame>
@@ -183,14 +183,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>location</role><!--theme-->
+        <syn>location</syn><!--theme-->
         <sem>inanimate</sem>
     </frame>
     <frame id="3">
@@ -199,14 +199,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>theme</role><!--theme-->
+        <syn>theme</syn><!--theme-->
         <sem>inanimate</sem>
     </frame>        
     <frame id="4">
@@ -215,14 +215,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>ill</case>
-        <role>location</role>
+        <syn>location</syn>
         <sem>human</sem>
       </advl0>
     </frame>
@@ -232,14 +232,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>adv</case>
-        <role>manner</role>
+        <syn>manner</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -249,18 +249,43 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>ess</case>
-        <role></role>
+        <syn></syn>
         <sem>human</sem>
       </advl0>
     </frame>
   </verb>
+  
+  <verb lm="álmmuhit"><!--62--><!--express, assert, state-->
+    <frame id="1">
+      <ex>Nu go presideanta lei álmmuhan ahte son ii áiggo doallat čoahkkima.</ex>
+      <glosses>
+        <gloss lang="eng">As the president had announced, he was not going to have a meeting.</gloss>
+        <gloss lang="eus">Presidenteak adierazi zuenez ez zela bilerarik egingo.</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--esperimentatzailea-->
+        <case>nom</case>
+        <syn>subj</syn>
+        <sem></sem>
+      </agent>
+      <topic><!--gaia-->
+        <cases>
+        <case>acc</case>
+        <case>sub</case>
+        </cases>
+        <syn>obj</syn>
+        <sem></sem>
+      </theme>
+    </frame>
+  </verb>
+
 
   <verb lm="árvidit"><!--asmatu-->
     <frame id="1">
@@ -269,14 +294,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
     </frame>
@@ -286,14 +311,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>sub</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
     </frame>
@@ -303,11 +328,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
     </frame>
   </verb>
   
@@ -318,14 +343,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>hum</sem>
       </obj>
     </frame>
@@ -338,14 +363,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>experiencer</role>
+        <syn>experiencer</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -358,14 +383,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>location</role>
+        <syn>location</syn>
         <sem>place</sem>
       </advl0>
     </frame>
@@ -376,11 +401,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-       <subj>
+       <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="3">
       <ex>Mii leat nappo guokte jagi bargan guokte vuosttašgiela-prošeavttain.</ex>
@@ -388,14 +413,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>inanimate</sem>
       </advl0>
     <frame id="4">
@@ -404,14 +429,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>inanimate</sem>
       </advl0>
     </frame>
@@ -421,14 +446,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>extent</role>
+        <syn>extent</syn>
         <sem>measure</sem>
       </advl0>
     </frame>
@@ -438,19 +463,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>ovttas</case>
-        <role>manner</role>
+        <syn>manner</syn>
         <sem>ovttas</sem>
       </advl0>
      <advl1>
         <case>com</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
       </advl1>
     </frame>
@@ -463,14 +488,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem><!--something that makes sounds - human, electronic item-->
       </obj>
     </frame>
@@ -483,20 +508,20 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <advl1>
         <case>com</case>
-        <role></role>
+        <syn></syn>
         <sem>hum</sem>
         <opt>optional<opt/>
       </advl1>
       <advl2>
         <case>ill</case>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem></sem>
       </advl2>
     </frame>
@@ -506,20 +531,20 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <advl1>
         <case>com</case>
-        <role></role>
+        <syn></syn>
         <sem>hum</sem>
         <opt>optional<opt/>
       </advl1>
       <advl2>
         <case>ala</case>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem>place</sem>       
       </advl2>    
     </frame>
@@ -529,20 +554,20 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <advl1>
         <case>com</case>
-        <role></role>
+        <syn></syn>
         <sem>hum</sem>
         <opt>optional<opt/>
       </advl1>
       <advl2>
         <case>lusa</case>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem>human</sem>       
       </advl2>    
     </frame>
@@ -552,14 +577,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <advl1>
         <case>com</case>
-        <role></role>
+        <syn></syn>
         <sem>vehicle</sem>
       </advl1>   
     </frame>
@@ -572,19 +597,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
       <advl0>
         <case>ill</case>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -594,19 +619,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
       <advl0>
         <case>adverb</case>
-        <role></role>
+        <syn></syn>
         <sem>oktii</sem>
       </advl0>
     </frame>
@@ -616,19 +641,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
       <advl0>
         <case>ill</case>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -641,14 +666,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl1>
         <case>com</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </advl1>
     </frame>
@@ -663,11 +688,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
      </frame>
     <frame id="2">
       <ex>Vai sihkkarastojuvvo ahte mis leat bivdofatnasat rittuin maiddái boahtteáiggis, de ferte daid áhpefatnasiid logu unnidit, mat bivdet uhcit guliid, máškideabbo riddofatnasiid ektui, mat bivdet stuorát guliid. </ex>
@@ -675,14 +700,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>animate</sem>
       </obj>
     </frame>
@@ -695,14 +720,14 @@
         <gloss lang="eng">Blood came out of her wound.</gloss>
         <gloss lang="spa">Le salía sangre de la herida.</gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>source</role>
+        <syn>source</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -717,17 +742,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
       <advl0>
         <cases>
             <case>lusa</case>
             <case>illative</case>
         </cases>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -737,18 +762,18 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>sub</case>
-        <role>manner</role>
+        <syn>manner</syn>
       </advl0>
       <advl1>
         <case>loc</case>
-        <role>location</role>
+        <syn>location</syn>
       </advl1>
     </frame>
     <frame id="3">
@@ -762,11 +787,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="4">
       <ex>Preassas lea erenoamaš ovddasvástádus das ahte iešguđet lágan oaivilat bohtet ovdan.</ex>
@@ -774,14 +799,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>ovdan</case>
-        <role></role>
+        <syn></syn>
       </advl0>
     </frame>
     <frame id="5">
@@ -790,16 +815,39 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>manner</role>
+        <syn>manner</syn>
         <sem>vehicle</sem>
       </advl0>
+    </frame>
+    <frame id="6">
+      <ex>Dikkis bođii ovdan ahte sus ii leat miige virgi fitnodagas.</ex>
+      <glosses>
+        <gloss lang="eng">At court it turned out that he doesn't have any position in the company.</gloss>
+        <gloss lang="eus">Enpresan kargurik ez duela agertu da epaiketan.</gloss>
+        <gloss lang="spa">En el juicio ha aparecido que no tiene ningún cargo en la empresa.</gloss>
+      </glosses>
+      <theme>
+        <case>sub</case>
+        <syn>subj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </theme>
+      <location>
+        <case>loc</case>
+        <syn>advl</syn><!--kokapena-->
+        <sem></sem><!-- -->
+      </location>
+      <?>
+        <case>ovdan</case>
+        <syn>advl</syn><!--kokapena-->
+        <sem></sem><!-- -->
+      </?>
     </frame>
   </verb>
   
@@ -815,14 +863,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
     </frame>
@@ -835,11 +883,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="2">
       <ex>Gaskal 15 ja 20 % sis geat olu borgguhit, ožžot kolssa.</ex>
@@ -847,14 +895,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case>adv</case>
-        <role>manner</role>
+        <syn>manner</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -864,14 +912,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
-        <case>subj</case>
-        <role>agent</role>
+      <agent>
+        <case>agent</case>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>patient?</role>
+        <syn>patient?</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -884,14 +932,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>patient</role>
+        <syn>patient</syn>
         <sem>inanimate</sem>
       </obj>
     </frame>
@@ -901,11 +949,35 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
+    <frame id="3">
+      <ex>Mikel borai guoli eahketbiepmun.</ex>
+      <glosses>
+        <gloss lang="eng">Mikel ate fish for dinner.</gloss>
+        <gloss lang="eus">Mikelek arraina afaldu du.</gloss>
+        <gloss lang="sme">Mikel veaiggádalai guliin.</gloss>
+        <gloss lang="spa">Mikel ha cenado pescado</gloss>
+      </glosses>
+      <agent><!--esperimentatzailea-->
+        <case>nom</case>
+        <syn>subj</syn>
+        <sem></sem>
+      </agent>
+      <patient><!--gaia-->
+        <case>acc</case>
+        <syn>obj</syn>
+	    <sem>concrete</sem>	
+      </patient>
+      <theme><!--gaia-->
+        <case>ess</case>
+        <syn>obj</syn>
+	    <sem>concrete</sem>	
+      </theme>
+    </frame>
   </verb>
   
   <verb lm="buktit">
@@ -916,14 +988,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem><!-- -->
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem><!-- -->
       </obj>
     </frame>
@@ -934,19 +1006,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>animate</sem><!-- -->
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem><!-- -->
       </obj>
       <advl0>
         <case>ill</case>
-        <role>destination</role>
+        <syn>destination</syn>
         <sem></sem><!-- -->
         <opt>optional</opt>
       </advl0>
@@ -960,14 +1032,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>human</sem>
       </obj>
     </frame>
@@ -980,19 +1052,43 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>animate</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sems>
             <sem>plan</sem>
             <sem>education</sem>
         </sems>
       </obj>
+    </frame>
+  </verb>
+  
+  <verb lm="čájehit"><!--44--><!--appear, show--><!--agertu-->
+    <frame id="6">
+      <ex>Mikel čájehii/ civkalii ahte ráhkista su.Maite duela agertu dio Mikelek.</ex>
+      <glosses>
+        <gloss lang="eng">Mikel showed them that he loves them.</gloss>
+        <gloss lang="sme">Maite duela agertu dio Mikelek.</gloss>
+        <gloss lang="spa">Mikel le ha manifestado que le quiere.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--esperimentatzailea-->
+        <sem></sem><!-- -->
+      </agent>
+       <topic>
+       <cases>
+        <case>acc</case>
+        <case>sub</case>
+        </cases>
+        <syn>obj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </theme>
     </frame>
   </verb>
   
@@ -1003,19 +1099,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <obj>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </obj>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
     </frame>
   </verb>
@@ -1027,17 +1123,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1049,14 +1145,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>human</sem>
       </obj>
     </frame>
@@ -1069,19 +1165,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl1>
     </frame>
@@ -1091,19 +1187,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl1>
     </frame>
@@ -1116,14 +1212,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role></role>
+        <syn></syn>
         <sem>hum</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>com</case>
-        <role></role>
+        <syn></syn>
         <sem>hum</sem>
       </advl0>
     </frame>
@@ -1136,17 +1232,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1158,17 +1254,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1180,17 +1276,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1202,14 +1298,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>concreteobject</sem>
       </obj>
     </frame>
@@ -1222,14 +1318,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>location</role>
+        <syn>location</syn>
         <sem>place</sem>
       </advl0>
     </frame>
@@ -1242,14 +1338,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>loc</case><!--su luhtte-->
-        <role>location</role>
+        <syn>location</syn>
         <sem>place</sem>
       </advl0>
     </frame>
@@ -1262,19 +1358,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
       <advl0>
         <case>ill</case>
-        <role>location</role>
+        <syn>location</syn>
         <sem>place</sem>
       </advl0>
     </frame>
@@ -1287,14 +1383,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </obj>
     </frame>
     <frame id="2">
@@ -1303,14 +1399,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>sub</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </obj>
     </frame>
     <frame id="3">
@@ -1319,14 +1415,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>inf</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </obj>
     </frame>
   </verb>
@@ -1338,17 +1434,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1360,14 +1456,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>conobject</sem>
       </obj>
     </frame>
@@ -1375,33 +1471,34 @@
   
   <verb lm="geargat"><!--13 amaitu-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikel lea geargan váttsivuođaiguin.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">Mikelek arazoarekin amaitu du.</gloss>
+        <gloss lang="spa">Mikel ha terminado con el problema.</gloss>
       </glosses>
-      <subj>
-        <case>nom</case>
-        <role>agent</role>
-        <sem>human</sem>
-      </subj>
-      <advl0>
-        <case>loc</case>
-        <role>theme</role>
-        <sem>instrument</sem>
-      </advl0>
+      <agent>
+        <case>erg</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+       <theme>
+        <case>soc</case>
+        <syn>advl</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Mikel lea geargan.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="3">
       <ex></ex>
@@ -1409,14 +1506,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>ill</case>
-        <role>time</role>
+        <syn>time</syn>
         <sem>time</sem>
       </advl0>
     </frame>
@@ -1426,16 +1523,16 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
-      <advl0>
-        <case>com</case>
-        <role>theme</role>
-        <sem>work</sem>
-      </advl0>
+      </agent>
+      <theme>
+        <case>loc</case>
+        <syn>theme</syn>
+        <sem></sem>
+      </theme>
     </frame>
   </verb>
   
@@ -1446,14 +1543,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>movable</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>bajábealde</case>
-        <role>location</role>
+        <syn>location</syn>
         <sem>place</sem>
       </advl0>
     </frame>
@@ -1466,19 +1563,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
       <opred>
         <case>ess</case>
-        <role>predicative</role>
+        <syn>predicative</syn>
         <sem></sem>
       </opred>
     </frame>
@@ -1491,11 +1588,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
-      </subj>
+      </agent>
     </frame>
   </verb>
   
@@ -1506,14 +1603,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
     </frame>
@@ -1531,14 +1628,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sems>
             <sem>time</sem>
             <sem>money</sem>
@@ -1551,19 +1648,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>hum</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>time</sem>
       </obj>
       <advl0>
         <case>com</case>
-        <role></role>
+        <syn></syn>
         <sem>hum</sem>
       </advl0>
     </frame>
@@ -1576,19 +1673,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
       <advl0>
         <case>loc</case>
-        <role>source</role>
+        <syn>source</syn>
         <sem>hum</sem>
       </advl0>
     </frame>
@@ -1598,14 +1695,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>hum</sem>
-      </subj>
+      </agent>
       <obj>
         <case>sub</case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </obj>
     </frame>
@@ -1615,14 +1712,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case>ill</case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -1640,14 +1737,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>location</role>
+        <syn>location</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -1660,14 +1757,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </obj>
     </frame>
@@ -1680,17 +1777,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1702,17 +1799,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1724,13 +1821,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem></sem>
       </advl0>
     </frame>
@@ -1740,13 +1837,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
       <advl0>
         <case>ovdal</case>
-        <role>time</role>
+        <syn>time</syn>
       </advl0>
     </frame>
     <frame id="2b">
@@ -1755,13 +1852,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>ill</case>
-        <role>time</role>
+        <syn>time</syn>
       </advl0>
     </frame>
     <frame id="3">
@@ -1770,13 +1867,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </advl0>
     </frame>
   </verb>
@@ -1788,17 +1885,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1810,17 +1907,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1832,17 +1929,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1854,17 +1951,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1876,17 +1973,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1898,13 +1995,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>patient</role>
+        <syn>patient</syn>
         <sem>animate</sem>
       </obj>
     </frame>
@@ -1914,17 +2011,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1936,17 +2033,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -1958,17 +2055,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>location/source?</role>
+        <syn>location/source?</syn>
       </advl0>
       <obj>
         <case>sub</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </obj>
     </frame>
     <frame id="1b">
@@ -1977,13 +2074,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </obj>
     </frame>
     <frame id="2">
@@ -1992,13 +2089,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>birra</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </advl0>
     </frame>
     <frame id="3a">
@@ -2007,13 +2104,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
       <advl0>
         <case>ill</case>
-        <role>location?</role>
+        <syn>location?</syn>
       </advl0>
     </frame>
     <frame id="3b">
@@ -2022,13 +2119,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
       <advl0>
         <case>oktii</case>
-        <role>location?</role>
+        <syn>location?</syn>
       </advl0>
     </frame>
   </verb>
@@ -2040,17 +2137,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2062,14 +2159,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human<sem>
-      </subj>
+      </agent>
       <advl0>
         <case>birra</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem><sem>
       </advl0>
     </frame>
@@ -2079,14 +2176,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human<sem>
-      </subj>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>product</role>
+        <syn>product</syn>
         <sem>language<sem>
       </obj>
     </frame>
@@ -2096,14 +2193,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human<sem>
-      </subj>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>recipient</role>
+        <syn>recipient</syn>
         <sem>human<sem>
       </advl0>
     </frame>
@@ -2116,14 +2213,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human<sem>
-      </subj>
+      </agent>
       <advl0>
         <case>birra</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem><sem>
       </advl0>
     </frame>
@@ -2133,14 +2230,14 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human<sem>
-      </subj>
+      </agent>
       <obj>
         <case>ill</case>
-        <role>product</role>
+        <syn>product</syn>
         <sem>language<sem>
       </obj>
     </frame>
@@ -2150,43 +2247,53 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human<sem>
-      </subj>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>recipient</role>
+        <syn>recipient</syn>
         <sem>human<sem>
       </advl0>
     </frame>
   </verb>
 
-    <verb lm="ihtit">
+  <verb lm="ihtit"><!--44--><!--appear, show--><!--ihtit-->
     <frame id="1">
-      <ex></ex>
+      <ex>Čoavdda lea ihtán burssas.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
+        <gloss lang="sme">Giltza poltsikoan agertu da.</gloss>
+        <gloss lang="spa">La llave ha aparecido en el bolsillo.</gloss>
+      </glosses>
+      <theme>
+        <case>abs</case>
+        <syn>subj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </theme>
+      <location>
+        <case>ine</case>
+        <syn>advl</syn><!--kokapena-->
+        <sem></sem><!-- -->
+	</location>
+    </frame>
+    <frame id="2"><!-- ???-->
+      <ex>Beaivvaš lea ihtán.</ex>
+      <glosses>
+        <gloss lang="eng">It dawned.</gloss>
+        <gloss lang="eus"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
-        <case></case>
-        <role></role>
-        <sem></sem>
-      </subj>
-      <advl0>
-        <case></case>
-        <role></role>
-        <sem></sem>
-      </advl0>
-      <advl1>
-        <case></case>
-        <role></role>
-        <sem></sem>
-      </advl1>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </theme>
     </frame>
   </verb>
+
   
   <verb lm="jápmit"><!--hil-->
     <frame id="1">
@@ -2195,10 +2302,10 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
     </frame>
     <frame id="2">
       <ex></ex>
@@ -2206,17 +2313,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
     <frame id="3">
@@ -2225,17 +2332,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2247,17 +2354,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2269,17 +2376,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2292,11 +2399,11 @@
         <gloss lang="spa">Canto.</gloss>
         <gloss lang="eus">Nik abesten dut.</gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem>animate<sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="2">
       <ex>Mun lávllan lávlaga</ex>
@@ -2304,16 +2411,16 @@
         <gloss lang="eng">I sing a song</gloss>
         <gloss lang="spa">Canto una canción</gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem>animate<sem>
-      </subj>
-      <obj>
+      </agent>
+      <topic>
         <case>acc</case>
-        <role>topic</role>
+        <syn>obj</syn>
         <sem>text<sem>
-      </obj>
+      </topic>
     </frame>
   </verb>
   
@@ -2324,17 +2431,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2346,17 +2453,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2368,17 +2475,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2390,20 +2497,47 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
+  
+  <verb lm="lonuhit"><!--9-->
+    <frame id="1">
+      <ex>>Mikel lea lonuhan eret viinni sideriin.</ex>
+      <glosses>
+        <gloss lang="eng">Mikel has exchanged wine for cider.</gloss>
+        <gloss lang="eus">Ardoa sagardoz aldatu zuen Mikelek.</gloss>
+        <gloss lang="spa">Mikel reemplazó el vino por sidra.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--esperimentatzailea-->
+        <sem></sem><!-- -->
+      </agent>
+      <theme>
+        <case>acc</case>
+        <syn>obj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </theme>
+      <theme>
+        <case>com</case>
+        <syn>advl</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </theme>
+    </frame>
+  </verb>
+
   
   <verb lm="mannat"><!--joan-->
     <frame id="1a">
@@ -2419,7 +2553,7 @@
       </glosses>
       <advl>
         <case>adv</case>
-        <role>manner</role>
+        <syn>manner</syn>
       </advl>
     </frame>
     <frame id="1b">
@@ -2430,7 +2564,7 @@
       </glosses>
       <advl>
         <case>sub</case>
-        <role>manner</role>
+        <syn>manner</syn>
       </advl>
     </frame>
     <frame id="2a">
@@ -2439,17 +2573,17 @@
         <gloss lang="eng">I go from school to town.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>loc</case>
-        <role>source</role>
+        <syn>source</syn>
       </advl0>
       <advl1>
         <case>ill</case>
-        <role>goal</role>
+        <syn>goal</syn>
       </advl1>
     </frame>
     <frame id="2b">
@@ -2458,13 +2592,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
       <advl0>
         <case>sub</case>
-        <role>destination</role>
+        <syn>destination</syn>
       </advl0>
     </frame>
     <frame id="2c">
@@ -2473,13 +2607,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
       <advl0>
         <case>sub</case>
-        <role>manner</role>
+        <syn>manner</syn>
       </advl0>
     </frame>
     <frame id="2d">
@@ -2488,18 +2622,18 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>route</sem>
       </obj>
       <advl0>
         <case>vgen</case>
-        <role>manner</role>
+        <syn>manner</syn>
       </advl0>
     </frame>
     <frame id="2e">
@@ -2508,18 +2642,18 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <obj>
         <case>bokte</case>
-        <role>path</role>
+        <syn>path</syn>
         <sem></sem>
       </obj>
       <advl0>
         <case>adv</case>
-        <role>destination</role>
+        <syn>destination</syn>
       </advl0>
     </frame>
     <frame id="3">
@@ -2528,11 +2662,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
+        <syn>theme</syn>
         <sem>time</sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="5">
       <ex>Leat mannan meaddil muhtin máilmmi buoremus násttiid, dadjá SomBy gitáračuojaheaddji, Oula Guttorm.</ex>
@@ -2540,11 +2674,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="4">
       <ex>Álddagas leađggui almmis ja deaivvai olbmá nu ahte manai galmmas.</ex>
@@ -2552,11 +2686,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
-      </subj>
+      </agent>
     </frame>
   </verb>
   
@@ -2567,19 +2701,19 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
-      </subj>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
         <sem></sem>
       </advl1>
     </frame>
@@ -2587,21 +2721,35 @@
   
   <verb lm="molsut"><!--aldatu 9-->
     <frame id="1">
+    <ex>Manin dat molsot viesu?</ex>
+      <glosses>
+        <gloss lang="eng">Why do they change (their) house?</gloss>
+        <gloss lang="eus">Zergatik aldatzen dira bizilekuz.</gloss>
+        <gloss lang="spa">Por qué cambian de casa?</gloss>
+      </glosses>
       <ex>Dasa sáhttá leat sivvan omd. dat go olbmot fárrejit, molsot nama dahje čálihit jienastuslohkui hui lahka maŋimuš áigemeari, mii lea geassemánu 30. b.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+            <ex>Mainnalágiin molsut digitála-TV:ii?</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <patient>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem></sem><!--animate???-->
-      </subj>
-      <obj>
+      </patient>
+      <theme>
+        <cases>
         <case>acc</case>
-        <role>theme</role>
+        <case>ill</case>
+        </cases>
+        <syn>obj</syn>
         <sem></sem>
-      </obj>
+      </theme>
     </frame>
     <frame id="2">
       <ex>Ii lean nu stuora erohus olbmo ja njuorjju eallimis, dasgo maiddái njuorju sáhttá molsut hámi olmmožin ja leat čeahpes bivdi.</ex>
@@ -2609,37 +2757,21 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <patient>
         <case>nom</case>
-        <role>patient/theme?</role>
-      </subj>
-      <advl0>
+        <syn>patient/theme?</syn>
+        <sem></sem>
+      </patient>
+      <material>
         <case>acc</case>
-        <role>theme</role>
-      </advl0>
-      <advl1>
+        <syn>obj</syn>
+        <sem></sem>
+      </material>
+      <product>
         <case>ess</case>
-        <role>product</role>
-      </advl1>
-    </frame>
-    <frame id="3">
-      <ex>Mainnalágiin molsut digitála-TV:ii?</ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <subj>
-        <case></case>
-        <role></role>
-      </subj>
-      <advl0>
-        <case></case>
-        <role></role>
-      </advl0>
-      <advl1>
-        <case></case>
-        <role></role>
-      </advl1>
+        <syn>advl</syn>
+        <sem></sem>
+      </product>
     </frame>
   </verb>
   
@@ -2650,20 +2782,75 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
+  
+    <verb lm="nohkat"><!--13-->
+    <frame id="1">
+      <ex>Teahter lea nohkan.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme">Antzerkia amaitu da.</gloss>
+        <gloss lang="spa">Se ha terminado el teatro.</gloss>
+      </glosses>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gai ukitua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </theme>
+    </frame>
+   </verb>
+  
+  <verb lm="nuppástuvvat"><!--9-->
+    <frame id="1">
+      <ex>Go noaidi nuppástuvvai olmbmos beanan..</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="eus"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      <material>
+        <case>loc</case>
+        <syn>advl</syn><!--abiapuntua-->
+        <sem></sem><!-- -->
+      </material>
+      <product>
+        <case>ess</case>
+        <syn>advl</syn><!--helburua-->
+        <sem></sem><!-- -->
+      </product>
+    </frame>
+        <frame id="2">
+      <ex>Go elektronat nuppástuvvet dain boahtá seahkku.</ex>
+      <glosses>
+        <gloss lang="eng">When the electrons change from one form to another, they produce electricity.</gloss>
+        <gloss lang="eus">Elektroiak gorputz batetik bestera aldatzen direnean, korronte elektrikoa sortzen da.</gloss><!--Go noaidi nuppástuvvai olmbmos beanan-->
+        <gloss lang="spa">Cuando los electrones cambian de un cuerpo a otro, se produce la corriente eléctrica.</gloss>
+      </glosses>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+    </frame>
+   </verb>
   
   <verb lm="oađđit">
     <frame id="1">
@@ -2672,17 +2859,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2694,17 +2881,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2716,17 +2903,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2738,20 +2925,41 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
+  
+      
+  <verb lm="orrut"><!--44--><!--appear, show--><!--agertu-->  
+    <frame id="1">
+      <ex>Mikelek presa gutxi agertzen du.</ex>
+      <glosses>
+        <gloss lang="eng">Mikel displayed little hurry.</gloss>
+        <gloss lang="sme">Mikel orui unnan hoahppus.</gloss>
+        <gloss lang="spa">Mikel demuestra poca prisa.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--esperimentatzailea -->
+        <sem></sem><!-- -->
+      </agent>
+      <topic>
+        <case>loc</case>
+        <syn>advl</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </topic>
+    </frame>
   
   <verb lm="rievdat"><!--aldatu-->
     <frame id="1">
@@ -2760,12 +2968,43 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role>
-      </subj>
+        <syn>theme</syn>
+      </agent>
     </frame>
   </verb>
+
+  <verb lm="rievdadit"><!--9-->
+    <frame id="1">  
+        <ex>Mi áigut rievdadit dieid riikkaid autonomiija dásis provinsan.</ex>
+      <glosses>
+        <gloss lang="eng">We want to change those territories from the level of autonomy to the level of provinces.</gloss>
+        <gloss lang="eus">Guk autonomi-mailatik probintzi-mailara aldatu nahi ditugu lurralde horiek.</gloss>
+        <gloss lang="spa">Nosotros queremos cambiar esos territorios del nivel de autonomía al nivel de provincia.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+      <theme>
+        <case>acc</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      <material>
+        <case>loc</case>
+        <syn>advl</syn><!--abiapuntua-->
+        <sem></sem><!-- -->
+      </material>
+      <product>
+        <case>ess</case>
+        <syn>advl</syn><!--helburua-->
+        <sem></sem><!-- -->
+      </product>
+      </frame>
+    </verb>
   
   <verb lm="riŋget">
     <frame id="1">
@@ -2774,17 +3013,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2796,17 +3035,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2818,20 +3057,46 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
+  
+  <verb lm="sirdit"><!--9-->
+    <frame id="1">  
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng">The responsible ones have taken away the .. from the place ???</gloss>
+        <gloss lang="sme">Kanpamendua lekuz aldatu dute arduradunek.</gloss>
+        <gloss lang="spa">Los responsables han cambiado el campamento de sitio.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+       <patient>
+        <case>acc</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </patient>
+      <theme>
+        <case></case>
+        <syn>advl</syn><!--kokapena/egoera-->
+        <sem></sem><!-- -->
+      </theme>
+    </frame>
+    </verb>
   
   <verb lm="speallat"><!--jokatu-->
     <frame id="1">
@@ -2840,13 +3105,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </advl0>
     </frame>
     <frame id="2">
@@ -2855,13 +3120,13 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
-      </subj>
+        <syn>agent</syn>
+      </agent>
       <advl0>
         <case>com</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </advl0>
     </frame>
     <frame id="3">
@@ -2870,17 +3135,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2892,17 +3157,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -2914,17 +3179,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>cause</role>
-      </subj>
+        <syn>cause</syn>
+      </agent>
       <obj>
         <case>acc</case>
-        <role>theme</role>
+        <syn>theme</syn>
       </obj>
       <advl0>
         <case>loc</case><!--with eret/olggos-->
-        <role>source</role>
+        <syn>source</syn>
       </advl0>
     </frame>
   </verb>
@@ -2936,50 +3201,35 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
-        <case>nom</case>
-        <role>agent</role>
-        <sem>human</sem>
-      </subj>
-      <advl0>
-        <case>acc</case>
-        <role>theme</role>
-        <sem></sem>
-      </advl0>
-    </frame>
-    <frame id="1b">
+      <ex>Mikel lea vajálduhttán Mirena.</ex>
+      <glosses>
+        <gloss lang="eus">Mikel Mirenez ahaztu da.</gloss>
+        <gloss lang="spa">Mikel se ha olvidado de Miren.</gloss>
+      </glosses>
       <ex>In goassege vajálduhttit movt dalle lei.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
-        <case>nom</case>
-        <role>agent</role>
-        <sem>human</sem>
-      </subj>
-      <advl0>
-        <case>sub</case>
-        <role>theme</role>
-        <sem></sem>
-      </advl0>
-    </frame>
-    <frame id="1c">
       <ex>Nu ollu ahte ikte vajálduhtten mannat mu dábálaš bargui.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>subj</syn>
         <sem>human</sem>
-      </subj>
-      <advl0>
+      </agent>
+      <theme>
+        <cases>
+        <case>acc</case>
+        <case>sub</case>
         <case>inf</case>
-        <role>theme</role>
+        </cases>
+        <syn>obj</syn>
         <sem></sem>
-      </advl0>
+      </theme>
     </frame>
     <frame id="2">
       <ex>Dulbmojuvvuimet ja in sáhte vajálduhttit.</ex>
@@ -2992,11 +3242,11 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
+      </agent>
     </frame>
     <frame id="3">
       <ex>Mun vajálduhtten govvidanapparáhta hotellii.</ex>
@@ -3004,21 +3254,21 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>agent</role>
+        <syn>agent</syn>
         <sem>human</sem>
-      </subj>
-      <advl0>
+      </agent>
+      <theme>
         <case>acc</case>
-        <role>theme</role>
+        <syn>advl</syn>
         <sem></sem>
-      </advl0>
-      <advl0>
+      </theme>
+      <location>
         <case>ill</case>
-        <role>location</role>
+        <syn>advl</syn>
         <sem>place</sem>
-      </advl0>
+      </location>
     </frame>
   </verb>
   
@@ -3029,17 +3279,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -3051,17 +3301,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -3073,17 +3323,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -3095,17 +3345,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -3117,17 +3367,17 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case></case>
-        <role></role>
-      </subj>
+        <syn></syn>
+      </agent>
       <advl0>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl0>
       <advl1>
         <case></case>
-        <role></role>
+        <syn></syn>
       </advl1>
     </frame>
   </verb>
@@ -3139,13 +3389,13 @@
         <gloss lang="eng">I go to town.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role><!--would Sammallahti say: mover?-->
-      </subj>
+        <syn>theme</syn><!--would Sammallahti say: mover?-->
+      </agent>
       <advl0>
         <case>ill</case>
-        <role>goal</role>
+        <syn>goal</syn>
       </advl0>
     </frame>
     <frame id="2">
@@ -3154,15 +3404,107 @@
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <subj>
+      <agent>
         <case>nom</case>
-        <role>theme</role><!--would Sammallahti say: mover?-->
-      </subj>
+        <syn>theme</syn><!--would Sammallahti say: mover?-->
+      </agent>
       <advl0>
         <case>inf</case>
-        <role>purpose</role>
+        <syn>purpose</syn>
       </advl0>
     </frame>
   </verb>
+  
+  
+  
+  <verb lm="viehkat"><!--korrika egin-->
+    <frame id="1">
+      <ex>Bálggis, man mielde son viegai, doalvvui gáddái.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>agentect</syn>
+        <sem>human</sem>  
+      </agent>
+      <path>
+        <case>acc</case>
+        <syn>theme</syn>
+        <sems>
+        <sem>human</sem>
+        <sem>matter</sem>
+        </sems>
+      </path>
+    </frame>
+    <frame id="2">
+      <ex>Muittii mo lávii stoahkat oappáin, čaibmat ja viehkat gilvvu.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>agentect</syn>
+        <sem>human</sem>  
+      </agent>
+      <theme>
+        <case>acc</case>
+        <syn>object</syn>
+        <sems>
+        <sem>gilvu</sem>
+        </sems>
+      </theme>
+    </frame>
+   </verb> 
+   
+   <verb lm="viehkalit"><!-- -->
+    <frame id="1">
+      <ex>Muhto son ii geargan go govččastit uvssa, go Johanas viehkalii su maŋŋái. (Paltto)</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>agentect</syn>
+        <sem>human</sem>  
+      </agent>
+      <theme>
+        <case>maŋŋái</case>
+        <syn>adverbial</syn>
+        <sems>
+        <sem>human</sem>
+        </sems>
+      </theme>
+    </frame>
+  </verb>
+   
+  <verb lm="doalvut"><!-- -->
+    <frame id="1">
+      <ex>Bálggis, man mielde son viegai, doalvvui gáddái.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>agent</syn>
+        <sem>human</sem>  
+      </agent>
+      <path>
+        <case>acc</case>
+        <syn>theme</syn>
+        <sems>
+        <sem>human</sem>
+        <sem>matter</sem>
+        </sems>
+      </path>
+    </frame>
+   </verb>   
+      
+  
+  
 </valency>
 <!--sem-tags:animate, text, human -->
