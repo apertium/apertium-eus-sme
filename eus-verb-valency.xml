@@ -458,7 +458,7 @@
       <ex>Linternak argitzen du guzti hau.</ex>
       <glosses>
         <gloss lang="eng">The latern illuminates all of this.</gloss>
-        <gloss lang="sme">Likta cuvge dán visot.</gloss>
+        <gloss lang="sme">Likta čuvge dán visot.</gloss>
         <gloss lang="spa">La linterna ilumina todo esto.</gloss>
       </glosses>
       <agent>
@@ -536,7 +536,7 @@
       <ex>Mikel argazkigintzan aritzen da.</ex>
       <glosses>
         <gloss lang="eng">Mikel has been occupied in photography.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lei bargamin fotografiijain.</gloss>
         <gloss lang="spa">Mikel trabaja en la fotografía.</gloss>
       </glosses>
       <agent>
@@ -557,7 +557,7 @@
       <ex>Mikelek emaitza asmatu du.</ex>
       <glosses>
         <gloss lang="eng">Mikel has anticipated the result.</gloss>
-        <gloss lang="sme">árvidit</gloss>
+        <gloss lang="sme">Mikel lea árvidan bohtosa.</gloss>
         <gloss lang="spa">Mikel ha acertado el resultado.</gloss>
       </glosses>
       <ex>Mikelek kantua asmatu du.</ex>
@@ -614,8 +614,8 @@
     <frame id="1">
       <ex>Mikel etxetik kalera atera da.</ex>
       <glosses>
-        <gloss lang="eng">Mikel has gone into the street from his house.</gloss>
-        <gloss lang="sme">Mikel lea vuolggán viesus geidnui.</gloss>
+        <gloss lang="eng">Mikel has left his house./He went out of the house onto the street</gloss>
+        <gloss lang="sme">Mikel lea vuolgán viesus geainnu ala.</gloss>
         <gloss lang="spa">Mikel ha salido de casa a la calle.</gloss>
       </glosses>
       <theme>
@@ -635,7 +635,7 @@
       <ex>Amak pastela labetik mahaira atera du.</ex>
       <glosses>
         <gloss lang="eng">The mother has taken the cake out of the oven to the table.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Eadni váldii gáhkku omanis ja bijai dán beavddi ala.</gloss>
         <gloss lang="spa">la madre ha sacado el pastel del horno a la mesa.</gloss>
       </glosses>
       <cause>
@@ -680,7 +680,7 @@
     <frame id="4">
       <ex>Mikelek animaliari tripak atera dizkio kanpora.</ex>
       <glosses>
-        <gloss lang="eng">She took the innards out of the animal.</gloss>
+        <gloss lang="eng">She took the inwards out of the animal.</gloss>
         <gloss lang="sme">Son čollii ealli.</gloss>
         <gloss lang="spa">Mikel le ha sacado las tripas al animal a fuera.</gloss>
       </glosses>
@@ -712,7 +712,7 @@
       <ex>Gobernua baldintza ezberdinetan aurkitzen da.</ex>
       <glosses>
         <gloss lang="eng">The government finds itself in different conditions.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Ráđđehus šattai dakker dillái</gloss>
         <gloss lang="spa">El Gobierno se encuentra en condiciones distintas.</gloss>
       </glosses>
       <theme>
@@ -771,7 +771,8 @@
 	<ex>Nik zu gaur atzo baino politago aurkitzen zaitut.</ex>
 	<glosses>
 	  <gloss lang="eng">Today, I find you more beautiful than yesterday.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Odne, mu mielas don leat čábbat go ikte</gloss>
+        <gloss lang="sme">Odne orut vel  go ikte</gloss>
         <gloss lang="spa">Yo hoy te encuentro más bonita que ayer.</gloss>
       </glosses>
 	<agent>
@@ -1019,13 +1020,13 @@
         <syn>subj</syn><!--helburuko kokapena-->
         <sem></sem><!-- -->
       </destination>
-      <advl1>
+      <theme>
         <case>ins</case>
         <syn>advl</syn><!--gai ukitua-->
         <sem></sem><!-- -->
-      </advl1>
+      </theme>
     </frame>
-        <frame id="2">
+    <frame id="2">
       <ex>Mikelen susmoa bete da.</ex>
       <glosses>
         <gloss lang="eng">Mikel's suspicion had been fulfilled.</gloss>
@@ -1117,7 +1118,7 @@
       <ex>Ura izotz bilakatu da hotzarekin.</ex>
       <glosses>
         <gloss lang="eng">The water became ice because of the cold.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Čáhci šjattai jiekŋan.</gloss>
         <gloss lang="spa">El agua se ha convertido en hielo por el frío.</gloss>
       </glosses>
       <patient>
@@ -1135,7 +1136,7 @@
       <ex>Mikelek ikutzen duen guztia urre bilakatzen du.</ex>
       <glosses>
         <gloss lang="eng">Mikel converts everything he touches to gold.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel nuppástuhttá visot maid guopská gollin.</gloss>
         <gloss lang="spa">Mikel convierte en oro todo lo que toca.</gloss>
       </glosses>
       <agent>
@@ -1208,7 +1209,7 @@
       <ex>Haiek jendea manifestazioara deitu dute.</ex>
       <glosses>
         <gloss lang="eng">They called the people at the demonstration.</gloss>
-        <gloss lang="sme">Sii háste olbmuid miellačájeheapmái</gloss>
+        <gloss lang="sme">Sii háste olbmuid miellačájeheapmái.</gloss>
         <gloss lang="spa">Ellos han llamado/convocado a la gente a la manifestación.</gloss>
       </glosses>
       <agent>
@@ -1231,7 +1232,7 @@
       <ex>Haiek manifestazioa deitu dute.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">almmuhedje miellačájeheapmá</gloss>
         <gloss lang="spa">Ellos han llamado/convocado la manifestación.</gloss>
       </glosses>
       <agent>
@@ -1249,7 +1250,7 @@
       <ex>Haiek manifestaziora deitu dute.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Sii háste/gohččut miellačájeheapmái</gloss>
         <gloss lang="spa">Ellos han llamado a la manifestación.</gloss>
       </glosses>
       <agent>
@@ -1307,7 +1308,7 @@
       <ex>Haiek tonto deitu dute Mikel.</ex>
       <glosses>
         <gloss lang="eng">They called Mikel stupid.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Dat gohčode Mikela ..</gloss>
         <gloss lang="spa">Ellos han llamado tonto a Mikel.</gloss>
       </glosses>
       <agent>
@@ -1330,7 +1331,7 @@
       <ex>Haiek Mikeli tonto deitu diote.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">dat gohčode Mikel stupidan</gloss>
         <gloss lang="spa">Ellos han llamado tonto a Mikel.</gloss>
       </glosses>
       <agent>
@@ -1387,10 +1388,10 @@
   
   <verb lm="egin"><!--98-->
     <frame id="1">
-      <ex>zuberotar xahar zenbaitez egiten diren grabaketetan</ex>
+      <ex>Etxea mendian egin du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Lean ráhkadan viesu várin.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -1400,7 +1401,7 @@
       </agent>
       <product>
         <case>abs</case>
-        <syn>product</syn><!--gai sortua-->
+        <syn>obj</syn><!--gai sortua-->
         <sem>inanimate</sem><!-- -biz-->
       </product>
     </frame>
@@ -1423,7 +1424,7 @@
       </product>
     </frame>
     <frame id="3">
-      <ex></ex>
+      <ex>Sei urte egin nituen berarekin</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
@@ -1441,7 +1442,7 @@
       </theme>
     </frame>
     <frame id="5">
-      <ex></ex>
+      <ex>Gaizki egin duzu???</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
@@ -1501,7 +1502,7 @@
       </destination>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Eta, bide batez, han egokitu nintzenez, bere liburua eroskiko nuen.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
@@ -1517,10 +1518,10 @@
 
   <verb lm="egon"><!--66-->
     <frame id="1">
-      <ex></ex>
+      <ex>Kanpoan nago</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">lean meahccis</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <theme><!--gaia-->
@@ -1535,10 +1536,10 @@
       </location>    
       </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Ondo nago.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Lean bures.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <topic><!--gaia-->
@@ -1641,7 +1642,7 @@
       <ex>Iragan denboraldian zelaiak buruhauste bat baino gehiago ekarri zion Athleticeko zuzendaritzari</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">attán sutnje oaivvebaččasa</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
        <theme>
@@ -1837,7 +1838,7 @@
       <ex>Mikelek abestia entzun du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme">Mikel gullá lávlága.</gloss>
+        <gloss lang="sme">Mikel lea gullán lávlága.</gloss>
         <gloss lang="spa">Mikel ha oido la canción.</gloss>
       </glosses>
       <agent>
@@ -1855,7 +1856,7 @@
       <ex>Mikelek entzuten du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme">Mikelek entzuten du.</gloss>
+        <gloss lang="sme">Mikelek gullá.</gloss>
         <gloss lang="spa">Mikel oye.</gloss>
       </glosses>
       <agent>
@@ -4267,10 +4268,10 @@
   
   <verb lm="konturatu"><!--5-->
     <frame id="1">
-      <ex>Mikel ez da horretaz konturatu.</ex>
+      <ex>Mikel ez da konturatu bere laguna erori dela.</ex>
       <glosses>
         <gloss lang="eng">Mikel has not noticed that his friend fell.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel ii leat fuomášan ahte su ustit gáhčai.</gloss>
         <gloss lang="spa">Mikel no se ha dado cuenta de que su amigo se ha caido.</gloss>
       </glosses>
       <agent>
@@ -4285,7 +4286,7 @@
       </theme>
     </frame>
     <frame id="2">
-      <ex>Mikel ez da konturatu bere laguna erori dela.</ex>
+      <ex>Mikel ez da horretaz konturatu.</ex>
       <glosses>
         <gloss lang="eng">Mikel has not noticed it.</gloss>
         <gloss lang="sme">Mikel ii leat fuomášan dan.</gloss>
