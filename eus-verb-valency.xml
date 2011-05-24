@@ -978,7 +978,7 @@
       <ex>Agurtzean besarkatu egin ginen.</ex>
       <glosses>
         <gloss lang="eng">When we left we hugged each other.</gloss>
-        <gloss lang="sme">salastit</gloss>
+        <gloss lang="sme">Go vulgiime, de salasteimme.</gloss>
         <gloss lang="spa">Al despedirnos nos abrazamos.</gloss>
       </glosses>
       <theme>
@@ -991,7 +991,7 @@
       <ex>Mikelek Miren besarkatu zuen.</ex>
       <glosses>
         <gloss lang="eng">Mikel hugged Miren.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel salastii Mirena.</gloss>
         <gloss lang="spa">Mikel abrazó a Miren.</gloss>
       </glosses>
        <theme>
@@ -1760,7 +1760,7 @@
       </location>
     </frame>
     <frame id="5">
-      <ex>-	1962an De Gaulle eta Adenauer Bonnen elkartu ziren. </ex>
+      <ex>1962an De Gaulle eta Adenauer Bonnen elkartu ziren. </ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme">deaivvadit</gloss>
@@ -1958,7 +1958,7 @@
       <ex>Mikelek giltzak eraman ditu etxetik lanera.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme">buktit</gloss>
+        <gloss lang="sme">Mikel lea doalvun čoavdagiid ruovttus barggui.</gloss>
         <gloss lang="spa">Mikel ha llevado las llaves de casa al trabajo.</gloss>
       </glosses>
       <agent>
@@ -1986,7 +1986,7 @@
       <ex>Kamisetak Nike-n logoa darama.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Báiddis lea Nike logo.</gloss>
         <gloss lang="spa">La camiseta lleva el logo de Nike.</gloss>
       </glosses>
       <agent>
@@ -2012,7 +2012,7 @@
       <ex>Mikelek ondo iruditzen zaiola erantzun du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel lea vástidan ahte sutnje heive bures.</gloss>
         <gloss lang="spa">Mikel ha respondido que le parece bien.</gloss>
       </glosses>
       <agent>
@@ -2092,8 +2092,8 @@
     <frame id="1">
       <ex>Mikelek ispilu batean erreparatu du eta ispiluan ilargia.</ex>
       <glosses>
-        <gloss lang="eng">Mikel has seen the mirror and in the mirror, the moon.</gloss>
-        <gloss lang="sme">oaidnit</gloss>
+        <gloss lang="eng">Mikel has seen/noticed the mirror and in the mirror, the moon.</gloss>
+        <gloss lang="sme">Mikel lea áican iežas speadjalis.</gloss>
         <gloss lang="spa">Mikel ha visto el espejo y en el espejo la luna.</gloss>
       </glosses>
       <experiencer>
@@ -2111,7 +2111,7 @@
       <ex>Mikelek erreparatu du hori ez dela horrela.</ex>
       <glosses>
         <gloss lang="eng">Mikel has realised that that isn't like that.</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eus">Mikel ii leat fuobmán ahte ii leat nu.</gloss>
         <gloss lang="spa">Mikel se ha dado cuenta de que eso no es así.</gloss>
       </glosses>
       <experiencer>
@@ -2168,7 +2168,7 @@
       <ex></ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">dajat</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -2240,7 +2240,7 @@
 	<theme>
         <case>abs</case>
         <syn>theme</syn><!--gaia-->
-        <sem></sem><!-- -->
+        <sem>unconcrete</sem><!-- -->
       </theme>
 	  <recipient>
         <case>dat</case>
