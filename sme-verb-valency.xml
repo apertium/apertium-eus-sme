@@ -1338,6 +1338,28 @@
     </frame>
   </verb>
   
+    <verb lm="cuovkanit"><!-- hautsi 72-->
+    <frame id="1">
+      <ex>Dat gahčai ja /cuovkanii/smoldanii duhát binnán</ex>
+      <glosses>
+        <gloss lang="eng">It fell and broke into thousand pieces.</gloss>
+        <gloss lang="eus">Erori eta mila zatitan hautsi zen</gloss>
+        <gloss lang="spa">se cayó y se rompió en mil pedazos.</gloss>
+      </glosses>
+      <experiencer><!--gai ukitua-->
+        <case>nom</case>
+        <syn></syn>
+        <sem></sem>
+      </experiencer>
+      <agent><!--gai ukitua-->
+        <case>?</case>
+        <syn></syn>
+	  <sem></sem>	
+      </agent>
+    </frame>
+  </verb>
+
+  
   <verb lm="čađahit">
     <frame id="1">
       <ex>Kursa lea dutnje gii leat čađahan Reform `94 vuođđokurssa ja vuosttaš joatkkakurssa fidnofágalaš suorggis.</ex>
@@ -1996,6 +2018,27 @@
     </frame>
   </verb>
   
+  <verb lm="duolddahit"><!--irakin 100--><!--boil-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="eus">irakin, irakinarazi</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--esperimentatzailea-->
+        <case>nom</case>
+        <syn>subj</syn>
+        <sem></sem>
+      </agent>
+      <patient><!--gai ukitua-->
+        <case>acc</case>
+        <syn>obj</syn>
+        <sem>concrete</sem><!-- -biz, +konkr -->
+      </patient>
+    </frame>
+  </verb>   
+  
   <verb lm="duoldat"><!--irakin 100--><!--boil-->
     <frame id="1">
       <ex>Geahča makkár temperatuvrras čáhci álgá duoldat.</ex>
@@ -2146,7 +2189,7 @@
     </frame>
   </verb>
   
-  <verb lm="fuolahit"><!--zaindu/kezkatu?-->
+  <verb lm="fuolahit"><!--zaindu-->
     <frame id="1">
       <ex>Beaskidii sávzzaid, fuolahii iđiteahket šibitguoktá meahccái ja fas návehii ja girdnetge logai iežas sáhttit jos dárbu, iige gullostan ii oktiige ahte dát dahje duot dal lei nissonolbmuid bargu.</ex>
       <glosses>
@@ -2168,6 +2211,29 @@
         <syn>location</syn>
         <sem>place</sem>
       </advl0>
+    </frame>
+  </verb>
+  
+   <verb lm="fuolastuvvat"><!--kezkatu 82-->
+    <frame id="1">
+      <ex>Miren fuolastuvvá ollu dáinna áššiin.</ex><!--AINARA:example-->
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="spa"></gloss>
+        <gloss lang="eus">Miren asko kezkatzen da gai horretaz.</gloss><!--Miren surrá dáinna ásijiin - Duommá -->
+      </glosses><!--fuolastuvvat lea aembbo go šassá urolig/betenkt
+váivahuvvat lea ges 'bli plaget' 'lei seg' fuolastuvvat = mer stress
+váivahuvvat = mer sorg-->
+      <experiencer>
+        <case>nom</case>
+        <syn></syn><!--gai ukitua-->
+        <sem>human</sem>
+      </experiencer>
+      <cause>
+        <case>com</case>
+        <syn>advl</syn><!--kausa-->
+        <sem></sem>
+      </cause>
     </frame>
   </verb>
   
@@ -2393,6 +2459,29 @@
     </frame>
   </verb>
   
+  <verb lm="gillát"><!--jasan 79-->
+    <frame id="1">
+      <ex>son gillái soames dingga dihte/dás</ex>
+      <!--de dieđus gárttai mišunearaid sámegielmáhttu das gillát.
+12:53Earenoamážit mánát geat dárbbašit mánáidsuodjalusbálvalusaid šaddet dan dihte gillát.-->
+      <glosses>
+        <gloss lang="eng">stand, undergo, suffer</gloss>
+        <gloss lang="sme">jasan</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <experiencer><!--esperimentatzailea-->
+        <case>nom</case>
+        <syn>subj</syn>
+        <sem></sem>
+      </experiencer>
+      <cause><!--gaia-->
+        <case>loc</case>
+        <syn>advl</syn>
+        <sem></sem><!---->
+      </cause>
+    </frame>
+  </verb>
+  
   <verb lm="girdit"><!-- -->
     <frame id="1">
       <ex>Giđđudehkoset heakkalaččat čáziin, ja girdoset lottit eatnama bajábealde, almmigomuvuođa vuolde.</ex>
@@ -2444,7 +2533,56 @@
     </frame>
   </verb>
   
-    <verb lm="goikat"><!-- -->
+    <verb lm="gilvit"><!--landatu 43-->
+    <frame id="1">
+      <ex>Mikelek piperrak landatu ditu baratzan.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme">Mikel gilvvii pihpporiid silljui /gárdimii.</gloss>
+        <gloss lang="spa">Mikel ha plantado pimientos en la huerta.</gloss>
+      </glosses>
+      <agent>
+        <case>erg</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+      <theme>
+        <case>abs</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      <destination>
+        <case>ine</case>
+        <syn>advl</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </destination>
+    </frame>
+    <frame id="2">
+      <ex>Mikelek patataz landatu du lurra.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme">Mikel gilvvii buhtahiid eatnamii</gloss><!--LW: some alternations do not work for eus-->
+        <gloss lang="spa">Mikel ha plantado la tierra de patatas.</gloss>
+      </glosses>
+      <agent>
+        <case>erg</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+	<destination>
+        <case>abs</case>
+        <syn>obj</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+    </destination>
+      <theme>
+        <case>ins</case>
+        <syn>advl</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      </frame>
+  </verb>
+  
+  <verb lm="goikat"><!-- -->
     <frame id="1">
       <ex>Bálggis ladnjedalai viiddis jeakki goike sajiid mielde ovddosguvlui, garvvii fasttes juovvavári ja guoradii loahppamátkki ráhpes ávžeráigge gitta Stálojárgeahčai.</ex>
       <glosses>
@@ -2538,6 +2676,27 @@
         <sem>activity</sem>
         </sems>
       </recipient>
+    </frame>
+  </verb>
+  
+  <verb lm="golgat"><!--isuri 48--><!--flow, pour, spill-->
+    <frame id="1">
+      <ex>Gatnjalat golget čálmmiin.</ex>
+      <glosses>
+        <gloss lang="eng">The tears are flowing from the eyes.</gloss>
+        <gloss lang="eus">Begietatik malkoak isurtzen dira.</gloss>
+        <gloss lang="spa">Las lágrimas se derraman por los ojos.</gloss>
+      </glosses>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gai sortua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </theme>
+      <source>
+        <case>loc</case>
+        <syn>advl</syn><!--iturria-->
+        <sem>inanimate</sem><!-- -biz-->
+      </source>
     </frame>
   </verb>
   
@@ -2651,7 +2810,7 @@
     </frame>
   </verb>
   
-    <verb lm="guoddit"><!-- -->
+  <verb lm="guoddit"><!-- -->
     <frame id="1">
       <ex>Áidna jeđđehus dás lei ahte ášši guoskkai maiddái su guoibmái, ja guovttá diekkár beahttašumi lei geahppasut guoddit.</ex>
       <glosses>
@@ -2668,6 +2827,34 @@
         <syn>obj</syn>
         <sem></sem>
       </theme>
+    </frame>
+    <frame id="2">
+      <ex>Mikel guttii beatnaga dobis olggos vulos rati nala.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="eus">Mikel txakurra etxetik kalera jaitsi du.</gloss><!--AINARA: put or carry-->
+        <gloss lang="spa">Mikel ha bajado al perro de casa a la calle.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+	  <theme>
+        <case>acc</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      <source>
+        <case>loc</case>
+        <syn>advl</syn><!--abiapuntuko kokapena -->
+        <sem></sem><!-- -->
+      </source>
+      <location>
+        <case>ill</case>
+        <syn>advl</syn><!--helburua-->
+        <sem></sem><!-- -->
+      </location>
     </frame>
   </verb>
   
@@ -3771,14 +3958,71 @@
       </theme>
     </frame>
   </verb>
-  
-  <verb lm="leiket"><!--48--><!--flow, pour, spill-->
+
+  <verb lm="leikejuvvot"><!--isuri 48--><!--flow, pour, spill-->  
     <frame id="1">
-      <ex></ex>
+      <ex>Viidni leikejuvvo nuppi containeris nubbái.</ex>
+      <glosses>
+        <gloss lang="eng">The wine is poured from one container into another one.</gloss>
+        <gloss lang="sme">Ardoa ontzi batetik bestera isurtzen da.</gloss>
+        <gloss lang="spa">El vino se derrama de un recipiente a otro</gloss>
+      </glosses>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gai ukitua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </theme>
+      <sourcepath>
+        <case>loc</case>
+        <syn>advl</syn><!--abiapuntuko kokapena / bidea-->
+        <sem></sem><!-- -->
+      </sourcepath>
+      <location>
+        <case>ill</case>
+        <syn>advl</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </location>
+    </frame>
+  </verb>
+  
+  <verb lm="leaikkut"><!--isuri 48--><!--flow, pour, spill-->
+    <frame id="1">
+      <ex>Mikel leaikkui viinni nuppi containeris nubbái. (njorret)</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="eus">Mikelek ardoa ontzi batetik bestera isuri du.</gloss>
         <gloss lang="spa">Mikel ha derramado el vino de un recipiente a otro.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--kausa-->
+        <sem>animate</sem><!--biz-->
+      </agent>
+      <theme>
+        <case>acc</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </theme>
+      <sourcepath>
+        <case>loc</case>
+        <syn>advl</syn><!--abiapuntuko kokapena / bidea-->
+        <sem></sem><!-- -->
+      </sourcepath>
+      <location>
+        <case>ill</case>
+        <syn>advl</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </location>
+    </frame>
+  </verb>
+  
+  <verb lm="leiket"><!--isuri 48--><!--flow, pour, spill-->
+    <frame id="1">
+      <ex> (njorret)</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="eus"></gloss>
+        <gloss lang="spa"></gloss>
       </glosses>
       <agent>
         <case>nom</case>
@@ -4003,6 +4247,12 @@
         <gloss lang="eus">Mikel kaletik tabernara sartu da.</gloss>
         <gloss lang="spa">Mikel ha entrado de la calle al bar.</gloss>
       </glosses>
+    <ex>Mikel etxetik kalera jaitsi da.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="sme">Mikel manai viesus eret vulos rati nala</gloss>
+        <gloss lang="spa">Mikel ha bajado de casa a la calle.</gloss>
+      </glosses>
       <theme>
         <case>abs</case>
         <syn>subj</syn><!--gai ukitua-->
@@ -4017,6 +4267,7 @@
         <cases>
         <case>ill</case>
         <case>sisa</case>
+        <case>ala</case>
         </cases>
         <syn>advl</syn><!--helburuko kokapena-->
         <sem></sem><!-- -->
@@ -4297,11 +4548,32 @@
       </location>
     </frame>
   </verb>
+  
+  <verb lm="njávkat"><!--laztandu 86-->
+    <frame id="1">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng">caress, stroke</gloss>
+        <gloss lang="sme">njávkat</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--esperimentatzailea-->
+        <sem>human</sem>
+      </agent>
+       <experiencer>
+        <case>acc</case>
+        <syn>advl</syn><!--gaia-->
+        <sem>human</sem>
+      </experiencer>
+    </frame>
+  </verb>
 
   
   <verb lm="njiedjat"><!--jaitsi 27-->
     <frame id="1">
-      <ex></ex>
+      <ex>Mikel njiejai dievás (vulos).</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="eus">Mikelek aldapa jaitsi du.</gloss>
@@ -4313,14 +4585,68 @@
         <sem></sem><!-- -->
       </theme>
       <path>
-        <case>acc?</case>
+        <case>loc</case>
         <syn>obj</syn><!--bidea-->
         <sem></sem><!-- -->
       </path>
     </frame>
+    <frame id="2">
+      <ex>Ráđđehus njeiddii vearu viđain proseanttain.</ex>
+      <glosses>
+        <gloss lang="eng">The government lowered the taxes by 5%.</gloss>
+        <gloss lang="eus">Gobernuak zergak %5 jaitsi ditu.</gloss>
+        <gloss lang="spa">El Gobierno ha bajado los impuestos un 5%.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--kausa-->
+        <sem></sem><!-- -->
+      </agent>
+	<theme>
+        <case>acc</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+    <extent>
+        <case>com</case><!--strong contrast to eus-->
+        <syn>advl</syn><!--neurria-->
+        <sem></sem><!-- -->
+      </extent>
+    </frame>
   </verb>
   
-    <verb lm="nohkat"><!--13-->
+  <verb lm="njoarrat"><!--isuri 48--><!--flow, pour, spill-->
+    <frame id="1">
+      <ex>Mikel njoarai viinni nuppi containeris nubbái. (njorret)</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="eus">Mikelek ardoa ontzi batetik bestera isuri du.</gloss>
+        <gloss lang="spa">Mikel ha derramado el vino de un recipiente a otro.</gloss>
+      </glosses>
+      <agent>
+        <case>nom</case>
+        <syn>subj</syn><!--kausa-->
+        <sem>animate</sem><!--biz-->
+      </agent>
+      <theme>
+        <case>acc</case>
+        <syn>obj</syn><!--gai ukitua-->
+        <sem>inanimate</sem><!-- -biz-->
+      </theme>
+      <sourcepath>
+        <case>loc</case>
+        <syn>advl</syn><!--abiapuntuko kokapena / bidea-->
+        <sem></sem><!-- -->
+      </sourcepath>
+      <location>
+        <case>ill</case>
+        <syn>advl</syn><!--helburuko kokapena-->
+        <sem></sem><!-- -->
+      </location>
+    </frame>
+  </verb>
+  
+  <verb lm="nohkat"><!--13-->
     <frame id="1">
       <ex>Teahter lea nohkan.</ex>
       <glosses>
@@ -4935,7 +5261,7 @@
     </frame>
   </verb>
   
-  <verb lm="speallat"><!--jokatu-->
+  <verb lm="speallat"><!--jokatu--><!--jolastu 81-->
     <frame id="1">
       <ex>Juohke maŋŋebárgga čoagganit «Tirsdagskameratene» Kárášjoga kirkus sosiála deaivvadeapmái ja Yatzy speallat.</ex>
       <glosses>
@@ -4944,12 +5270,12 @@
       </glosses>
       <agent>
         <case>nom</case>
-        <syn>agent</syn>
+        <syn>subj</syn>
       </agent>
-      <advl0>
+      <theme>
         <case>acc</case>
-        <syn>theme</syn>
-      </advl0>
+        <syn>obj</syn>
+      </theme>
     </frame>
     <frame id="2">
       <ex>Dasa lassin son speallá sisbandy guktii golbmii vahkus skihppáriiguin skuvlla šilljus, go sis ii leat valaštallanhálla.</ex>
@@ -4959,31 +5285,60 @@
       </glosses>
       <agent>
         <case>nom</case>
-        <syn>agent</syn>
+        <syn>subj</syn>
       </agent>
-      <advl0>
+      <agent>
         <case>com</case>
-        <syn>theme</syn>
-      </advl0>
+        <syn>advl</syn>
+      </agent>
     </frame>
     <frame id="3">
-      <ex></ex>
+      <ex>Mun spealan speala duinna.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">play a game</gloss>
+        <gloss lang="eus"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <agent>
-        <case></case>
+      <agent><!--esperimentatzailea -->
+        <cases>
+        <case>nom</case>
+        </cases>
         <syn></syn>
+        <sem>animate</sem>
       </agent>
-      <advl0>
-        <case></case>
+      <theme><!--jarduera-->
+        <case>acc</case>
         <syn></syn>
-      </advl0>
-      <advl1>
-        <case></case>
+        <sem></sem>
+      </theme>
+      <agent><!--esperimentatzailea -->
+        <case>com</case>
         <syn></syn>
-      </advl1>
+	  <sem>animate</sem>	
+      </agent>
+    </frame>
+  </verb>
+  
+  <verb lm="stoahkat"><!--jolastu 81-->
+    <frame id="1">
+      <ex>Mun stoagan duinna</ex><!--AINARA:example + why not the intransitive variant - jolastu dira?-->
+      <glosses>
+        <gloss lang="eng">play a game</gloss>
+        <gloss lang="eus"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--esperimentatzailea -->
+        <cases>
+        <case>nom</case>
+        </cases>
+        <syn>subj</syn>
+        <sem>animate</sem>
+      </agent>
+      <agent><!--esperimentatzailea -->
+        <case>com</case>
+        <syn>advl</syn>
+	  <sem>animate</sem>	
+      </agent>
     </frame>
   </verb>
   
@@ -5141,16 +5496,13 @@
         <sem></sem><!-- -->
       </theme>
     </frame>
-  </verb>
-  
-  <verb lm="váldit_eret">
-    <frame id="1">
+    <frame id="3"><!--atera 2-->
       <ex>Jus dokumeanttaid váldá eret áššemáhpas, ferte liikká muitalit ahte dakkárat leat ja man vuođul sáhttá dokumeanttaid doallat eret almmolašvuođas.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
       </glosses>
-      <cause>
+      <agent>
         <case>nom</case>
         <syn>subj</syn>
         <sem></sem>
@@ -5160,11 +5512,11 @@
         <syn>obj</syn>
         <sem></sem>
       </theme>
-      <sourcepath>
-        <case>loc</case><!--with eret/olggos-->
+      <source>
+        <case>loc</case><!--with eret/olggos--><!--LW what kind of role do eret, olggos get?-->
         <syn>advl</syn>
         <sem></sem>
-      </sourcepath>
+      </source>
     </frame>
   </verb>
   
@@ -5288,7 +5640,12 @@
         </cases>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
-      </theme>
+      </topic>
+      <recipient>
+        <case>dat</case>
+        <syn>iobj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </recipient>
     </frame>
     <frame id="2">
       <ex>Herriak indarrez erantzungo du.</ex>
@@ -5509,6 +5866,27 @@
         <sem>human</sem>
         </sems>
       </theme>
+    </frame>
+  </verb>
+
+  <verb lm="vuollánit"><!--jaitsi 27-->
+    <frame id="1">  
+    <ex>Háttit vuollánit logiin proseanttain.</ex>
+      <glosses>
+        <gloss lang="eng"></gloss>
+        <gloss lang="eus">Prezioak %10 jaitsi dira.</gloss>
+        <gloss lang="spa">Los precios han bajado un 10%.</gloss>
+      </glosses>
+      <theme>
+        <case>nom</case>
+        <syn>subj</syn><!--gai ukitua-->
+        <sem></sem><!-- -->
+      </theme>
+      <extent>
+        <case>com</case>
+        <syn>advl</syn><!--neurria-->
+        <sem></sem><!-- -->
+      </extent>
     </frame>
   </verb>
   
