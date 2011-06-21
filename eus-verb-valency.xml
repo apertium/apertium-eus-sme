@@ -684,21 +684,24 @@
         <gloss lang="sme">Son čollii ealli.</gloss>
         <gloss lang="spa">Mikel le ha sacado las tripas al animal a fuera.</gloss>
       </glosses>
-      <cause>
+      <agent>
         <case>erg</case>
         <syn>subj</syn><!--kausa-->
         <sem></sem>
-      </cause>
+      </agent>
       <theme>
         <case>abs</case>
         <syn>obj</syn><!--gai ukitua-->
         <sem></sem>
       </theme>
-      <sourcepath>
+      <source>
+        <cases>
         <case>dat</case>
+        <case>abl</case>
+        </cases>
         <syn>iobj</syn><!--abiapuntuko kokapena/bidea-->
         <sem></sem>
-      </sourcepath>
+      </source>
       <destination>
         <case>ala</case>
         <syn>advl</syn><!--helburuko kokapena-->
@@ -1406,29 +1409,11 @@
       </product>
     </frame>
     <frame id="2">
-      <ex></ex>
+     <ex>Sei urte egin nituen berarekin</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
-      </glosses>
-      <agent>
-        <case>erg</case>
-        <syn>subj</syn><!--iturria-->
-        <sem></sem><!---->
-      </agent>
-      <product>
-        <case>abs</case>
-        <syn>obj</syn><!--gai sortua-->
-        <sem></sem><!-- -->
-      </product>
-    </frame>
-    <frame id="3">
-      <ex>Sei urte egin nituen berarekin</ex>
-      <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Pasé seis años con el.</gloss>
       </glosses>
       <agent>
         <case>erg</case>
@@ -1441,12 +1426,12 @@
         <sem></sem><!-- -->
       </theme>
     </frame>
-    <frame id="5">
-      <ex>Gaizki egin duzu???</ex>
+    <frame id="3">
+      <ex>Zail egiten zaigu hori egitea.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">šaddat</gloss>
+        <gloss lang="spa">Nos resulta dificil hacer eso.</gloss>
       </glosses>
       <subj>
       <theme>
@@ -1614,7 +1599,7 @@
       <ex></ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mun buvttán dutnje girjji.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -1639,10 +1624,10 @@
       </source>
     </frame>
     <frame id="2">
-      <ex>Iragan denboraldian zelaiak buruhauste bat baino gehiago ekarri zion Athleticeko zuzendaritzari</ex>
+      <ex>Eta horrek ze ondorio dakar?</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme">attán sutnje oaivvebaččasa</gloss>
+        <gloss lang="sme">makker bohtosiid dat dagaha?</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
        <theme>
@@ -1657,11 +1642,34 @@
       </theme>
     </frame>
     <frame id="3">
-      <ex></ex>
+      <ex>Idazlearen lan guzien izenen zerrenda, bukaeran dakar.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The list of all the work of the writer brings at the end.</gloss>
+        <gloss lang="sme">listu lea bidjojuvvon girjji mannjegeazis</gloss>
         <gloss lang="spa"></gloss>
+      </glosses>
+       <theme>
+        <case>erg</case>
+        <syn>subj</syn><!--edukitzailea-->
+        <sem></sem><!---->
+      </theme>
+      <theme>
+        <case>abs</case>
+        <syn>obj</syn><!--edukia-->
+        <sem></sem><!---->
+      </theme>
+      <location>
+        <case>ine</case>
+        <syn>advl</syn><!--kokapena-->
+        <sem></sem><!---->
+      </location>
+    </frame>
+    <frame id="4">
+      <ex>Zerk elkartu gaitu gaur hemen?</ex>
+      <glosses>
+        <gloss lang="eng">what has united us here today?</gloss>
+        <gloss lang="sme">Mun čohkken X ja Y (oktii)</gloss>
+        <gloss lang="spa">¿qué nos ha reunido hoy aquí? </gloss>
       </glosses>
        <theme>
         <case>erg</case>
@@ -2007,7 +2015,7 @@
     </frame>
   </verb>
   
-  <verb lm="erantzun"><!--24-->
+  <verb lm="erantzun"><!--24--><!-- add recipient-->
     <frame id="1">
       <ex>Mikelek ondo iruditzen zaiola erantzun du.</ex>
       <glosses>
@@ -2024,7 +2032,12 @@
         <case>ela</case>
         <syn>obj</syn><!--gaia-->
         <sem></sem><!-- -->
-      </theme>
+      </topic>
+      <recipient>
+        <case>dat</case>
+        <syn>iobj</syn><!--gaia-->
+        <sem></sem><!-- -->
+      </recipient>
     </frame>
     <frame id="2">
       <ex>Herriak indarrez erantzungo du.</ex>
@@ -2792,7 +2805,7 @@
       <ex>Hezurra hautsi</ex>
       <glosses>
         <gloss lang="eng">break</gloss>
-        <gloss lang="sme">biđget, bilidit</gloss>
+        <gloss lang="sme">mus dákti luoddana</gloss>
         <gloss lang="spa">to fracture a bone.</gloss>
       </glosses>
       <agent><!--kausa-->
@@ -2809,8 +2822,8 @@
     <frame id="2">
       <ex>Erori eta mila zatitan hautsi zen</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">It fell and broke into thousand pieces.</gloss>
+        <gloss lang="sme">Dat gahčai ja /cuovkanii/smoldanii duhát binnán</gloss>
         <gloss lang="spa">se cayó y se rompió en mil pedazos.</gloss>
       </glosses>
       <experiencer><!--gai ukitua-->
@@ -2901,11 +2914,11 @@
   
   <verb lm="hazi"><!--73-->
     <frame id="1">
-      <ex>Inude batek hazi zuen gure haurra: nuestra hija la crió una nodriza.</ex>
+      <ex>Inude batek hazi zuen gure haurra: </ex>
       <glosses>
         <gloss lang="eng">increase</gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">badjánit</gloss>
+        <gloss lang="spa">nuestra hija la crió una nodriza.</gloss>
       </glosses>
       <agent><!--kausa-->
         <case>erg</case>
@@ -2917,12 +2930,30 @@
         <syn></syn>
         <sem></sem>
       </patient>
+     <extent>
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </extent>
     </frame>
     <frame id="2">
-      <ex>Urazak hazten ditu bere baratzean:  </ex>
+      <ex></ex>
       <glosses>
         <gloss lang="eng">grow</gloss>
-        <gloss lang="sme">badjánit</gloss>
+        <gloss lang="sme">šaddat,sturron, vattnan</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn></syn>
+        <sem></sem>
+      </agent>
+    </frame>
+    <frame id="3">
+      <ex>Urazak hazten ditu bere baratzean:  </ex>
+      <glosses>
+        <gloss lang="eng">rear</gloss>
+        <gloss lang="sme">gilvit</gloss>
         <gloss lang="spa">cultiva lechugas en su huerto.</gloss>
       </glosses>
       <agent><!--kausa-->
@@ -2936,15 +2967,41 @@
         <sem></sem>
       </product>
     </frame>
+    <frame id="4">
+      <ex></ex>
+      <glosses>
+        <gloss lang="eng">grow</gloss>
+        <gloss lang="sme"></gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn></syn>
+        <sem></sem>
+      </agent>
+      <product><!--gai ukitua-->
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </product>
+      <material>
+        <cases>
+        <case>ins</case>
+        <case>soc</case>
+        </cases>
+        <syn></syn>
+        <sem></sem>
+      </material>
+    </frame>
   </verb>
   
   <verb lm="hornitu"><!--75-->
     <frame id="1">
-      <ex></ex>
+      <ex>Urte guztirako janari eta edariz hornitu ziren</ex>
       <glosses>
         <gloss lang="eng">provide, supply</gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">dat rustejedje biepmu ja juhkamusa sidjiide olles jahkái</gloss>
+        <gloss lang="spa"> se aprovisionaron de comida y bebida para todo el año.</gloss>
       </glosses>
       <agent><!--kausa-->
         <case>erg</case>
@@ -2966,10 +3023,10 @@
 
   <verb lm="hustu"><!--76-->
     <frame id="1">
-      <ex>BILBOKO OLABEAGA AUZOKO GAZTETXEA HUSTU DUTE</ex>
+      <ex>BILBOKO OLABEAGA AUZOKO GAZTETXEA HUSTU DUTE Zakarontzia hustu dut.</ex>
       <glosses>
         <gloss lang="eng">empty</gloss>
-        <gloss lang="sme">sálket</gloss>
+        <gloss lang="sme">sálket dat gurrejedje dobi</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--kausa-->
@@ -3408,8 +3465,8 @@
     <frame id="1">
       <ex>Begietatik malkoak isurtzen dira.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The tears are flowing from the eyes.</gloss>
+        <gloss lang="sme">Gatnjalat golget čálmmiin</gloss>
         <gloss lang="spa">Las lágrimas se derraman por los ojos.</gloss>
       </glosses>
       <theme>
@@ -3424,9 +3481,9 @@
       </source>
     </frame>
     <frame id="2">
-      <ex>Bonbilak argi-izpiak isurtzen ditu.</ex>
+      <ex>Bonbilak argi-izpiak isurtzen ditu.</ex><!--AINARA: another example??-->
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">The light bulp spreads rays of light.</gloss>
         <gloss lang="sme"></gloss>
         <gloss lang="spa">La bombilla desprende rayos de luz.</gloss>
       </glosses>
@@ -3444,8 +3501,8 @@
     <frame id="3">
       <ex>Ardoa ontzi batetik bestera isurtzen da.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The wine is poured from one container into another one.</gloss>
+        <gloss lang="sme">Viidni leikejuvvo nuppi containeris nubbái.</gloss>
         <gloss lang="spa">El vino se derrama de un recipiente a otro</gloss>
       </glosses>
       <theme>
@@ -3458,7 +3515,7 @@
         <syn>advl</syn><!--abiapuntuko kokapena / bidea-->
         <sem></sem><!-- -->
       </sourcepath>
-      <location>
+      <location><!--AINARA: why not destination?-->
         <case>ala</case>
         <syn>advl</syn><!--helburuko kokapena-->
         <sem></sem><!-- -->
@@ -3467,8 +3524,8 @@
     <frame id="4">
       <ex>Mikelek ardoa ontzi batetik bestera isuri du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Mikel poured the wine from one container into the other.</gloss>
+        <gloss lang="sme">Mikel leaikkui viinni nuppi containeris nubbái. (njorret)</gloss>
         <gloss lang="spa">Mikel ha derramado el vino de un recipiente a otro.</gloss>
       </glosses>
       <agent>
@@ -3559,7 +3616,7 @@
       <ex>Mikel etxetik kalera jaitsi da.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel manai viesus eret vulos rati nala</gloss>
         <gloss lang="spa">Mikel ha bajado de casa a la calle.</gloss>
       </glosses>
       <theme>
@@ -3582,7 +3639,7 @@
       <ex>Mikel txakurra etxetik kalera jaitsi du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel guttii beatnaga dobis olggos vulos rati nala</gloss><!--AINARA: put or carry-->
         <gloss lang="spa">Mikel ha bajado al perro de casa a la calle.</gloss>
       </glosses>
       <agent>
@@ -3610,7 +3667,7 @@
       <ex>Prezioak %10 jaitsi dira.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Háttit vuollánit logiin proseanttain.</gloss>
         <gloss lang="spa">Los precios han bajado un 10%.</gloss>
       </glosses>
       <theme>
@@ -3627,8 +3684,8 @@
     <frame id="4">
       <ex>Gobernuak zergak %5 jaitsi ditu.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The government lowered the taxes by 5%.</gloss>
+        <gloss lang="sme">Ráđđehus njeiddii vearu viđain proseanttain</gloss>
         <gloss lang="spa">El Gobierno ha bajado los impuestos un 5%.</gloss>
       </glosses>
       <agent>
@@ -3651,7 +3708,7 @@
       <ex>Mikelek aldapa jaitsi du.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel njiejai dievás (vulos).</gloss>
         <gloss lang="spa">Mikel ha bajado la cuesta.</gloss>
       </glosses>
        <theme>
@@ -3706,7 +3763,7 @@
       <ex>Norbaitek zerbait nonbaiten jarri.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Muhtun lea bidjan juoidá muhtun báikái.</gloss>
         <gloss lang="spa">Alguien pone algo en algún sitio.</gloss>
       </glosses>
       <agent>
@@ -3728,8 +3785,8 @@
     <frame id="2">
       <ex>Norbaitek Mikel urduri jarri du.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">Someone has made Mikel nervous.</gloss>
+        <gloss lang="sme">soamis lea baldán Mikela.</gloss>
         <gloss lang="spa">Alguien ha puesto nervioso a Mikel.</gloss>
       </glosses>      
       <agent>
@@ -3751,8 +3808,8 @@
     <frame id="3">
       <ex>Buruko mina jarri zait.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">I got a headache.</gloss>
+        <gloss lang="sme">oažžut</gloss>
         <gloss lang="spa">Se ma ha puesto dolor de cabeza.</gloss>
       </glosses>
       <theme>
@@ -3770,7 +3827,7 @@
       <ex>Badaki zein izen jarriko dion semeari.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">addit</gloss>
         <gloss lang="spa">Ya sabe qué nombre le pondrá a su hijo.</gloss>
       </glosses>
       <agent>
@@ -3793,10 +3850,10 @@
   
   <verb lm="jasan"><!--79-->
     <frame id="1">
-      <ex></ex>
+      <ex></ex><!--AINARA: ejemplo gierdat? gillát?-->
       <glosses>
         <gloss lang="eng">stand, undergo, suffer</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">son gillái soames dingga dihte/dás gillát</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <experiencer><!--esperimentatzailea-->
@@ -4146,10 +4203,10 @@
    
   <verb lm="jolastu"><!--81-->
     <frame id="1">
-      <ex></ex>
+      <ex></ex><!--AINARA:example + why not the intransitive variant - jolastu dira? even if the auxiliary is da, the object is implicity semantically..they only changes if they have another meaning = the general predicate changes (verb change of state vs....) really-->
       <glosses>
         <gloss lang="eng">play a game</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mun spealan speala duinna.</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--esperimentatzailea -->
@@ -4160,27 +4217,40 @@
         <syn></syn>
         <sem>animate</sem>
       </agent>
-    </frame>
       <theme><!--jarduera-->
+        <cases>
         <case>ine</case>
+        <case>soz</case>
+        </cases>
         <syn></syn>
         <sem></sem>
       </theme>
       <agent><!--esperimentatzailea -->
-        <case>soz</case>
+        <case>soc</case>
         <syn></syn>
 	  <sem>animate</sem>	
       </agent>
+      <instrument><!-- -->
+        <cases>
+        <case>ins</case>
+        <case>soc</case>
+        </cases>
+        <syn></syn>
+	  <sem></sem>	
+      </instrument>
     </frame>
   </verb>
    
    <verb lm="kezkatu"><!--82-->
     <frame id="1">
-      <ex></ex>
+      <ex>Miren asko kezkatzen da gai horretaz.</ex><!--AINARA:example-->
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
-      </glosses>
+        <gloss lang="sme">Miren fuolastuvvá ollu dáinna áššiin.</gloss><!--Miren surrá dáinna ásijiin - Duommá -->
+      </glosses><!--fuolastuvvat lea aembbo go šassá urolig/betenkt
+váivahuvvat lea ges 'bli plaget' 'lei seg' fuolastuvvat = mer stress
+váivahuvvat = mer sorg-->
       <experiencer>
         <case>abs</case>
         <syn></syn><!--gai ukitua-->
@@ -4193,10 +4263,11 @@
       </cause>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Gai horrek asko kezkatzen du Miren.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
+        <gloss lang="sme">Miren fuolastuvvá ollu dán áššis.</gloss>
       </glosses>
       <cause>
         <case>erg</case>
@@ -4211,13 +4282,13 @@
     </frame>
   </verb>
   
-  <verb lm="kokatu"><!--83-->
+  <verb lm="kokatu"><!--83--><!--=ipini-->
     <frame id="1">
       <ex></ex>
       <glosses>
         <gloss lang="eng">place, situate, stand</gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">situar</gloss>
       </glosses>
       <agent>
         <case>erg</case>
@@ -4310,7 +4381,7 @@
       <ex></ex>
       <glosses>
         <gloss lang="eng">work, cultivate, develop</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">gilvit</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--esperimentatzailea-->
@@ -4331,7 +4402,7 @@
       <ex>Mikelek piperrak landatu ditu baratzan.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Mikel gilvvii pihpporiid silljui /gárdimii.</gloss>
         <gloss lang="spa">Mikel ha plantado pimientos en la huerta.</gloss>
       </glosses>
       <agent>
@@ -4380,7 +4451,7 @@
       <ex></ex>
       <glosses>
         <gloss lang="eng">caress, stroke</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">njávkat</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent>
@@ -4401,7 +4472,7 @@
       <ex>Udaberrian zuhaitzak loratzen dira</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Giddat muorat liđiidit</gloss>
         <gloss lang="spa">en primavera florecen los árboles.</gloss>
       </glosses>
       <agent>
@@ -4508,7 +4579,7 @@
       <ex>Nork mugitu du mahaia?</ex>
       <glosses>
         <gloss lang="eng">move</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">Gii lea sirdán beavddi mu lanjas gievkanii?</gloss>
         <gloss lang="spa">¿quién ha movido la mesa?</gloss>
       </glosses>
       <agent>
@@ -4729,11 +4800,11 @@
       </destination>
     </frame>
     <frame id="2"><!--overtake-->
-      <ex></ex>
+      <ex>Muga pasa al dugu?</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="eng">Have we crossed the border?</gloss>
+        <gloss lang="sme">rásttildit</gloss>
+        <gloss lang="spa">Hemos pasado la frontera?</gloss>
       </glosses>
       <theme>
         <case>erg</case>
@@ -4747,9 +4818,9 @@
       </path>
     </frame>
     <frame id="3"><!--give-->
-      <ex></ex>
+      <ex>Pasako ahal didazu gurina?</ex>
       <glosses>
-        <gloss lang="eng">Can you pass me the butter</gloss>
+        <gloss lang="eng">Can you pass me the butter.</gloss>
         <gloss lang="sme">Attestátgo munnje vuoja!</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
@@ -4769,10 +4840,10 @@
         <sem>human</sem><!--giz-->
       </recipient>
     </frame>
-    <frame id="3"><!--suffer-->
-      <ex></ex>
+    <frame id="4"><!--suffer-->
+      <ex>Gripea pasa dut aurreko astean.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
+        <gloss lang="eng">Last week I suffered from the flu.</gloss>
         <gloss lang="sme">leat</gloss>
         <gloss lang="spa">pasar mal</gloss>
       </glosses>
@@ -4787,12 +4858,12 @@
         <sem></sem><!-- -konkr-->
       </cause>
     </frame>
-    <frame id="4">
-      <ex></ex>
+    <frame id="5">
+      <ex>Horixe pasatzen da pertsona zahartzen denean.</ex>
       <glosses>
         <gloss lang="eng">Hardly a day passes without news photos of the police dragging limp protestors from some building</gloss>
         <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">Eso pasa cuando la persona envejece.</gloss>
       </glosses>
       <theme>
         <case>erg</case>
@@ -4800,12 +4871,12 @@
         <sem>unconcrete</sem><!-- -konkr-->
       </theme>
     </frame>
-    <frame id="4">
-      <ex></ex>
+    <frame id="6">
+      <ex>Italian pasa ditzakete jubilatuek oporrak.</ex>
       <glosses>
         <gloss lang="eng">spend time</gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="sme">Dat orru geasseluomuid Itálias.</gloss>
+        <gloss lang="spa">Los jubilados pueden pasar las vacaciones en Italia.</gloss>
       </glosses>
       <agent>
         <case>erg</case>
@@ -5071,7 +5142,7 @@
         <gloss lang="sme">biktasat heaŋgájit muoras</gloss><!--Tomi, Biret Anne-->
         <gloss lang="spa"></gloss>
       </glosses>
-    <ex>Zuhaitz batetik zintzilikatu zuten.</ex>
+    <ex>Zuhaitz batetik zintzilikatu dira.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme">Dat heŋget muoras.</gloss>        
@@ -5089,7 +5160,7 @@
       </destination>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Haiek arropa zintzilikatu zuten zuhaitzetik.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="sme">Sii gozastit juoga murriii.</gloss><!--Duomma-->        
@@ -5114,3 +5185,5 @@
     </frame>
   </verb>
 </valency>
+
+<!--AINARA:differencia entre jolastu  (jugar un juego) y jokatu (jugar a un deporte,  dinero), jo (musica)?-->
