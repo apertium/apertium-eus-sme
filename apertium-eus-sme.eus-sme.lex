@@ -382,13 +382,63 @@ SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1
 SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
     ## Mikelek Miren hil du.
     
-# agertu - ihttit, agertu:1 - boahtit, agertu:2 - orrut, agertu:3 - civkalit
+# agertu - ihtit (with location), agertu:1 - boahtit ovdan, agertu:2 - orrut, agertu:3 - čájehit
+SUBSTITUTE ("ager") ("ager:1") ("ager") (*1 NOT Ine);
+#SUBSTITUTE ("ager") ("ager:2") ("ager") (*1 NOT Ine);
+    # Mikel urduri agertu zen.
+    # Mikelek presa gutxi agertzen du.
 
-# amaitu - nohkat, amaitu:1 - geargat
+
+# asmatu - árvidit (Agent, themeproduct), (Agent) - fuomášit (Agent, themeproduct) - maybe it should be split up into theme and product things that can be products of intellectual activity
+#SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
+#SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
+
+# amaitu - nohkat (theme), amaitu:1 - geargat (agent, theme)
+SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Soc) LINK *1 Abs OR Soc);
+    # Antzerkia amaitu da.
+    # Mikelek pastela amaitu du.
+    # Mikelek arazoarekin amaitu du.
 
 # eman - addit, addit:1 - golahit
+SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 Abs LINK 0 TIME);
+    # Mikelek egunak eman ditu lanean.
 
 # etorri - boahtit, etorri:1, etorri:2
+
+# deitu - riŋget (agent, benificiary, location), gohčut (agent, beneficiary, location), gohčodit (agent, theme, predicate), álmmuhit (agent, beneficiary)
+SUBSTITUTE ("dei") ("dei:1") ("dei") (0 (Thcase_Dat Thsyn_Iobj Prcase_Abs Prsyn_Advl) LINK *1 Dat OR Abs LINK *1 Abs);
+    # Haiek Mikeli tonto deitu diote.
+
+# atera - vuolgit, boahtit, váldit
+SUBSTITUTE ("atera") ("atera:1") ("atera") (0 (Sopacase_Abl Sopasyn_Advl) LINK *-1 Abl NOT LINK 0 PLACE);
+    # Zauritik odola ateratzen zitzaion kanpora.
+SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Agcase_Erg Agsyn_Subj Agsem_Ani) LINK *-1 Erg LINK 0 ANIMATE);
+    # Mikelek animaliari tripak atera dizkio kanpora.
+    
+# iritsi - boahtit, ollet
+SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+
+
+# zintzilikatu - heaŋgát (agent, theme, destination), henget (theme, destination)
+
+# topatu - deaivat (agent, theme), gávdnat (agent, theme)
+
+# jo - čuojahit, čuodjat, nordadit, mannat, atnit
+
+# jarri - bidjat, oažžut, addit
+
+# jaitsi - mannat, njiedjat, vuollánit, guoddit
+
+# irakin - vuoššat, duolddahit
+
+# ikasi - oahpat, studeret
+
+# igo - goargŋut, loktet, loktanit, 
+
+# hartu - váldit, oažžut
+
+
+# iritsi - boahtit, ollet
     
 #REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
 
