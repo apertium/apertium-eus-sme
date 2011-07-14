@@ -370,40 +370,81 @@ LIST ¶ = ¶;
 LIST OKTA = "akta" "okta";
 LIST go = "go" ;
 
+# Border sets and their complements
+# ---------------------------------
+
+LIST SEMICOL = "\;" ;
+
+LIST COL = ":" ;
+
+SET S-BOUNDARY  =  ("\;") OR (":") OR ("-") OR ("–") OR CS ;
+	# includes CP. Remember that (",") and CC are potential sentence boundaries, too
+
+SET S-BOUNDARY1  = ("\;") OR (":") OR ("-") OR ("–") ;
+	# includes not CS because of "go" in questions, before it is disambugated.
+	
+SET S-BOUNDARY2 = ("\;") OR (":") OR ("-") OR ("–") OR (@CVP) ;
+ 
+	# includes CP
+	# this one includes @CVP, the conjunction which actually connects two sentences (each with a finite verb) to each other, 
+	# and not @CNP, which coordinates internal NP-/AdvP-/AP ... coordination
+	# To be used only AFTER the disambiguation of @CVP and @CNP taking place in the chapter right before "Disambiguatig pronouns"
+
+# S-BOUNDARY2 is used as barrier. When used as target, rather than as barrier,
+# it includes BOS and EOS, and is given the names BOC and EOC (beginning and end of clause)
+
+
  
 LIST ANIMATE = (Prop Fem) (Prop Masc) (Biz) ;
 
 SECTION
 
+
+# rules: agent vs. agentless variants
+
 #hil0 - jápmit
 #hil1 - goddit
 
-SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
-SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
+SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 §PA LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 §PA LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
     ## Mikelek Miren hil du.
+    ## Ez dut inoiz hil nahi.
+    ## Analisien arabera, istripuan hil zen gidaria ez zihoan edanda.
+    ## Neuk diseinatu nuen John Lennon hil zuen pistola.
+    # linking only absolutive to animate is not possible as the subject of hil0 can also be absolutive animate
+    # Barriers are necessary because the verb can be embedded in a context with another animate patient
     
-# agertu - ihtit (with location), agertu:1 - boahtit ovdan, agertu:2 - orrut, agertu:3 - čájehit
-SUBSTITUTE ("ager") ("ager:1") ("ager") (*1 NOT Ine);
-#SUBSTITUTE ("ager") ("ager:2") ("ager") (*1 NOT Ine);
-    # Mikel urduri agertu zen.
-    # Mikelek presa gutxi agertzen du.
+    
+# agertu - ihtit (theme, location), agertu:1 - boahtit ovdan , agertu:2 - orrut (theme, predicate), agertu:3 - čájehit (agent, topic, recipient)
+SUBSTITUTE ("ager") ("ager:2") ("ager") (0 (Prcase_Abs Prcase_Soc) LINK *1 Abs OR Soc LINK 0 §PR BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("ager") ("ager:2") ("ager") (0 (Prcase_Abs Prcase_Soc) LINK *-1 Abs OR Soc LINK 0 §PR BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("ager") ("ager:3") ("ager") (0 (Recase_Dat) LINK *1 Dat LINK 0 §RE BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("ager") ("ager:3") ("ager") (0 (Recase_Dat) LINK *-1 Dat LINK 0 §RE BARRIER FMAINV OR S-BOUNDARY2);
+    ## Mikel urduri agertu zen.
+    ## Mikelek presa gutxi agertzen du.
+    ## Gero, irudizko pertsona horietako bat begien aurrean ikustea tokatzen zaigunean, orduan agertzen da okerra: Hau da dena?
 
 
-# asmatu - árvidit (Agent, themeproduct), (Agent) - fuomášit (Agent, themeproduct) - maybe it should be split up into theme and product things that can be products of intellectual activity
-#SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
-#SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 Abs LINK 0 ANIMATE);
+# asmatu - árvidit (Agent, theme), (Agent) - asmatu:1 fuomášit (Agent, product) - maybe it should be split up into theme and product things that can be products of intellectual activity
+SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Procase_Abs) LINK *1 Abs LINK 0 §PRO BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Procase_Abs) LINK *-1 Abs LINK 0 §PRO BARRIER FMAINV OR S-BOUNDARY2);
+
+# here the case is definitely not enough because the object is always absolutive in all three frames
 
 # amaitu - nohkat (theme), amaitu:1 - geargat (agent, theme)
-SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Soc) LINK *1 Abs OR Soc);
+SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Ine) LINK *1 Abs OR Ine LINK 0 §TH BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Ine) LINK *-1 Abs OR Ine LINK 0 §TH BARRIER FMAINV OR S-BOUNDARY2);
     # Antzerkia amaitu da.
     # Mikelek pastela amaitu du.
     # Mikelek arazoarekin amaitu du.
 
 # eman - addit, addit:1 - golahit
-SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 Abs LINK 0 TIME);
+SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME);
     # Mikelek egunak eman ditu lanean.
 
 # etorri - boahtit, etorri:1, etorri:2
+SUBSTITUTE ("etor") ("etor:1") ("etor") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME);
+    # 
 
 # deitu - riŋget (agent, benificiary, location), gohčut (agent, beneficiary, location), gohčodit (agent, theme, predicate), álmmuhit (agent, beneficiary)
 SUBSTITUTE ("dei") ("dei:1") ("dei") (0 (Thcase_Dat Thsyn_Iobj Prcase_Abs Prsyn_Advl) LINK *1 Dat OR Abs LINK *1 Abs);
@@ -420,25 +461,35 @@ SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 
 
 
 # zintzilikatu - heaŋgát (agent, theme, destination), henget (theme, destination)
+SUBSTITUTE ("zintzilika") ("zintzilika:1") ("zintzilika") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # topatu - deaivat (agent, theme), gávdnat (agent, theme)
+SUBSTITUTE ("topa") ("topa:1") ("topa") (*1 §TH LINK 0 NOT HUMAN);
 
-# jo - čuojahit, čuodjat, nordadit, mannat, atnit
+# jo - čuojahit (agent, theme), čuodjat (agent, theme), nordadit (agent, patient), mannat (theme, sourcepath, destination), atnit (agent, theme, predicate)
+SUBSTITUTE ("jo") ("jo:1") ("jo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # jarri - bidjat, oažžut, addit
+SUBSTITUTE ("jarri") ("jarri:1") ("jarri") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # jaitsi - mannat, njiedjat, vuollánit, guoddit
+SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # irakin - vuoššat, duolddahit
+SUBSTITUTE ("jaitsi") ("jaitsi:1") ("jaitsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # ikasi - oahpat, studeret
+SUBSTITUTE ("ikasi") ("ikasi:1") ("ikasi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # igo - goargŋut, loktet, loktanit, 
+SUBSTITUTE ("igo") ("igo:1") ("igo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 # hartu - váldit, oažžut
+SUBSTITUTE ("har") ("har:1") ("har") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
 
 
 # iritsi - boahtit, ollet
+SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
     
 #REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
 
