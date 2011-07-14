@@ -638,11 +638,16 @@
         <gloss lang="sme">Eadni váldii gáhkku omanis ja bijai dán beavddi ala.</gloss>
         <gloss lang="spa">la madre ha sacado el pastel del horno a la mesa.</gloss>
       </glosses>
-      <cause>
+      <agent>
         <case>erg</case>
         <syn>subj</syn><!--kausa-->
         <sem></sem>
-      </cause>
+      </agent>
+      <theme>
+        <case>abs</case>
+        <syn>obj</syn>
+        <sem></sem>
+      </theme>
       <sourcepath>
         <case>abl</case>
         <syn>advl</syn><!--abiapuntuko kokapena/bidea-->
@@ -667,8 +672,8 @@
         <sem></sem>
       </theme>
       <sourcepath>
-        <case>dat</case>
-        <syn>iobj</syn><!--abiapuntuko kokapena/bidea-->
+        <case>abl</case>
+        <syn>advl</syn><!--abiapuntuko kokapena/bidea-->
         <sem></sem>
       </sourcepath>
       <destination>
@@ -2373,7 +2378,7 @@
       </destination>
     </frame>
     <frame id="2">
-      <ex></ex>
+      <ex>Hortik dator</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
@@ -2390,7 +2395,7 @@
       </location>
     </frame>
     <frame id="3">
-      <ex></ex>
+      <ex>Hitza hari etorri zitzaion.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
@@ -2407,7 +2412,7 @@
       </location>
     </frame>
     <frame id="4">
-      <ex></ex>
+      <ex>Bigarren liburu honetan badatoz, gainera, aurrekoaren zuzenketak.</ex>
       <glosses>
         <gloss lang="eng"></gloss>
         <gloss lang="spa"></gloss>
@@ -2424,10 +2429,10 @@
       </location>
     </frame>
     <frame id="5">
-      <ex></ex>
+      <ex>Amerika handi etorri zaio, ezta?</ex>
       <glosses>
         <gloss lang="eng"></gloss>
-        <gloss lang="spa"></gloss>
+        <gloss lang="spa">se me hace grande, me agobia</gloss>
       </glosses>
       <topic>
         <case>abs</case>
@@ -2914,7 +2919,7 @@
   
   <verb lm="hazi"><!--73-->
     <frame id="1">
-      <ex>Inude batek hazi zuen gure haurra: </ex>
+      <ex></ex>
       <glosses>
         <gloss lang="eng">increase</gloss>
         <gloss lang="sme">badjánit</gloss>
@@ -2952,27 +2957,9 @@
     <frame id="3">
       <ex>Urazak hazten ditu bere baratzean:  </ex>
       <glosses>
-        <gloss lang="eng">rear</gloss>
+        <gloss lang="eng">grow</gloss>
         <gloss lang="sme">gilvit</gloss>
         <gloss lang="spa">cultiva lechugas en su huerto.</gloss>
-      </glosses>
-      <agent><!--kausa-->
-        <case>erg</case>
-        <syn></syn>
-        <sem></sem>
-      </agent>
-      <product><!--gai ukitua-->
-        <case>abs</case>
-        <syn></syn>
-        <sem></sem>
-      </product>
-    </frame>
-    <frame id="4">
-      <ex></ex>
-      <glosses>
-        <gloss lang="eng">grow</gloss>
-        <gloss lang="sme"></gloss>
-        <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--kausa-->
         <case>erg</case>
@@ -2992,6 +2979,24 @@
         <syn></syn>
         <sem></sem>
       </material>
+    </frame>
+    <frame id="4">
+      <ex>Nire umea hazi nahi dut.</ex>
+      <glosses>
+        <gloss lang="eng">rear</gloss>
+        <gloss lang="sme">Munn šaddadan iežan máná. (bajásgeassit)</gloss>
+        <gloss lang="spa"></gloss>
+      </glosses>
+      <agent><!--kausa-->
+        <case>erg</case>
+        <syn></syn>
+        <sem></sem>
+      </agent>
+      <patient><!---->
+        <case>abs</case>
+        <syn></syn>
+        <sem></sem>
+      </patient>
     </frame>
   </verb>
   
@@ -3871,10 +3876,10 @@
 
   <verb lm="jaso"><!--78-->
     <frame id="1">
-      <ex></ex>
+      <ex>Erori den platerak jaso ditu lurretik mahai gainera.</ex>
       <glosses>
         <gloss lang="eng">lift, raise, receive</gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="sme">okten bajás lihtiid láhttis beavdái</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--kausa-->
@@ -3922,10 +3927,10 @@
       </source>
     </frame>
     <frame id="3">
-      <ex></ex>
+      <ex>Ikasleen lana jasotzen da txosten horretan.</ex>
       <glosses>
-        <gloss lang="eng"></gloss>
-        <gloss lang="sme"></gloss>
+        <gloss lang="eng">The student's work is included in this paper.</gloss>
+        <gloss lang="sme">oahppi bargu lea váldon mielde dán cállagii</gloss>
         <gloss lang="spa"></gloss>
       </glosses>
       <agent><!--edukitzailea-->
