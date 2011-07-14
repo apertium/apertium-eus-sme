@@ -402,8 +402,8 @@ SECTION
 
 # rules: agent vs. agentless variants
 
-#hil0 - jápmit
-#hil1 - goddit
+    # hil0 - jápmit
+    # hil1 - goddit
 
 SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 §PA LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
 SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-1 §PA LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
@@ -415,7 +415,11 @@ SUBSTITUTE ("hil") ("hil:1") ("hil") (0 (Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *-
     # Barriers are necessary because the verb can be embedded in a context with another animate patient
     
     
-# agertu - ihtit (theme, location), agertu:1 - boahtit ovdan , agertu:2 - orrut (theme, predicate), agertu:3 - čájehit (agent, topic, recipient)
+    # agertu - ihtit (theme, location)
+    # agertu:1 - boahtit ovdan 
+    # agertu:2 - orrut (theme, predicate)
+    # agertu:3 - čájehit (agent, topic, recipient)
+    
 SUBSTITUTE ("ager") ("ager:2") ("ager") (0 (Prcase_Abs Prcase_Soc) LINK *1 Abs OR Soc LINK 0 §PR BARRIER FMAINV OR S-BOUNDARY2);
 SUBSTITUTE ("ager") ("ager:2") ("ager") (0 (Prcase_Abs Prcase_Soc) LINK *-1 Abs OR Soc LINK 0 §PR BARRIER FMAINV OR S-BOUNDARY2);
 SUBSTITUTE ("ager") ("ager:3") ("ager") (0 (Recase_Dat) LINK *1 Dat LINK 0 §RE BARRIER FMAINV OR S-BOUNDARY2);
@@ -425,71 +429,126 @@ SUBSTITUTE ("ager") ("ager:3") ("ager") (0 (Recase_Dat) LINK *-1 Dat LINK 0 §RE
     ## Gero, irudizko pertsona horietako bat begien aurrean ikustea tokatzen zaigunean, orduan agertzen da okerra: Hau da dena?
 
 
-# asmatu - árvidit (Agent, theme), (Agent) - asmatu:1 fuomášit (Agent, product) - maybe it should be split up into theme and product things that can be products of intellectual activity
+    # asmatu - árvidit (Agent, theme), (Agent) 
+    # asmatu:1 fuomášit (Agent, product) - maybe it should be split up into theme and product things that can be products of intellectual activity
+    
 SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Procase_Abs) LINK *1 Abs LINK 0 §PRO BARRIER FMAINV OR S-BOUNDARY2);
 SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Procase_Abs) LINK *-1 Abs LINK 0 §PRO BARRIER FMAINV OR S-BOUNDARY2);
 
 # here the case is definitely not enough because the object is always absolutive in all three frames
 
-# amaitu - nohkat (theme), amaitu:1 - geargat (agent, theme)
+
+    # amaitu - nohkat (theme)
+    # amaitu:1 - geargat (agent, theme)
+    
 SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Ine) LINK *1 Abs OR Ine LINK 0 §TH BARRIER FMAINV OR S-BOUNDARY2);
 SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Ine) LINK *-1 Abs OR Ine LINK 0 §TH BARRIER FMAINV OR S-BOUNDARY2);
     # Antzerkia amaitu da.
     # Mikelek pastela amaitu du.
     # Mikelek arazoarekin amaitu du.
 
-# eman - addit, addit:1 - golahit
-SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME);
+    # eman - addit 
+    # eman:1 - golahit
+
+SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME BARRIER FMAINV OR S-BOUNDARY2));
+SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *-1 §TH LINK 0 Abs LINK 0 TIME BARRIER FMAINV OR S-BOUNDARY2));
     # Mikelek egunak eman ditu lanean.
 
-# etorri - boahtit, etorri:1, etorri:2
-SUBSTITUTE ("etor") ("etor:1") ("etor") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME);
-    # 
-
-# deitu - riŋget (agent, benificiary, location), gohčut (agent, beneficiary, location), gohčodit (agent, theme, predicate), álmmuhit (agent, beneficiary)
-SUBSTITUTE ("dei") ("dei:1") ("dei") (0 (Thcase_Dat Thsyn_Iobj Prcase_Abs Prsyn_Advl) LINK *1 Dat OR Abs LINK *1 Abs);
-    # Haiek Mikeli tonto deitu diote.
-
-# atera - vuolgit, boahtit, váldit
-SUBSTITUTE ("atera") ("atera:1") ("atera") (0 (Sopacase_Abl Sopasyn_Advl) LINK *-1 Abl NOT LINK 0 PLACE);
-    # Zauritik odola ateratzen zitzaion kanpora.
-SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Agcase_Erg Agsyn_Subj Agsem_Ani) LINK *-1 Erg LINK 0 ANIMATE);
-    # Mikelek animaliari tripak atera dizkio kanpora.
+    # etorri - boahtit (theme, source, destination)
+    # etorri:1 (theme, location)
+    # etorri:2 (theme, location)
+    # etorri:3 (topic, attribute)
     
-# iritsi - boahtit, ollet
-SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+SUBSTITUTE ("etor") ("etor:1") ("etor") (0 (Tocase_Abs) LINK 0 (Atcase_Abs) LINK *1 §AT LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("etor") ("etor:1") ("etor") (0 (Tocase_Abs) LINK 0 (Atcase_Abs) LINK *-1 §AT LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
 
+# look for examples
+
+    # deitu - riŋget (agent, beneficiary, location)
+    # deitu:2 gohčut (agent, beneficiary, location)
+    # deitu:1 gohčodit (agent, theme, predicate)
+    # deitu:3 álmmuhit (agent, beneficiary)
+    
+SUBSTITUTE ("dei") ("dei:1") ("dei") (0 (Becase_Dat) LINK *1 §BE LINK 0 Dat BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("dei") ("dei:1") ("dei") (0 (Becase_Dat) LINK *-1 §BE LINK 0 Dat BARRIER FMAINV OR S-BOUNDARY2);
+    # Haiek Mikeli tonto deitu diote.
+SUBSTITUTE ("dei") ("dei:2") ("dei") (0 (Thcase_Abs) LINK *1 §TH LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("dei") ("dei:2") ("dei") (0 (Thcase_Abs) LINK *-1 §TH LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("dei") ("dei:2") ("dei") (0 (Becase_Abs) LINK *1 §BE LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("dei") ("dei:2") ("dei") (0 (Becase_Abs) LINK *-1 §BE LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2);
+    ## Haiek manifestazioa deitu dute.
+
+    # atera - vuolgit (location, theme), boahtit, 
+    # atera:2 váldit (agent, theme, source, destination)
+    # atera:3 šaddat (theme, predicate)
+    
+SUBSTITUTE ("atera") ("atera:1") ("atera") (0 (Socase_Abl Sosyn_Advl) LINK *-1 Abl NOT LINK 0 PLACE BARRIER FMAINV OR S-BOUNDARY2);
+    # Zauritik odola ateratzen zitzaion kanpora.
+SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Agcase_Erg Agsyn_Subj Agsem_Ani) LINK *1 §AG LINK 0 Erg LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Agcase_Erg Agsyn_Subj Agsem_Ani) LINK *-1 §AG LINK 0 Erg LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
+    # Mikelek animaliari tripak atera dizkio kanpora.
+SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Prcase_Abs) LINK *1 §PR LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Prcase_Abs) LINK *-1 §PR LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+    ## Ondo atera da.
+    
+    # iritsi - boahtit 
+    # iritsi:1 ollet
+    
+SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 §TH LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *-1 §TH LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+    ## Gasteizko mendizaleek tontorra iritsi dute.
 
 # zintzilikatu - heaŋgát (agent, theme, destination), henget (theme, destination)
-SUBSTITUTE ("zintzilika") ("zintzilika:1") ("zintzilika") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+SUBSTITUTE ("zintzilika") ("zintzilika:1") ("zintzilika") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-# topatu - deaivat (agent, theme), gávdnat (agent, theme)
-SUBSTITUTE ("topa") ("topa:1") ("topa") (*1 §TH LINK 0 NOT HUMAN);
+    # topatu - deaivat (agent, theme)
+    # topatu:1 gávdnat (agent, theme)
+    
+SUBSTITUTE ("topa") ("topa:1") ("topa") (*1 §TH LINK 0 NOT HUMAN BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("topa") ("topa:1") ("topa") (*-1 §TH LINK 0 NOT HUMAN BARRIER FMAINV OR S-BOUNDARY2);
 
-# jo - čuojahit (agent, theme), čuodjat (agent, theme), nordadit (agent, patient), mannat (theme, sourcepath, destination), atnit (agent, theme, predicate)
-SUBSTITUTE ("jo") ("jo:1") ("jo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+    # jo - čuojahit (agent, theme)
+    # jo:1 čuodjat (agent, theme)
+    # jo:2 nordadit (agent, patient)
+    # jo:3 mannat (theme, sourcepath, destination), atnit (agent, theme, predicate)
 
-# jarri - bidjat, oažžut, addit
-SUBSTITUTE ("jarri") ("jarri:1") ("jarri") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+SUBSTITUTE ("jo") ("jo:1") ("jo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-# jaitsi - mannat, njiedjat, vuollánit, guoddit
-SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+    # jarri - bidjat, 
+    # jarri:1 oažžut
+    # jarri:2 addit
+    
+SUBSTITUTE ("jarr") ("jarr:1") ("jarr") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-# irakin - vuoššat, duolddahit
-SUBSTITUTE ("jaitsi") ("jaitsi:1") ("jaitsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+    # jaitsi - mannat, 
+    # jaitsi:1 njiedjat, 
+    # jaitsi:2 vuollánit, 
+    # jaitsi:3 guoddit
+    
+SUBSTITUTE ("jaits") ("jaits:1") ("jaits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+    
+SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-# ikasi - oahpat, studeret
-SUBSTITUTE ("ikasi") ("ikasi:1") ("ikasi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+    # irakin - vuoššat, 
+    # irakin:1 duolddahit
 
-# igo - goargŋut, loktet, loktanit, 
-SUBSTITUTE ("igo") ("igo:1") ("igo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+SUBSTITUTE ("irakin") ("irakin:1") ("irakin") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-# hartu - váldit, oažžut
-SUBSTITUTE ("har") ("har:1") ("har") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+    # ikasi - oahpat, 
+    # ikasi:1 studeret
+    
+SUBSTITUTE ("ikas") ("ikas:1") ("ikas") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
+    # igo - goargŋut, 
+    # igo:1 loktet, 
+    # igo:2 loktanit, 
+    
+SUBSTITUTE ("igo") ("igo:1") ("igo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-# iritsi - boahtit, ollet
-SUBSTITUTE ("iritsi") ("iritsi:1") ("iritsi") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs)(*1 NOT Ala);
+    # hartu - váldit
+    # hartu:1 oažžut
+    
+SUBSTITUTE ("har") ("har:1") ("har") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
     
 #REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
 
