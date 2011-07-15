@@ -494,8 +494,8 @@ SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Prcase_Abs) LINK *-1 §PR LINK 0 
     # iritsi - boahtit 
     # iritsi:1 ollet
     
-SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 §TH LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
-SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *-1 §TH LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+#SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 §TH LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
+#SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *-1 §TH LINK 0 Abs BARRIER FMAINV OR S-BOUNDARY2);
     ## Gasteizko mendizaleek tontorra iritsi dute.
 
 # zintzilikatu - heaŋgát (agent, theme, destination), henget (theme, destination)
@@ -504,51 +504,50 @@ SUBSTITUTE ("zintzilika") ("zintzilika:1") ("zintzilika") (0 (Thcase_Abs Thsyn_O
     # topatu - deaivat (agent, theme)
     # topatu:1 gávdnat (agent, theme)
     
-SUBSTITUTE ("topa") ("topa:1") ("topa") (*1 §TH LINK 0 NOT HUMAN BARRIER FMAINV OR S-BOUNDARY2);
-SUBSTITUTE ("topa") ("topa:1") ("topa") (*-1 §TH LINK 0 NOT HUMAN BARRIER FMAINV OR S-BOUNDARY2);
+#SUBSTITUTE ("topa") ("topa:1") ("topa") (*1 §TH LINK 0 NOT HUMAN BARRIER FMAINV OR S-BOUNDARY2);
+#SUBSTITUTE ("topa") ("topa:1") ("topa") (*-1 §TH LINK 0 NOT HUMAN BARRIER FMAINV OR S-BOUNDARY2);
 
     # jo - čuojahit (agent, theme)
     # jo:1 čuodjat (agent, theme)
     # jo:2 nordadit (agent, patient)
     # jo:3 mannat (theme, sourcepath, destination), atnit (agent, theme, predicate)
 
-SUBSTITUTE ("jo") ("jo:1") ("jo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("jo") ("jo:1") ("jo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
     # jarri - bidjat, 
     # jarri:1 oažžut
     # jarri:2 addit
     
-SUBSTITUTE ("jarr") ("jarr:1") ("jarr") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("jarr") ("jarr:1") ("jarr") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
     # jaitsi - mannat, 
     # jaitsi:1 njiedjat, 
     # jaitsi:2 vuollánit, 
     # jaitsi:3 guoddit
     
-SUBSTITUTE ("jaits") ("jaits:1") ("jaits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("jaits") ("jaits:1") ("jaits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
     
-SUBSTITUTE ("irits") ("irits:1") ("irits") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
-
     # irakin - vuoššat, 
     # irakin:1 duolddahit
 
-SUBSTITUTE ("irakin") ("irakin:1") ("irakin") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("irakin") ("irakin:1") ("irakin") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
     # ikasi - oahpat, 
     # ikasi:1 studeret
     
-SUBSTITUTE ("ikas") ("ikas:1") ("ikas") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("ikas") ("ikas:1") ("ikas") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
-    # igo - goargŋut, 
-    # igo:1 loktet, 
-    # igo:2 loktanit, 
+    # igo - goargŋut, theme, gai ukitua (ABS), location, helburua (ALA)
+    # igo:1 loktet, agent, theme, source, location
+    # igo:2 loktanit, agent, patient/patient, extent
     
-SUBSTITUTE ("igo") ("igo:1") ("igo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("igo") ("igo:1") ("igo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("igo") ("igo:2") ("igo") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
     # hartu - váldit
     # hartu:1 oažžut
     
-SUBSTITUTE ("har") ("har:1") ("har") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("har") ("har:1") ("har") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
     
 #REMOVE ("hil:1" V Prc %Val Thcase_Abs Thsyn_Subj Thsem_Ani") IF ("hil:1" V Prc %Val Thcase_Erg Thsyn_Subj Pacase_Abs Pasyn_Obj Pasem_Ani) LINK *1 Abs LINK 0 ANIMATE);
 
