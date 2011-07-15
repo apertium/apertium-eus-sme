@@ -2,9 +2,10 @@ all:
 
 	if [ ! -d .deps ]; then mkdir .deps ; fi
 
-	hfst-lexc apertium-eus-sme.eus.lexc -o .deps/eus-sme.lexc.hfst
-	hfst-twolc -r -i apertium-eus-sme.eus.twol -o .deps/eus-sme.twol.hfst
-	hfst-compose-intersect -l .deps/eus-sme.lexc.hfst .deps/eus-sme.twol.hfst -o .deps/eus-sme.gen.hfst
+#hfst-lexc -o outfile.hfst mylexicon.lexc
+	hfst-lexc -o .deps/eus-sme.lexc.hfst apertium-eus-sme.eus.lexc 
+	hfst-twolc -R -i apertium-eus-sme.eus.twol -o .deps/eus-sme.twol.hfst
+	hfst-compose-intersect -1 .deps/eus-sme.lexc.hfst -2 .deps/eus-sme.twol.hfst -o .deps/eus-sme.gen.hfst
 	hfst-invert .deps/eus-sme.gen.hfst | hfst-substitute -F apertium-eus-sme.eus.relabel > .deps/eus-sme.morf.hfst
 	hfst-invert .deps/eus-sme.morf.hfst | hfst-lookup-optimize -o sme-eus.autogen.hfst
 
