@@ -594,8 +594,8 @@
     <e><p><l>ibili<s n="V"/></l><r>vázzit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>igeri<s n="V"/></l><r>vuodjat<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>igo<s n="V"/></l><r>goargŋut<s n="V"/><s n="IV"/></r></p></e>
-    <e slr="1"><p><l>igo<s n="V"/></l>loktet<r><s n="V"/><s n="IV"/></r></p></e><!--mannat bajás-->
-    <e slr="2"><p><l>igo<s n="V"/></l>loktanit<r><s n="V"/><s n="IV"/></r></p></e>
+    <e slr="1"><p><l>igo<s n="V"/></l><r>loktet<s n="V"/><s n="IV"/></r></p></e><!--mannat bajás-->
+    <e slr="2"><p><l>igo<s n="V"/></l><r>loktanit<s n="V"/><s n="IV"/></r></p></e>
     <e><p><l>ikas<s n="V"/></l><r>oahppat<s n="V"/><s n="TV"/></r></p></e>
     <e slr="1"><p><l>ikasi<s n="V"/></l><r>studeret<s n="V"/><s n="TV"/></r></p></e>
     <e><p><l>ikus<s n="V"/></l><r>oaidnit<s n="V"/><s n="TV"/></r></p></e>
