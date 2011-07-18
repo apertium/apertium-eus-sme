@@ -1,5 +1,6 @@
 * text=auto !eol
 /Makefile -text
+/apertium-eus-sme.eus-sme.bin -text
 /apertium-eus-sme.eus-sme.dis -text
 /apertium-eus-sme.eus-sme.dix -text
 /apertium-eus-sme.eus-sme.lex -text
