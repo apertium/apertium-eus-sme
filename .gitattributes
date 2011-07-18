@@ -12,6 +12,7 @@
 /apertium-eus-sme.sme.twol -text
 dev/apertium-eus-sme.eus.val -text
 dev/apertium-eus-sme.sme.val -text
+dev/update-lexc.py -text
 /eus-sme.prob -text
 /eus-verb-valency.xml -text
 /sme-verb-valency.xml -text
