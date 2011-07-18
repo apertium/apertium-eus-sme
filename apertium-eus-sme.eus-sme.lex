@@ -76,6 +76,12 @@ LIST Ine = Ine ;
 LIST Soc = Soc ;
 LIST Abl = Abl ;
 LIST Ins = Ins ;
+LIST Dat = Dat ;
+LIST All = All ;
+LIST Ben = Ben ;
+LIST Par = Par ;
+LIST Term = Term ;
+LIST Ten = Ten ;
 
 LIST Nom = Nom ;
 LIST Acc = Acc ;
@@ -240,6 +246,33 @@ LIST Pacase_Abs = Pacase_Abs ;
 LIST Pasyn_Obj = Pasyn_Obj ;
 LIST Pasem_Ani = Pasem_Ani ;
 
+LIST Prcase_Abs = Prcase_Abs ;
+LIST Prcase_Soc = Prcase_Soc ;
+
+LIST Recase_Dat = Recase_Dat ;
+
+LIST Pocase_Abs = Pocase_Abs ;
+
+LIST Thcase_Abs = Thcase_Abs ;
+LIST Thcase_Ine = Thcase_Ine ;
+LIST Thcase_Abs = Thcase_Abs ;
+LIST Thsyn_Obj = Thsyn_Obj ;
+LIST Thsem_Time = Thsem_Time ;
+
+LIST Tocase_Abs = Tocase_Abs ;
+
+LIST Atcase_Abs = Atcase_Abs ;
+
+LIST Becase_Dat = Becase_Dat ;
+LIST Becase_Abs = Becase_Abs ;
+
+LIST Socase_Abl = Socase_Abl ;
+LIST Sosyn_Advl = Sosyn_Advl ;
+
+LIST Agcase_Erg = Agcase_Erg ;
+LIST Agsyn_Subj = Agsyn_Subj ;
+LIST Agsem_Ani = Agsem_Ani ;
+
 # Syntactic tags
 # --------------
 
@@ -334,6 +367,31 @@ SET OBJ>-OTHERS = OBJ> OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) ;
 
 LIST @X = @X ;
 
+# Semantic role tags
+# ------------------
+
+LIST §PA = §PA ;    #patient
+LIST §PR = §PR ;    #predicate
+LIST §RE = §RE ;    #recipient
+LIST §PO = §PO ;    #product
+LIST §PP = §PP ;    #proposition
+LIST §AG = §AG ;    #agent
+LIST §TO = §TO ;    #topic
+LIST §XT = §XT ;    #extent
+LIST §EX = §EX ;    #experiencer
+LIST §TH = §TH ;    #theme
+LIST §AT = §AT ;    #attribute
+LIST §LO = §LO ;    #location
+LIST §SO = §SO ;    #source
+LIST §DE = §DE ;    #destination
+LIST §BE = §BE ;    #beneficiary
+LIST §PH = §PH ;    #path
+LIST §AC = §AC ;    #actor
+LIST §IN = §IN ;    #instrument
+LIST §ST = §ST ;    #stimulus
+LIST §CA = §CA ;    #cause
+LIST §MA = §MA ;    #material
+
 # Semantic tags
 # -------------
 
@@ -397,6 +455,12 @@ SET S-BOUNDARY2 = ("\;") OR (":") OR ("-") OR ("–") OR (@CVP) ;
  
 LIST ANIMATE = (Prop Fem) (Prop Masc) (Biz) ;
 
+LIST OTHER-TIME = "aste" "denbora" "egun" "hilabete" "negu" "ordu" "uda" "udaberri" "udazken" "urte" ;
+
+LIST MONTH = "urtarril" "otsail" "martxo" "apiril" "maiatz" "ekain" "uztail" "abuztu" "irail" "urri" "azaro" "abendu" ;
+
+SET TIME = MONTH | OTHER-TIME ;
+
 SECTION
 
 
@@ -432,8 +496,8 @@ SUBSTITUTE ("ager") ("ager:3") ("ager") (0 (Recase_Dat) LINK *-1 Dat LINK 0 §RE
     # asmatu - árvidit (Agent, theme), (Agent) 
     # asmatu:1 fuomášit (Agent, product) - maybe it should be split up into theme and product things that can be products of intellectual activity
     
-SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Procase_Abs) LINK *1 Abs LINK 0 §PRO BARRIER FMAINV OR S-BOUNDARY2);
-SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Procase_Abs) LINK *-1 Abs LINK 0 §PRO BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Pocase_Abs) LINK *1 Abs LINK 0 §PO BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("asma") ("asma:1") ("asma") (0 (Pocase_Abs) LINK *-1 Abs LINK 0 §PO BARRIER FMAINV OR S-BOUNDARY2);
 
 # here the case is definitely not enough because the object is always absolutive in all three frames
 
@@ -450,8 +514,8 @@ SUBSTITUTE ("amai") ("amai:1") ("amai") (0 (Thcase_Abs Thcase_Ine) LINK *-1 Abs 
     # eman - addit 
     # eman:1 - golahit
 
-SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME BARRIER FMAINV OR S-BOUNDARY2));
-SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *-1 §TH LINK 0 Abs LINK 0 TIME BARRIER FMAINV OR S-BOUNDARY2));
+SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *1 §TH LINK 0 Abs LINK 0 TIME BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("eman") ("eman:1") ("eman") (0 (Thcase_Abs Thsyn_Obj Thsem_Time) LINK *-1 §TH LINK 0 Abs LINK 0 TIME BARRIER FMAINV OR S-BOUNDARY2);
     # Mikelek egunak eman ditu lanean.
 
     # etorri - boahtit (theme, source, destination)
@@ -482,7 +546,7 @@ SUBSTITUTE ("dei") ("dei:2") ("dei") (0 (Becase_Abs) LINK *-1 §BE LINK *1 Abs B
     # atera:2 váldit (agent, theme, source, destination)
     # atera:3 šaddat (theme, predicate)
     
-SUBSTITUTE ("atera") ("atera:1") ("atera") (0 (Socase_Abl Sosyn_Advl) LINK *-1 Abl NOT LINK 0 PLACE BARRIER FMAINV OR S-BOUNDARY2);
+SUBSTITUTE ("atera") ("atera:1") ("atera") (0 (Socase_Abl Sosyn_Advl) LINK *-1 Abl LINK NOT 0 §LO BARRIER FMAINV OR S-BOUNDARY2);
     # Zauritik odola ateratzen zitzaion kanpora.
 SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Agcase_Erg Agsyn_Subj Agsem_Ani) LINK *1 §AG LINK 0 Erg LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
 SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Agcase_Erg Agsyn_Subj Agsem_Ani) LINK *-1 §AG LINK 0 Erg LINK 0 ANIMATE BARRIER FMAINV OR S-BOUNDARY2);
@@ -499,7 +563,7 @@ SUBSTITUTE ("atera") ("atera:2") ("atera") (0 (Prcase_Abs) LINK *-1 §PR LINK 0 
     ## Gasteizko mendizaleek tontorra iritsi dute.
 
 # zintzilikatu - heaŋgát (agent, theme, destination), henget (theme, destination)
-SUBSTITUTE ("zintzilika") ("zintzilika:1") ("zintzilika") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
+#SUBSTITUTE ("zintzilika") ("zintzilika:1") ("zintzilika") (0 (Thcase_Abs Thsyn_Obj) LINK *1 Abs BARRIER FMAINV OR S-BOUNDARY2)(*1 NOT Ala);
 
     # topatu - deaivat (agent, theme)
     # topatu:1 gávdnat (agent, theme)
