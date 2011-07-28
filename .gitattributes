@@ -18,6 +18,7 @@ dev/langs.cfg -text
 dev/update-lexc.py -text
 /eus-sme.prob -text
 /eus-verb-valency.xml -text
+/modes.xml -text
 /sme-verb-valency.xml -text
 /testsentences.txt -text
 /testsentences_pippi.txt -text
