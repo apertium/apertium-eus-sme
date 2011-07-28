@@ -8,7 +8,6 @@
 /apertium-eus-sme.eus-sme.t3x -text
 /apertium-eus-sme.eus-sme.val -text
 /apertium-eus-sme.sme.lexc -text
-/apertium-eus-sme.sme.twol -text
 dev/apertium-eus-sme.eus.val -text
 dev/apertium-eus-sme.sme.val -text
 dev/langs.cfg -text
