@@ -7,7 +7,11 @@
 /apertium-eus-sme.eus-sme.t2x -text
 /apertium-eus-sme.eus-sme.t3x -text
 /apertium-eus-sme.eus-sme.val -text
+/apertium-eus-sme.eus.lexc -text
+/apertium-eus-sme.eus.relabel -text
+/apertium-eus-sme.eus.twol -text
 /apertium-eus-sme.sme.lexc -text
+/apertium-eus-sme.sme.twol -text
 dev/apertium-eus-sme.eus.val -text
 dev/apertium-eus-sme.sme.val -text
 dev/langs.cfg -text
