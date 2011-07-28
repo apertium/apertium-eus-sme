@@ -27,6 +27,11 @@ all:
 	cg-comp apertium-eus-sme.eus-sme.val eus-sme.val.bin
 	cg-comp apertium-eus-sme.eus-sme.lex eus-sme.lex.bin
 
+
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
+
+
 clean:
 	rm -rf .deps sme-eus.autobil.bin sme-eus.rlx.bin
 
