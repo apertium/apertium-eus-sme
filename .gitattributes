@@ -22,3 +22,8 @@ dev/update-lexc.py -text
 /sme-verb-valency.xml -text
 /testsentences.txt -text
 /testsentences_pippi.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
